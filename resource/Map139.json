@@ -1,0 +1,8531 @@
+{
+  "rgss3_klass": "RPG::Map",
+  "@parallax_name": "",
+  "@height": 22,
+  "@events": {
+    "1": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 1,
+      "@name": "+_倒木!",
+      "@x": 0,
+      "@y": 0,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 100,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 2,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "2": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 2,
+      "@name": "_妖精のかくし道!",
+      "@x": 0,
+      "@y": 1,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 1,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 108,
+              "@parameters": [
+                "*find,3"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 121,
+              "@parameters": [
+                298,
+                298,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 117,
+              "@parameters": [
+                42
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": true,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 298,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "!Flame",
+            "@character_index": 7,
+            "@direction": 4,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": true,
+          "@direction_fix": true,
+          "@through": false,
+          "@priority_type": 1,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 108,
+              "@parameters": [
+                "*find"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 117,
+              "@parameters": [
+                42
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "4": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 4,
+      "@name": "地のちりとりネズミ@60",
+      "@x": 2,
+      "@y": 0,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "Monster3",
+            "@character_index": 4,
+            "@direction": 8,
+            "@pattern": 1
+          },
+          "@move_type": 3,
+          "@move_speed": 4,
+          "@move_frequency": 5,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 45,
+                "@parameters": [
+                  "mapobject.scale(0.7)"
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 24,
+                "@parameters": [
+
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 15,
+                "@parameters": [
+                  120
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 24,
+                "@parameters": [
+
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 15,
+                "@parameters": [
+                  90
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 24,
+                "@parameters": [
+
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 15,
+                "@parameters": [
+                  150
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": true,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 1,
+          "@trigger": 4,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 355,
+              "@parameters": [
+                "command_variable_localize("
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 655,
+              "@parameters": [
+                "\"chiri#{event_status.event_id}\")"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 122,
+              "@parameters": [
+                5,
+                5,
+                0,
+                3,
+                5,
+                -1,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 122,
+              "@parameters": [
+                5,
+                5,
+                2,
+                3,
+                5,
+                0,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 122,
+              "@parameters": [
+                7,
+                7,
+                0,
+                1,
+                5
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 111,
+              "@parameters": [
+                1,
+                5,
+                0,
+                0,
+                4
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 122,
+              "@parameters": [
+                7,
+                7,
+                3,
+                0,
+                -1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 122,
+              "@parameters": [
+                6,
+                6,
+                0,
+                3,
+                5,
+                -1,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 122,
+              "@parameters": [
+                6,
+                6,
+                2,
+                3,
+                5,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 111,
+              "@parameters": [
+                1,
+                6,
+                0,
+                0,
+                4
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 122,
+              "@parameters": [
+                6,
+                6,
+                3,
+                0,
+                -1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 122,
+              "@parameters": [
+                7,
+                7,
+                1,
+                1,
+                6
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 122,
+              "@parameters": [
+                6,
+                6,
+                3,
+                0,
+                -1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 411,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 122,
+              "@parameters": [
+                7,
+                7,
+                1,
+                1,
+                6
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 111,
+              "@parameters": [
+                1,
+                7,
+                0,
+                6,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 111,
+              "@parameters": [
+                12,
+                "path_found_by_los?(0, -1, 6)"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 213,
+              "@parameters": [
+                0,
+                1,
+                false
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 123,
+              "@parameters": [
+                "A",
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 230,
+              "@parameters": [
+                10
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 122,
+              "@parameters": [
+                5,
+                5,
+                0,
+                3,
+                7,
+                5,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 205,
+              "@parameters": [
+                0,
+                {
+                  "rgss3_klass": "RPG::MoveRoute",
+                  "@repeat": true,
+                  "@skippable": true,
+                  "@wait": false,
+                  "@list": [
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 11,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 45,
+                      "@parameters": [
+                        "change_self_switch(nil, nil, \"B\", true) if Application.timer.frame_time - Map::SaveData.variable(\"chiri#{@mapobject_id}-5\") > 5*1000"
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 0,
+                      "@parameters": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 11,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 45,
+                  "@parameters": [
+                    "change_self_switch(nil, nil, \"B\", true) if Application.timer.frame_time - Map::SaveData.variable(\"chiri#{@mapobject_id}-5\") > 5*1000"
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": true,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "Monster3",
+            "@character_index": 4,
+            "@direction": 8,
+            "@pattern": 1
+          },
+          "@move_type": 3,
+          "@move_speed": 4,
+          "@move_frequency": 5,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": false,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 45,
+                "@parameters": [
+                  "change_self_switch(nil, nil, \"A\", false) unless mapobject.balloon_showing?"
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": true,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 1,
+          "@trigger": 2,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 301,
+              "@parameters": [
+                0,
+                362,
+                true,
+                false
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 601,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 123,
+              "@parameters": [
+                "A",
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 214,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 117,
+              "@parameters": [
+                48
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 602,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 123,
+              "@parameters": [
+                "A",
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 111,
+              "@parameters": [
+                0,
+                11,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 214,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 411,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 216,
+              "@parameters": [
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 216,
+              "@parameters": [
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 604,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": true,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "B",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "Monster3",
+            "@character_index": 4,
+            "@direction": 8,
+            "@pattern": 1
+          },
+          "@move_type": 3,
+          "@move_speed": 4,
+          "@move_frequency": 5,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": false,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  196
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 15,
+                "@parameters": [
+                  5
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  128
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 15,
+                "@parameters": [
+                  5
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  64
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 15,
+                "@parameters": [
+                  5
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 39,
+                "@parameters": [
+
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  255
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 45,
+                "@parameters": [
+                  "change_self_switch(nil, nil, \"C\", true)"
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 2,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": true,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "C",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 3,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 214,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 123,
+              "@parameters": [
+                "A",
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 123,
+              "@parameters": [
+                "B",
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 123,
+              "@parameters": [
+                "C",
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": true,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "D",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 2,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "5": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 5,
+      "@name": "地のちりとりネズミ@50-59",
+      "@x": 3,
+      "@y": 0,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "Monster3",
+            "@character_index": 4,
+            "@direction": 8,
+            "@pattern": 1
+          },
+          "@move_type": 3,
+          "@move_speed": 4,
+          "@move_frequency": 5,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 45,
+                "@parameters": [
+                  "mapobject.scale(0.7)"
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 24,
+                "@parameters": [
+
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 15,
+                "@parameters": [
+                  120
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 24,
+                "@parameters": [
+
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 15,
+                "@parameters": [
+                  90
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 24,
+                "@parameters": [
+
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 15,
+                "@parameters": [
+                  150
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": true,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 1,
+          "@trigger": 4,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 355,
+              "@parameters": [
+                "command_variable_localize("
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 655,
+              "@parameters": [
+                "\"chiri#{event_status.event_id}\")"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 122,
+              "@parameters": [
+                5,
+                5,
+                0,
+                3,
+                5,
+                -1,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 122,
+              "@parameters": [
+                5,
+                5,
+                2,
+                3,
+                5,
+                0,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 122,
+              "@parameters": [
+                7,
+                7,
+                0,
+                1,
+                5
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 111,
+              "@parameters": [
+                1,
+                5,
+                0,
+                0,
+                4
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 122,
+              "@parameters": [
+                7,
+                7,
+                3,
+                0,
+                -1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 122,
+              "@parameters": [
+                6,
+                6,
+                0,
+                3,
+                5,
+                -1,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 122,
+              "@parameters": [
+                6,
+                6,
+                2,
+                3,
+                5,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 111,
+              "@parameters": [
+                1,
+                6,
+                0,
+                0,
+                4
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 122,
+              "@parameters": [
+                6,
+                6,
+                3,
+                0,
+                -1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 122,
+              "@parameters": [
+                7,
+                7,
+                1,
+                1,
+                6
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 122,
+              "@parameters": [
+                6,
+                6,
+                3,
+                0,
+                -1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 411,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 122,
+              "@parameters": [
+                7,
+                7,
+                1,
+                1,
+                6
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 111,
+              "@parameters": [
+                1,
+                7,
+                0,
+                6,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 111,
+              "@parameters": [
+                12,
+                "path_found_by_los?(0, -1, 6)"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 213,
+              "@parameters": [
+                0,
+                1,
+                false
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 123,
+              "@parameters": [
+                "A",
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 230,
+              "@parameters": [
+                10
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 122,
+              "@parameters": [
+                5,
+                5,
+                0,
+                3,
+                7,
+                5,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 205,
+              "@parameters": [
+                0,
+                {
+                  "rgss3_klass": "RPG::MoveRoute",
+                  "@repeat": true,
+                  "@skippable": true,
+                  "@wait": false,
+                  "@list": [
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 11,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 45,
+                      "@parameters": [
+                        "change_self_switch(nil, nil, \"B\", true) if Application.timer.frame_time - Map::SaveData.variable(\"chiri#{@mapobject_id}-5\") > 5*1000"
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 0,
+                      "@parameters": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 11,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 45,
+                  "@parameters": [
+                    "change_self_switch(nil, nil, \"B\", true) if Application.timer.frame_time - Map::SaveData.variable(\"chiri#{@mapobject_id}-5\") > 5*1000"
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": true,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "Monster3",
+            "@character_index": 4,
+            "@direction": 8,
+            "@pattern": 1
+          },
+          "@move_type": 3,
+          "@move_speed": 4,
+          "@move_frequency": 5,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": false,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 45,
+                "@parameters": [
+                  "change_self_switch(nil, nil, \"A\", false) unless mapobject.balloon_showing?"
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": true,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 1,
+          "@trigger": 2,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 301,
+              "@parameters": [
+                0,
+                362,
+                true,
+                false
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 601,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 123,
+              "@parameters": [
+                "A",
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 214,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 117,
+              "@parameters": [
+                48
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 602,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 123,
+              "@parameters": [
+                "A",
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 111,
+              "@parameters": [
+                0,
+                11,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 214,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 411,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 216,
+              "@parameters": [
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 216,
+              "@parameters": [
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 604,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": true,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "B",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "Monster3",
+            "@character_index": 4,
+            "@direction": 8,
+            "@pattern": 1
+          },
+          "@move_type": 3,
+          "@move_speed": 4,
+          "@move_frequency": 5,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": false,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  196
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 15,
+                "@parameters": [
+                  5
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  128
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 15,
+                "@parameters": [
+                  5
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  64
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 15,
+                "@parameters": [
+                  5
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 39,
+                "@parameters": [
+
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  255
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 45,
+                "@parameters": [
+                  "change_self_switch(nil, nil, \"C\", true)"
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 2,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": true,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "C",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 3,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 214,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 123,
+              "@parameters": [
+                "A",
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 123,
+              "@parameters": [
+                "B",
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 123,
+              "@parameters": [
+                "C",
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": true,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "D",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 2,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "6": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 6,
+      "@name": "地のちりとりネズミ@50-59",
+      "@x": 3,
+      "@y": 1,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "Monster3",
+            "@character_index": 4,
+            "@direction": 8,
+            "@pattern": 1
+          },
+          "@move_type": 3,
+          "@move_speed": 4,
+          "@move_frequency": 5,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 45,
+                "@parameters": [
+                  "mapobject.scale(0.7)"
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 24,
+                "@parameters": [
+
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 15,
+                "@parameters": [
+                  120
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 24,
+                "@parameters": [
+
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 15,
+                "@parameters": [
+                  90
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 24,
+                "@parameters": [
+
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 15,
+                "@parameters": [
+                  150
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": true,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 1,
+          "@trigger": 4,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 355,
+              "@parameters": [
+                "command_variable_localize("
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 655,
+              "@parameters": [
+                "\"chiri#{event_status.event_id}\")"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 122,
+              "@parameters": [
+                5,
+                5,
+                0,
+                3,
+                5,
+                -1,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 122,
+              "@parameters": [
+                5,
+                5,
+                2,
+                3,
+                5,
+                0,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 122,
+              "@parameters": [
+                7,
+                7,
+                0,
+                1,
+                5
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 111,
+              "@parameters": [
+                1,
+                5,
+                0,
+                0,
+                4
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 122,
+              "@parameters": [
+                7,
+                7,
+                3,
+                0,
+                -1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 122,
+              "@parameters": [
+                6,
+                6,
+                0,
+                3,
+                5,
+                -1,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 122,
+              "@parameters": [
+                6,
+                6,
+                2,
+                3,
+                5,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 111,
+              "@parameters": [
+                1,
+                6,
+                0,
+                0,
+                4
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 122,
+              "@parameters": [
+                6,
+                6,
+                3,
+                0,
+                -1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 122,
+              "@parameters": [
+                7,
+                7,
+                1,
+                1,
+                6
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 122,
+              "@parameters": [
+                6,
+                6,
+                3,
+                0,
+                -1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 411,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 122,
+              "@parameters": [
+                7,
+                7,
+                1,
+                1,
+                6
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 111,
+              "@parameters": [
+                1,
+                7,
+                0,
+                6,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 111,
+              "@parameters": [
+                12,
+                "path_found_by_los?(0, -1, 6)"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 213,
+              "@parameters": [
+                0,
+                1,
+                false
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 123,
+              "@parameters": [
+                "A",
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 230,
+              "@parameters": [
+                10
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 122,
+              "@parameters": [
+                5,
+                5,
+                0,
+                3,
+                7,
+                5,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 205,
+              "@parameters": [
+                0,
+                {
+                  "rgss3_klass": "RPG::MoveRoute",
+                  "@repeat": true,
+                  "@skippable": true,
+                  "@wait": false,
+                  "@list": [
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 11,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 45,
+                      "@parameters": [
+                        "change_self_switch(nil, nil, \"B\", true) if Application.timer.frame_time - Map::SaveData.variable(\"chiri#{@mapobject_id}-5\") > 5*1000"
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 0,
+                      "@parameters": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 11,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 45,
+                  "@parameters": [
+                    "change_self_switch(nil, nil, \"B\", true) if Application.timer.frame_time - Map::SaveData.variable(\"chiri#{@mapobject_id}-5\") > 5*1000"
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": true,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "Monster3",
+            "@character_index": 4,
+            "@direction": 8,
+            "@pattern": 1
+          },
+          "@move_type": 3,
+          "@move_speed": 4,
+          "@move_frequency": 5,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": false,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 45,
+                "@parameters": [
+                  "change_self_switch(nil, nil, \"A\", false) unless mapobject.balloon_showing?"
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": true,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 1,
+          "@trigger": 2,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 301,
+              "@parameters": [
+                0,
+                362,
+                true,
+                false
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 601,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 123,
+              "@parameters": [
+                "A",
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 214,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 117,
+              "@parameters": [
+                48
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 602,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 123,
+              "@parameters": [
+                "A",
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 111,
+              "@parameters": [
+                0,
+                11,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 214,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 411,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 216,
+              "@parameters": [
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 216,
+              "@parameters": [
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 604,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": true,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "B",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "Monster3",
+            "@character_index": 4,
+            "@direction": 8,
+            "@pattern": 1
+          },
+          "@move_type": 3,
+          "@move_speed": 4,
+          "@move_frequency": 5,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": false,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  196
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 15,
+                "@parameters": [
+                  5
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  128
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 15,
+                "@parameters": [
+                  5
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  64
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 15,
+                "@parameters": [
+                  5
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 39,
+                "@parameters": [
+
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  255
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 45,
+                "@parameters": [
+                  "change_self_switch(nil, nil, \"C\", true)"
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 2,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": true,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "C",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 3,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 214,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 123,
+              "@parameters": [
+                "A",
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 123,
+              "@parameters": [
+                "B",
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 123,
+              "@parameters": [
+                "C",
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": true,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "D",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 2,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "7": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 7,
+      "@name": "地のちりとりネズミ@50-59",
+      "@x": 3,
+      "@y": 2,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "Monster3",
+            "@character_index": 4,
+            "@direction": 8,
+            "@pattern": 1
+          },
+          "@move_type": 3,
+          "@move_speed": 4,
+          "@move_frequency": 5,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 45,
+                "@parameters": [
+                  "mapobject.scale(0.7)"
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 24,
+                "@parameters": [
+
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 15,
+                "@parameters": [
+                  120
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 24,
+                "@parameters": [
+
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 15,
+                "@parameters": [
+                  90
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 24,
+                "@parameters": [
+
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 15,
+                "@parameters": [
+                  150
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": true,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 1,
+          "@trigger": 4,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 355,
+              "@parameters": [
+                "command_variable_localize("
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 655,
+              "@parameters": [
+                "\"chiri#{event_status.event_id}\")"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 122,
+              "@parameters": [
+                5,
+                5,
+                0,
+                3,
+                5,
+                -1,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 122,
+              "@parameters": [
+                5,
+                5,
+                2,
+                3,
+                5,
+                0,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 122,
+              "@parameters": [
+                7,
+                7,
+                0,
+                1,
+                5
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 111,
+              "@parameters": [
+                1,
+                5,
+                0,
+                0,
+                4
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 122,
+              "@parameters": [
+                7,
+                7,
+                3,
+                0,
+                -1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 122,
+              "@parameters": [
+                6,
+                6,
+                0,
+                3,
+                5,
+                -1,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 122,
+              "@parameters": [
+                6,
+                6,
+                2,
+                3,
+                5,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 111,
+              "@parameters": [
+                1,
+                6,
+                0,
+                0,
+                4
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 122,
+              "@parameters": [
+                6,
+                6,
+                3,
+                0,
+                -1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 122,
+              "@parameters": [
+                7,
+                7,
+                1,
+                1,
+                6
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 122,
+              "@parameters": [
+                6,
+                6,
+                3,
+                0,
+                -1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 411,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 122,
+              "@parameters": [
+                7,
+                7,
+                1,
+                1,
+                6
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 111,
+              "@parameters": [
+                1,
+                7,
+                0,
+                6,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 111,
+              "@parameters": [
+                12,
+                "path_found_by_los?(0, -1, 6)"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 213,
+              "@parameters": [
+                0,
+                1,
+                false
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 123,
+              "@parameters": [
+                "A",
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 230,
+              "@parameters": [
+                10
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 122,
+              "@parameters": [
+                5,
+                5,
+                0,
+                3,
+                7,
+                5,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 205,
+              "@parameters": [
+                0,
+                {
+                  "rgss3_klass": "RPG::MoveRoute",
+                  "@repeat": true,
+                  "@skippable": true,
+                  "@wait": false,
+                  "@list": [
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 11,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 45,
+                      "@parameters": [
+                        "change_self_switch(nil, nil, \"B\", true) if Application.timer.frame_time - Map::SaveData.variable(\"chiri#{@mapobject_id}-5\") > 5*1000"
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 0,
+                      "@parameters": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 11,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 45,
+                  "@parameters": [
+                    "change_self_switch(nil, nil, \"B\", true) if Application.timer.frame_time - Map::SaveData.variable(\"chiri#{@mapobject_id}-5\") > 5*1000"
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": true,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "Monster3",
+            "@character_index": 4,
+            "@direction": 8,
+            "@pattern": 1
+          },
+          "@move_type": 3,
+          "@move_speed": 4,
+          "@move_frequency": 5,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": false,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 45,
+                "@parameters": [
+                  "change_self_switch(nil, nil, \"A\", false) unless mapobject.balloon_showing?"
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": true,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 1,
+          "@trigger": 2,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 301,
+              "@parameters": [
+                0,
+                362,
+                true,
+                false
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 601,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 123,
+              "@parameters": [
+                "A",
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 214,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 117,
+              "@parameters": [
+                48
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 602,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 123,
+              "@parameters": [
+                "A",
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 111,
+              "@parameters": [
+                0,
+                11,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 214,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 411,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 216,
+              "@parameters": [
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 216,
+              "@parameters": [
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 604,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": true,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "B",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "Monster3",
+            "@character_index": 4,
+            "@direction": 8,
+            "@pattern": 1
+          },
+          "@move_type": 3,
+          "@move_speed": 4,
+          "@move_frequency": 5,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": false,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  196
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 15,
+                "@parameters": [
+                  5
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  128
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 15,
+                "@parameters": [
+                  5
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  64
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 15,
+                "@parameters": [
+                  5
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 39,
+                "@parameters": [
+
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  255
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 45,
+                "@parameters": [
+                  "change_self_switch(nil, nil, \"C\", true)"
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 2,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": true,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "C",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 3,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 214,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 123,
+              "@parameters": [
+                "A",
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 123,
+              "@parameters": [
+                "B",
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 123,
+              "@parameters": [
+                "C",
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": true,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "D",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 2,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "8": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 8,
+      "@name": "地のちりとりネズミ@50-59",
+      "@x": 3,
+      "@y": 3,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "Monster3",
+            "@character_index": 4,
+            "@direction": 8,
+            "@pattern": 1
+          },
+          "@move_type": 3,
+          "@move_speed": 4,
+          "@move_frequency": 5,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 45,
+                "@parameters": [
+                  "mapobject.scale(0.7)"
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 24,
+                "@parameters": [
+
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 15,
+                "@parameters": [
+                  120
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 24,
+                "@parameters": [
+
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 15,
+                "@parameters": [
+                  90
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 24,
+                "@parameters": [
+
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 15,
+                "@parameters": [
+                  150
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": true,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 1,
+          "@trigger": 4,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 355,
+              "@parameters": [
+                "command_variable_localize("
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 655,
+              "@parameters": [
+                "\"chiri#{event_status.event_id}\")"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 122,
+              "@parameters": [
+                5,
+                5,
+                0,
+                3,
+                5,
+                -1,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 122,
+              "@parameters": [
+                5,
+                5,
+                2,
+                3,
+                5,
+                0,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 122,
+              "@parameters": [
+                7,
+                7,
+                0,
+                1,
+                5
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 111,
+              "@parameters": [
+                1,
+                5,
+                0,
+                0,
+                4
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 122,
+              "@parameters": [
+                7,
+                7,
+                3,
+                0,
+                -1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 122,
+              "@parameters": [
+                6,
+                6,
+                0,
+                3,
+                5,
+                -1,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 122,
+              "@parameters": [
+                6,
+                6,
+                2,
+                3,
+                5,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 111,
+              "@parameters": [
+                1,
+                6,
+                0,
+                0,
+                4
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 122,
+              "@parameters": [
+                6,
+                6,
+                3,
+                0,
+                -1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 122,
+              "@parameters": [
+                7,
+                7,
+                1,
+                1,
+                6
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 122,
+              "@parameters": [
+                6,
+                6,
+                3,
+                0,
+                -1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 411,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 122,
+              "@parameters": [
+                7,
+                7,
+                1,
+                1,
+                6
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 111,
+              "@parameters": [
+                1,
+                7,
+                0,
+                6,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 111,
+              "@parameters": [
+                12,
+                "path_found_by_los?(0, -1, 6)"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 213,
+              "@parameters": [
+                0,
+                1,
+                false
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 123,
+              "@parameters": [
+                "A",
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 230,
+              "@parameters": [
+                10
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 122,
+              "@parameters": [
+                5,
+                5,
+                0,
+                3,
+                7,
+                5,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 205,
+              "@parameters": [
+                0,
+                {
+                  "rgss3_klass": "RPG::MoveRoute",
+                  "@repeat": true,
+                  "@skippable": true,
+                  "@wait": false,
+                  "@list": [
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 11,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 45,
+                      "@parameters": [
+                        "change_self_switch(nil, nil, \"B\", true) if Application.timer.frame_time - Map::SaveData.variable(\"chiri#{@mapobject_id}-5\") > 5*1000"
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 0,
+                      "@parameters": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 11,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 45,
+                  "@parameters": [
+                    "change_self_switch(nil, nil, \"B\", true) if Application.timer.frame_time - Map::SaveData.variable(\"chiri#{@mapobject_id}-5\") > 5*1000"
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": true,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "Monster3",
+            "@character_index": 4,
+            "@direction": 8,
+            "@pattern": 1
+          },
+          "@move_type": 3,
+          "@move_speed": 4,
+          "@move_frequency": 5,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": false,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 45,
+                "@parameters": [
+                  "change_self_switch(nil, nil, \"A\", false) unless mapobject.balloon_showing?"
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": true,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 1,
+          "@trigger": 2,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 301,
+              "@parameters": [
+                0,
+                362,
+                true,
+                false
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 601,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 123,
+              "@parameters": [
+                "A",
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 214,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 117,
+              "@parameters": [
+                48
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 602,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 123,
+              "@parameters": [
+                "A",
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 111,
+              "@parameters": [
+                0,
+                11,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 214,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 411,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 216,
+              "@parameters": [
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 216,
+              "@parameters": [
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 604,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": true,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "B",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "Monster3",
+            "@character_index": 4,
+            "@direction": 8,
+            "@pattern": 1
+          },
+          "@move_type": 3,
+          "@move_speed": 4,
+          "@move_frequency": 5,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": false,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  196
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 15,
+                "@parameters": [
+                  5
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  128
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 15,
+                "@parameters": [
+                  5
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  64
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 15,
+                "@parameters": [
+                  5
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 39,
+                "@parameters": [
+
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  255
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 45,
+                "@parameters": [
+                  "change_self_switch(nil, nil, \"C\", true)"
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 2,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": true,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "C",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 3,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 214,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 123,
+              "@parameters": [
+                "A",
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 123,
+              "@parameters": [
+                "B",
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 123,
+              "@parameters": [
+                "C",
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": true,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "D",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 2,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 3,
+      "@name": "宝箱@63",
+      "@x": 1,
+      "@y": 0,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 180,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "!Flame",
+            "@character_index": 5,
+            "@direction": 2,
+            "@pattern": 1
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  255
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  200
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  150
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  100
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  50
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  0
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 15,
+                "@parameters": [
+                  120
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": true,
+          "@direction_fix": true,
+          "@through": false,
+          "@priority_type": 1,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 108,
+              "@parameters": [
+                "*find"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 117,
+              "@parameters": [
+                71
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 123,
+              "@parameters": [
+                "A",
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": true,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 3,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 214,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 123,
+              "@parameters": [
+                "A",
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "@parallax_sx": 0,
+  "@bgm": {
+    "rgss3_klass": "RPG::BGM",
+    "@name": "Theme3",
+    "@volume": 75,
+    "@pitch": 120
+  },
+  "@tileset_id": 7,
+  "@encounter_step": 50,
+  "@width": 32,
+  "@data": {
+    "rgss3_klass": "Table",
+    "@dimension": 3,
+    "@xsize": 32,
+    "@ysize": 22,
+    "@zsize": 4,
+    "@num_elements": 2816,
+    "@elements": [
+      [
+        [
+          7664,
+          7664,
+          7664,
+          7664,
+          7664,
+          7664,
+          7664,
+          7664,
+          7664,
+          7664,
+          7664,
+          7664,
+          7668,
+          7692,
+          7692,
+          7692,
+          7692,
+          7702,
+          8050,
+          8050,
+          6112,
+          8050,
+          8050,
+          7704,
+          7692,
+          7692,
+          7692,
+          7672,
+          7664,
+          7664,
+          7664,
+          7664
+        ],
+        [
+          7664,
+          7664,
+          7668,
+          7692,
+          7672,
+          7664,
+          7664,
+          7664,
+          7664,
+          7664,
+          7664,
+          7668,
+          7702,
+          8050,
+          8050,
+          8050,
+          8050,
+          8054,
+          8056,
+          8056,
+          6112,
+          8056,
+          8056,
+          8051,
+          8050,
+          8050,
+          8050,
+          7704,
+          7692,
+          7672,
+          7664,
+          7664
+        ],
+        [
+          7664,
+          7664,
+          7688,
+          8050,
+          7704,
+          7692,
+          7672,
+          7668,
+          7692,
+          7676,
+          7692,
+          7702,
+          8054,
+          8056,
+          8056,
+          8056,
+          8056,
+          8060,
+          1556,
+          1556,
+          6124,
+          1556,
+          1556,
+          8057,
+          8056,
+          8056,
+          8056,
+          8051,
+          8050,
+          7680,
+          7664,
+          7664
+        ],
+        [
+          7664,
+          7668,
+          7702,
+          8056,
+          8051,
+          8050,
+          7704,
+          7702,
+          8050,
+          7708,
+          8050,
+          8054,
+          8060,
+          1556,
+          1556,
+          1556,
+          2954,
+          1556,
+          1556,
+          1556,
+          6471,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          8057,
+          8056,
+          7680,
+          7664,
+          7664
+        ],
+        [
+          7664,
+          7688,
+          8062,
+          1556,
+          8057,
+          8056,
+          8051,
+          8054,
+          8056,
+          8055,
+          8056,
+          8060,
+          1556,
+          1556,
+          2946,
+          2932,
+          2938,
+          1556,
+          1556,
+          1556,
+          6477,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          7680,
+          7664,
+          7664
+        ],
+        [
+          7664,
+          7670,
+          7709,
+          1556,
+          1556,
+          2958,
+          8057,
+          8060,
+          1556,
+          8061,
+          1556,
+          1556,
+          1556,
+          2946,
+          2913,
+          2916,
+          2942,
+          2957,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          7698,
+          7665,
+          7664,
+          7664
+        ],
+        [
+          7668,
+          7702,
+          8054,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          2952,
+          2920,
+          2936,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          7698,
+          7684,
+          7665,
+          7664,
+          7664,
+          7664
+        ],
+        [
+          7702,
+          8054,
+          8060,
+          1556,
+          1556,
+          2954,
+          1556,
+          1556,
+          1556,
+          2958,
+          1556,
+          1556,
+          1556,
+          1556,
+          2952,
+          2937,
+          1556,
+          1556,
+          6122,
+          1556,
+          1556,
+          1556,
+          1556,
+          7698,
+          7684,
+          7684,
+          7665,
+          7664,
+          7664,
+          7664,
+          7664,
+          7664
+        ],
+        [
+          8054,
+          8060,
+          1556,
+          1556,
+          1556,
+          2944,
+          1556,
+          1556,
+          1556,
+          1556,
+          2946,
+          2932,
+          2932,
+          2948,
+          1556,
+          2929,
+          2932,
+          2948,
+          6112,
+          1556,
+          1556,
+          1556,
+          7698,
+          7665,
+          7664,
+          7664,
+          7664,
+          7664,
+          7664,
+          7664,
+          7664,
+          7664
+        ],
+        [
+          8060,
+          1556,
+          1556,
+          1556,
+          2946,
+          2919,
+          2945,
+          2945,
+          2945,
+          2935,
+          2941,
+          2940,
+          2940,
+          2950,
+          6122,
+          2952,
+          2940,
+          2950,
+          6124,
+          1556,
+          1556,
+          1556,
+          7704,
+          7672,
+          7664,
+          7664,
+          7664,
+          7664,
+          7664,
+          7664,
+          7664,
+          7664
+        ],
+        [
+          6113,
+          6125,
+          1556,
+          2955,
+          2941,
+          2937,
+          6123,
+          6113,
+          6117,
+          2944,
+          6114,
+          6101,
+          6113,
+          6113,
+          6119,
+          1556,
+          1556,
+          6126,
+          6470,
+          1556,
+          1556,
+          1556,
+          8051,
+          7680,
+          7664,
+          7668,
+          7692,
+          7692,
+          7672,
+          7664,
+          7664,
+          7664
+        ],
+        [
+          6466,
+          6466,
+          6126,
+          1556,
+          6126,
+          2944,
+          6467,
+          6466,
+          6124,
+          2956,
+          6120,
+          6105,
+          6466,
+          6466,
+          6470,
+          2862,
+          1556,
+          6475,
+          6476,
+          1556,
+          1556,
+          1556,
+          8057,
+          7680,
+          7668,
+          7702,
+          8050,
+          8050,
+          7704,
+          7672,
+          7664,
+          7664
+        ],
+        [
+          7700,
+          6472,
+          6478,
+          1556,
+          6479,
+          2956,
+          6473,
+          6472,
+          6471,
+          1556,
+          6467,
+          6124,
+          6472,
+          6472,
+          6476,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          7698,
+          7665,
+          7688,
+          8054,
+          8056,
+          8056,
+          8051,
+          7704,
+          7672,
+          7664
+        ],
+        [
+          7666,
+          7684,
+          7700,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          6477,
+          1556,
+          6473,
+          6471,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          7698,
+          7665,
+          7668,
+          7702,
+          8060,
+          1556,
+          1556,
+          8057,
+          8051,
+          7680,
+          7664
+        ],
+        [
+          7664,
+          7668,
+          7702,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          6477,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          7698,
+          7684,
+          7665,
+          7668,
+          7702,
+          8054,
+          1556,
+          1556,
+          1556,
+          1556,
+          8057,
+          7680,
+          7664
+        ],
+        [
+          7668,
+          7702,
+          8054,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          7698,
+          7684,
+          7684,
+          7665,
+          7664,
+          7668,
+          7702,
+          8054,
+          8060,
+          1556,
+          1556,
+          1556,
+          1556,
+          7698,
+          7665,
+          7664
+        ],
+        [
+          7688,
+          8054,
+          8060,
+          1556,
+          1556,
+          7698,
+          7684,
+          7684,
+          7700,
+          1556,
+          7706,
+          1556,
+          1556,
+          1556,
+          7698,
+          7684,
+          7665,
+          7668,
+          7692,
+          7692,
+          7692,
+          7702,
+          8054,
+          8060,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          7704,
+          7672,
+          7664
+        ],
+        [
+          7688,
+          8060,
+          1556,
+          7698,
+          7684,
+          7665,
+          7664,
+          7664,
+          7666,
+          7684,
+          7667,
+          7684,
+          7684,
+          7684,
+          7665,
+          7668,
+          7692,
+          7702,
+          8050,
+          8050,
+          8050,
+          8054,
+          8060,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          8051,
+          7704,
+          7692
+        ],
+        [
+          7666,
+          7684,
+          7684,
+          7669,
+          7692,
+          7672,
+          7664,
+          7668,
+          7692,
+          7676,
+          7692,
+          7692,
+          7692,
+          7672,
+          7668,
+          7702,
+          8050,
+          8054,
+          8056,
+          8056,
+          8056,
+          8060,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          8057,
+          8051,
+          8050
+        ],
+        [
+          7664,
+          7664,
+          7668,
+          7702,
+          8050,
+          7704,
+          7692,
+          7702,
+          8050,
+          7708,
+          8050,
+          8050,
+          8050,
+          7704,
+          7702,
+          8054,
+          8056,
+          8060,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          8057,
+          8056
+        ],
+        [
+          7664,
+          7668,
+          7702,
+          8054,
+          8056,
+          8051,
+          8050,
+          8054,
+          8056,
+          8055,
+          8056,
+          8056,
+          8056,
+          8051,
+          8054,
+          8060,
+          1556,
+          1556,
+          1556,
+          1556,
+          7707,
+          7697,
+          7701,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556
+        ],
+        [
+          7664,
+          7688,
+          8054,
+          8060,
+          1556,
+          8057,
+          8056,
+          8060,
+          1556,
+          8061,
+          1556,
+          1556,
+          1556,
+          8057,
+          8060,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          8051,
+          8050,
+          7681,
+          7700,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556,
+          1556
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3042,
+          3044,
+          0,
+          3042,
+          3044,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3042,
+          3029,
+          3041,
+          3041,
+          3030,
+          3009,
+          3032,
+          0,
+          3024,
+          3010,
+          3028,
+          3028,
+          3028,
+          3044,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3050,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3042,
+          3013,
+          3046,
+          0,
+          0,
+          3024,
+          3008,
+          3032,
+          0,
+          3024,
+          3008,
+          3008,
+          3008,
+          3008,
+          3010,
+          3029,
+          3053,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3025,
+          3028,
+          3044,
+          0,
+          0,
+          3050,
+          0,
+          3042,
+          3028,
+          3009,
+          3032,
+          0,
+          0,
+          0,
+          3024,
+          3008,
+          3010,
+          3028,
+          3009,
+          3008,
+          3008,
+          3008,
+          3012,
+          3036,
+          3046,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3024,
+          3012,
+          3038,
+          3030,
+          3028,
+          3011,
+          3028,
+          3009,
+          3008,
+          3008,
+          3032,
+          0,
+          0,
+          3042,
+          3013,
+          3036,
+          3016,
+          3008,
+          3008,
+          3012,
+          3036,
+          3036,
+          3046,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3024,
+          3032,
+          0,
+          3024,
+          3008,
+          3008,
+          3008,
+          3008,
+          3012,
+          3036,
+          3018,
+          3028,
+          3028,
+          3009,
+          3032,
+          0,
+          3024,
+          3008,
+          3012,
+          3046,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3042,
+          3009,
+          3010,
+          3028,
+          3009,
+          3008,
+          3008,
+          3008,
+          3012,
+          3046,
+          0,
+          3048,
+          3036,
+          3020,
+          3036,
+          3033,
+          0,
+          3024,
+          3008,
+          3032,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3051,
+          3017,
+          3012,
+          3036,
+          3036,
+          3036,
+          3036,
+          3036,
+          3036,
+          3046,
+          0,
+          0,
+          0,
+          0,
+          3040,
+          0,
+          3052,
+          0,
+          3024,
+          3008,
+          3032,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3048,
+          3033,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3049,
+          3045,
+          0,
+          0,
+          3024,
+          3008,
+          3032,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3040,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3040,
+          0,
+          0,
+          3024,
+          3008,
+          3032,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3040,
+          0,
+          3050,
+          0,
+          0,
+          0,
+          3050,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3042,
+          3011,
+          3028,
+          3028,
+          3009,
+          3012,
+          3046,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3025,
+          3028,
+          3011,
+          3028,
+          3044,
+          0,
+          3040,
+          0,
+          0,
+          3042,
+          3028,
+          3028,
+          3009,
+          3008,
+          3008,
+          3012,
+          3036,
+          3046,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3042,
+          3044,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3024,
+          3008,
+          3008,
+          3008,
+          3010,
+          3028,
+          3011,
+          3044,
+          0,
+          3024,
+          3008,
+          3008,
+          3012,
+          3036,
+          3036,
+          3046,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3042,
+          3009,
+          3010,
+          3044,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3024,
+          3012,
+          3036,
+          3036,
+          3036,
+          3036,
+          3020,
+          3038,
+          3030,
+          3009,
+          3012,
+          3036,
+          3046,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3024,
+          3008,
+          3008,
+          3032,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3048,
+          3046,
+          0,
+          0,
+          0,
+          0,
+          3052,
+          0,
+          3048,
+          3036,
+          3046,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3042,
+          3009,
+          3008,
+          3008,
+          3032,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3054,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3042,
+          3009,
+          3008,
+          3008,
+          3008,
+          3032,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3042,
+          3009,
+          3008,
+          3008,
+          3008,
+          3008,
+          3032,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3042,
+          3029,
+          3041,
+          3041,
+          3037,
+          3016,
+          3008,
+          3008,
+          3008,
+          3008,
+          3010,
+          3044,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3042,
+          3028,
+          3009,
+          3032,
+          0,
+          0,
+          0,
+          3048,
+          3016,
+          3008,
+          3008,
+          3008,
+          3008,
+          3010,
+          3028,
+          3028
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3050,
+          0,
+          0,
+          0,
+          3050,
+          0,
+          3042,
+          3028,
+          3044,
+          0,
+          0,
+          3043,
+          3037,
+          3036,
+          3016,
+          3032,
+          0,
+          0,
+          0,
+          0,
+          3024,
+          3008,
+          3008,
+          3008,
+          3008,
+          3008,
+          3008,
+          3008
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          281,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          281,
+          0,
+          0,
+          0,
+          0,
+          93,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          93,
+          0,
+          101,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          101,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          93,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          101,
+          0,
+          93,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          281,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          101,
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          15877,
+          0,
+          0,
+          5,
+          15872,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          15877,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          15877,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          16128,
+          0,
+          0,
+          0,
+          15616,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          15616,
+          15360,
+          0,
+          0,
+          15872,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          15877,
+          0,
+          5,
+          12800,
+          12800,
+          0,
+          0,
+          0,
+          0,
+          0,
+          15360,
+          0,
+          0,
+          0,
+          0,
+          0,
+          13312,
+          13312,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          16128,
+          0,
+          0,
+          0,
+          0,
+          0,
+          12800,
+          12800,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          13312,
+          13312,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          16128,
+          0,
+          0,
+          15616,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          0,
+          0,
+          15616,
+          0,
+          0,
+          16128,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          15616,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          15877,
+          0,
+          15360,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          15360,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          15616,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          5,
+          0,
+          0,
+          0,
+          15621,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          15616,
+          0,
+          15360,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          15360,
+          0,
+          5,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          15616,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          15616,
+          0,
+          0,
+          0,
+          15872,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          13056,
+          13056,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          15877,
+          0,
+          0,
+          0,
+          0,
+          0,
+          15872,
+          0,
+          0,
+          13056,
+          13056,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          5,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "@bgs": {
+    "rgss3_klass": "RPG::BGS",
+    "@name": "",
+    "@volume": 80,
+    "@pitch": 100
+  },
+  "@parallax_loop_y": false,
+  "@autoplay_bgm": true,
+  "@encounter_list": [
+    {
+      "rgss3_klass": "RPG::Map::Encounter",
+      "@troop_id": 356,
+      "@weight": 10,
+      "@region_set": [
+
+      ]
+    },
+    {
+      "rgss3_klass": "RPG::Map::Encounter",
+      "@troop_id": 357,
+      "@weight": 10,
+      "@region_set": [
+
+      ]
+    },
+    {
+      "rgss3_klass": "RPG::Map::Encounter",
+      "@troop_id": 358,
+      "@weight": 10,
+      "@region_set": [
+
+      ]
+    },
+    {
+      "rgss3_klass": "RPG::Map::Encounter",
+      "@troop_id": 359,
+      "@weight": 10,
+      "@region_set": [
+
+      ]
+    },
+    {
+      "rgss3_klass": "RPG::Map::Encounter",
+      "@troop_id": 360,
+      "@weight": 10,
+      "@region_set": [
+
+      ]
+    },
+    {
+      "rgss3_klass": "RPG::Map::Encounter",
+      "@troop_id": 361,
+      "@weight": 10,
+      "@region_set": [
+
+      ]
+    }
+  ],
+  "@autoplay_bgs": true,
+  "@parallax_show": false,
+  "@scroll_type": 0,
+  "@parallax_loop_x": false,
+  "@disable_dashing": false,
+  "@parallax_sy": 0,
+  "@display_name": "マナン密林",
+  "@specify_battleback": true,
+  "@note": ":show_map_name\r\n:disable_space_division",
+  "@battleback1_name": "Meadow",
+  "@battleback2_name": "Forest1"
+}

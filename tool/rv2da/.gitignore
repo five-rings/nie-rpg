@@ -1,0 +1,4 @@
+output/*
+rpg/rpg_*
+source/*
+testdata/*

@@ -1,0 +1,6234 @@
+{
+  "rgss3_klass": "RPG::Map",
+  "@parallax_name": "",
+  "@height": 15,
+  "@events": {
+    "1": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 1,
+      "@name": "雪だるま",
+      "@x": 11,
+      "@y": 7,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 160,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": true,
+          "@through": false,
+          "@priority_type": 1,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 108,
+              "@parameters": [
+                "*talk!"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 205,
+              "@parameters": [
+                2,
+                {
+                  "rgss3_klass": "RPG::MoveRoute",
+                  "@repeat": false,
+                  "@skippable": false,
+                  "@wait": true,
+                  "@list": [
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 15,
+                      "@parameters": [
+                        10
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 18,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 15,
+                      "@parameters": [
+                        10
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 0,
+                      "@parameters": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 15,
+                  "@parameters": [
+                    10
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 18,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 15,
+                  "@parameters": [
+                    10
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                ":snowman:0:\\>【ゆきだるま】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                "やぁ！　今日も寒くてすごしやすいね！"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                "暑いとだめだよ。汗をかいちゃう！"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 111,
+              "@parameters": [
+                12,
+                "nie_speaking?"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 101,
+              "@parameters": [
+                "Actor5",
+                1,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                ":snowman:1:\\>【ニエ】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                "汗をかくとどうなるのですか？"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 101,
+              "@parameters": [
+                "Spiritual",
+                4,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                ":snowman:2:\\>【リル】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                "そりゃとけてなくなっちゃうんじゃない？"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 101,
+              "@parameters": [
+                "Actor5",
+                1,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                ":snowman:3:\\>【ニエ】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                "それは……暑いと困りますね。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 411,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 101,
+              "@parameters": [
+                "Spiritual",
+                4,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                ":snowman:4:\\>【リル】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                "うわっ、急に変な声だすのやめて。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 213,
+              "@parameters": [
+                2,
+                3,
+                false
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 205,
+              "@parameters": [
+                2,
+                {
+                  "rgss3_klass": "RPG::MoveRoute",
+                  "@repeat": false,
+                  "@skippable": false,
+                  "@wait": true,
+                  "@list": [
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 16,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 0,
+                      "@parameters": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 16,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "2": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 2,
+      "@name": "門番",
+      "@x": 8,
+      "@y": 7,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "People2",
+            "@character_index": 4,
+            "@direction": 2,
+            "@pattern": 1
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 1,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 108,
+              "@parameters": [
+                "*talk"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                ":watchman:0:\\>【ユベスの番人】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                "雪道には慣れぬご様子。身支度を怠れば命に関わる。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                "夏山のことならエルクの民に、冬山のことならユベスの民に聞けとは古くからの言い習わし。準備されていくがよかろう。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 112,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 102,
+              "@parameters": [
+                [
+                  ":watchman-jubes:「ユベスの村について」",
+                  ":watchman-boat:「渡河場について」",
+                  ":watchman-talk:話をする",
+                  ":watchman-leave:立ち去る"
+                ],
+                4
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 402,
+              "@parameters": [
+                0,
+                ":watchman-jubes:「ユベスの村について」"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 108,
+              "@parameters": [
+                ":check_event_flag=1"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                ":watchman_jubes:0:\\>【ユベスの番人】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "かつてかの詩人ケイロスがこう言った。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "「泣き虫が目について離れない子供がいたらユベスに連れて行くがよい。かの地に泣く子はいない。涙も凍ってしまうから」"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 101,
+              "@parameters": [
+                "Spiritual",
+                4,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                ":watchman_jubes:1:\\>【リル】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "ええっ、それって本当？"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                ":watchman_jubes:2:\\>【ユベスの番人】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "もちろん本当ではない。ケイロスはユベシアに来たことはなかったらしい。詩人というのは、想像でものを言う人種だが、まま実際を上回ってしまうようだ。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 402,
+              "@parameters": [
+                1,
+                ":watchman-boat:「渡河場について」"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 108,
+              "@parameters": [
+                ":check_event_flag=2"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 111,
+              "@parameters": [
+                0,
+                221,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 401,
+              "@parameters": [
+                ":watchman_boat:0:\\>【ユベスの番人】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 401,
+              "@parameters": [
+                "ツグル河に出る化け物を退治したそうだな！"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 401,
+              "@parameters": [
+                "怖いもの知らずというかなんというか……猛勇で知られるエルクの村の人々からさえ勇者と呼ばれるだけはある。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 411,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 401,
+              "@parameters": [
+                ":watchman_boat:1:\\>【ユベスの番人】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 401,
+              "@parameters": [
+                "西に進めばツグル河の渡しがある。ただ今は舟が出ていないようだ。よくない霧がでているのだとか。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 402,
+              "@parameters": [
+                2,
+                ":watchman-talk:話をする"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 108,
+              "@parameters": [
+                ":check_event_flag=3"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 101,
+              "@parameters": [
+                "Spiritual",
+                4,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                ":watchman_talk:0:\\>【リル】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "あなたはユベスの村の門番？"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                ":watchman_talk:1:\\>【ユベスの番人】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "そうだ。男たちが狩りに出ている間、村を守るのが私の役目だ。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "この雪すべてが解けきるまでここを離れない。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 101,
+              "@parameters": [
+                "Actor5",
+                1,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                ":watchman_talk:2:\\>【ニエ】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "留守を任せられるということは、力がありなにより村の人々に信頼されているのですね。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                ":watchman_talk:3:\\>【ユベスの番人】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "それに応える覚悟にかけては、あなたの村のナヂやヌマにも劣らぬ気概です。\\!ようこそエルクの巫女とその伴の方々よ。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 402,
+              "@parameters": [
+                3,
+                ":watchman-leave:立ち去る"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 113,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 404,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 413,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 108,
+              "@parameters": [
+                ":check_event=0b111"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 3,
+      "@name": "#村内へ",
+      "@x": 9,
+      "@y": 6,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                41,
+                19,
+                17,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "12": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 12,
+      "@name": "#渡河場へ",
+      "@x": 0,
+      "@y": 13,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                42,
+                17,
+                6,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "13": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 13,
+      "@name": "#坑道前へ",
+      "@x": 1,
+      "@y": 14,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                43,
+                10,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "31": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 31,
+      "@name": "#ユベシア雪原へ",
+      "@x": 19,
+      "@y": 13,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                51,
+                1,
+                3,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "4": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 4,
+      "@name": "#坑道前へ",
+      "@x": 18,
+      "@y": 14,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                43,
+                10,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "14": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 14,
+      "@name": "#坑道前へ",
+      "@x": 17,
+      "@y": 14,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                43,
+                10,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "15": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 15,
+      "@name": "#坑道前へ",
+      "@x": 16,
+      "@y": 14,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                43,
+                10,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "16": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 16,
+      "@name": "#坑道前へ",
+      "@x": 15,
+      "@y": 14,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                43,
+                10,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "17": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 17,
+      "@name": "#坑道前へ",
+      "@x": 14,
+      "@y": 14,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                43,
+                10,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "18": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 18,
+      "@name": "#坑道前へ",
+      "@x": 13,
+      "@y": 14,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                43,
+                10,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "19": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 19,
+      "@name": "#坑道前へ",
+      "@x": 12,
+      "@y": 14,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                43,
+                10,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "20": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 20,
+      "@name": "#坑道前へ",
+      "@x": 11,
+      "@y": 14,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                43,
+                10,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "21": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 21,
+      "@name": "#坑道前へ",
+      "@x": 10,
+      "@y": 14,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                43,
+                10,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "22": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 22,
+      "@name": "+坑道前へ",
+      "@x": 9,
+      "@y": 14,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "!Other1",
+            "@character_index": 5,
+            "@direction": 8,
+            "@pattern": 1
+          },
+          "@move_type": 3,
+          "@move_speed": 3,
+          "@move_frequency": 5,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": false,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  64
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": true,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                43,
+                10,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 5,
+            "@direction": 2,
+            "@pattern": 1
+          },
+          "@move_type": 3,
+          "@move_speed": 3,
+          "@move_frequency": 5,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": false,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  64
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": true,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                43,
+                10,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "23": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 23,
+      "@name": "#坑道前へ",
+      "@x": 8,
+      "@y": 14,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                43,
+                10,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "24": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 24,
+      "@name": "#坑道前へ",
+      "@x": 7,
+      "@y": 14,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                43,
+                10,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "25": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 25,
+      "@name": "#坑道前へ",
+      "@x": 6,
+      "@y": 14,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                43,
+                10,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "26": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 26,
+      "@name": "#坑道前へ",
+      "@x": 5,
+      "@y": 14,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                43,
+                10,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "27": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 27,
+      "@name": "#坑道前へ",
+      "@x": 4,
+      "@y": 14,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                43,
+                10,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "28": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 28,
+      "@name": "#坑道前へ",
+      "@x": 3,
+      "@y": 14,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                43,
+                10,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "29": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 29,
+      "@name": "#坑道前へ",
+      "@x": 2,
+      "@y": 14,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                43,
+                10,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "5": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 5,
+      "@name": "+渡河場へ",
+      "@x": 0,
+      "@y": 7,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 5,
+            "@direction": 4,
+            "@pattern": 1
+          },
+          "@move_type": 3,
+          "@move_speed": 3,
+          "@move_frequency": 5,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": false,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  128
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                42,
+                17,
+                6,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": true,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 211,
+            "@variable_value": 1,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "!Other1",
+            "@character_index": 5,
+            "@direction": 4,
+            "@pattern": 1
+          },
+          "@move_type": 3,
+          "@move_speed": 3,
+          "@move_frequency": 5,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": false,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  128
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": true,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                42,
+                17,
+                6,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": true,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 211,
+            "@variable_value": 2,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 2,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "6": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 6,
+      "@name": "#渡河場へ",
+      "@x": 0,
+      "@y": 6,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                42,
+                17,
+                6,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "7": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 7,
+      "@name": "#渡河場へ",
+      "@x": 0,
+      "@y": 8,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                42,
+                17,
+                6,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "8": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 8,
+      "@name": "#渡河場へ",
+      "@x": 0,
+      "@y": 9,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                42,
+                17,
+                6,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "9": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 9,
+      "@name": "#渡河場へ",
+      "@x": 0,
+      "@y": 10,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                42,
+                17,
+                6,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "10": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 10,
+      "@name": "#渡河場へ",
+      "@x": 0,
+      "@y": 11,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                42,
+                17,
+                6,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "11": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 11,
+      "@name": "#渡河場へ",
+      "@x": 0,
+      "@y": 12,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                42,
+                17,
+                6,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "30": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 30,
+      "@name": "#ユベシア雪原へ",
+      "@x": 19,
+      "@y": 6,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                51,
+                1,
+                3,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "32": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 32,
+      "@name": "+ユベシア雪原へ",
+      "@x": 19,
+      "@y": 5,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 212,
+            "@variable_value": 1,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 5,
+            "@direction": 6,
+            "@pattern": 1
+          },
+          "@move_type": 3,
+          "@move_speed": 3,
+          "@move_frequency": 5,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": false,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  128
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 2,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                51,
+                1,
+                3,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": true,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 212,
+            "@variable_value": 1,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "!Other1",
+            "@character_index": 5,
+            "@direction": 6,
+            "@pattern": 1
+          },
+          "@move_type": 3,
+          "@move_speed": 3,
+          "@move_frequency": 5,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": false,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  128
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": true,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                51,
+                1,
+                3,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": true,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 212,
+            "@variable_value": 2,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 2,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "33": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 33,
+      "@name": "#ユベシア雪原へ",
+      "@x": 19,
+      "@y": 7,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                51,
+                1,
+                3,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "34": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 34,
+      "@name": "#ユベシア雪原へ",
+      "@x": 19,
+      "@y": 8,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                51,
+                1,
+                3,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "35": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 35,
+      "@name": "#ユベシア雪原へ",
+      "@x": 19,
+      "@y": 9,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                51,
+                1,
+                3,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "36": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 36,
+      "@name": "#ユベシア雪原へ",
+      "@x": 19,
+      "@y": 10,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                51,
+                1,
+                3,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "37": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 37,
+      "@name": "#ユベシア雪原へ",
+      "@x": 19,
+      "@y": 11,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                51,
+                1,
+                3,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "38": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 38,
+      "@name": "#ユベシア雪原へ",
+      "@x": 19,
+      "@y": 12,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                51,
+                1,
+                3,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "39": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 39,
+      "@name": "+女神",
+      "@x": 3,
+      "@y": 1,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": true,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 8,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "!Flame",
+            "@character_index": 7,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": true,
+          "@direction_fix": true,
+          "@through": false,
+          "@priority_type": 1,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "40": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 40,
+      "@name": "+足跡",
+      "@x": 18,
+      "@y": 5,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": true,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 212,
+            "@variable_value": 1,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "!Other1",
+            "@character_index": 5,
+            "@direction": 6,
+            "@pattern": 1
+          },
+          "@move_type": 3,
+          "@move_speed": 3,
+          "@move_frequency": 5,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": false,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  128
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": true,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 2,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": true,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 212,
+            "@variable_value": 2,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 2,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "42": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 42,
+      "@name": "+足跡",
+      "@x": 1,
+      "@y": 8,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": true,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 211,
+            "@variable_value": 1,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "!Other1",
+            "@character_index": 5,
+            "@direction": 8,
+            "@pattern": 1
+          },
+          "@move_type": 3,
+          "@move_speed": 3,
+          "@move_frequency": 5,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": false,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  128
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 45,
+                "@parameters": [
+                  "mapobject.shift(nil, -0.15)"
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 45,
+                "@parameters": [
+                  "mapobject.rotate(45)"
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 45,
+                "@parameters": [
+                  "mapobject.mirror(true)"
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": true,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 2,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": true,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 211,
+            "@variable_value": 2,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 2,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "43": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 43,
+      "@name": "+足跡",
+      "@x": 2,
+      "@y": 8,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": true,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 211,
+            "@variable_value": 1,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "!Other1",
+            "@character_index": 5,
+            "@direction": 4,
+            "@pattern": 1
+          },
+          "@move_type": 3,
+          "@move_speed": 3,
+          "@move_frequency": 5,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": false,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 42,
+                "@parameters": [
+                  128
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": true,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 2,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": true,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 211,
+            "@variable_value": 2,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 2,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "@parallax_sx": 0,
+  "@bgm": {
+    "rgss3_klass": "RPG::BGM",
+    "@name": "Scene5",
+    "@volume": 85,
+    "@pitch": 80
+  },
+  "@tileset_id": 2,
+  "@encounter_step": 30,
+  "@width": 20,
+  "@data": {
+    "rgss3_klass": "Table",
+    "@dimension": 3,
+    "@xsize": 20,
+    "@ysize": 15,
+    "@zsize": 4,
+    "@num_elements": 1200,
+    "@elements": [
+      [
+        [
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968
+        ],
+        [
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968
+        ],
+        [
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3972,
+          3996,
+          3976,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968
+        ],
+        [
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3992,
+          4058,
+          3984,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968
+        ],
+        [
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3972,
+          4006,
+          4048,
+          3984,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968
+        ],
+        [
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3992,
+          4051,
+          4055,
+          3984,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968
+        ],
+        [
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3972,
+          4006,
+          4060,
+          4002,
+          3969,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968
+        ],
+        [
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3992,
+          4062,
+          4002,
+          3969,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968
+        ],
+        [
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3970,
+          3988,
+          3969,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968
+        ],
+        [
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968
+        ],
+        [
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968
+        ],
+        [
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968
+        ],
+        [
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968
+        ],
+        [
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968
+        ],
+        [
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968
+        ]
+      ],
+      [
+        [
+          0,
+          4176,
+          4164,
+          4188,
+          4198,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4200,
+          4168,
+          4160,
+          4160,
+          4160,
+          4160
+        ],
+        [
+          4180,
+          4161,
+          4184,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4200,
+          4168,
+          4160,
+          4164,
+          4188
+        ],
+        [
+          4160,
+          4164,
+          4198,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4200,
+          4188,
+          4198,
+          0
+        ],
+        [
+          4188,
+          4198,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4291,
+          4289,
+          4289,
+          4289,
+          4289,
+          4289
+        ],
+        [
+          4289,
+          4289,
+          4289,
+          4289,
+          4289,
+          4289,
+          4293,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4288,
+          4194,
+          4181,
+          4205,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          4203,
+          4197,
+          4297,
+          4289,
+          4301,
+          0,
+          4299,
+          4289,
+          4289,
+          4289,
+          4295,
+          4200,
+          4198,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          4201,
+          4205,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          156,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          157,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          157,
+          165,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          165,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          128,
+          129,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          136,
+          137,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "@bgs": {
+    "rgss3_klass": "RPG::BGS",
+    "@name": "",
+    "@volume": 80,
+    "@pitch": 100
+  },
+  "@parallax_loop_y": false,
+  "@autoplay_bgm": true,
+  "@encounter_list": [
+
+  ],
+  "@autoplay_bgs": true,
+  "@parallax_show": false,
+  "@scroll_type": 0,
+  "@parallax_loop_x": false,
+  "@disable_dashing": false,
+  "@parallax_sy": 0,
+  "@display_name": "ユベスの村",
+  "@specify_battleback": false,
+  "@note": ":sub_map=41",
+  "@battleback1_name": "",
+  "@battleback2_name": ""
+}

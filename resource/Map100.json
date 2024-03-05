@@ -1,0 +1,2153 @@
+{
+  "rgss3_klass": "RPG::Map",
+  "@parallax_name": "",
+  "@height": 15,
+  "@events": {
+    "2": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 2,
+      "@name": "#ハルニアへ",
+      "@x": 19,
+      "@y": 8,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                45,
+                1,
+                5,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 3,
+      "@name": "#ハルニアへ",
+      "@x": 19,
+      "@y": 9,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                45,
+                1,
+                5,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "5": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 5,
+      "@name": "#移動",
+      "@x": 0,
+      "@y": 7,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 108,
+              "@parameters": [
+                ":fade_color=255,255,255"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 408,
+              "@parameters": [
+                ":fade_speed=15"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 221,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                99,
+                18,
+                9,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 230,
+              "@parameters": [
+                20
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 222,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "1": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 1,
+      "@name": "&崩落",
+      "@x": 13,
+      "@y": 8,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 108,
+              "@parameters": [
+                "*find"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 205,
+              "@parameters": [
+                -1,
+                {
+                  "rgss3_klass": "RPG::MoveRoute",
+                  "@repeat": false,
+                  "@skippable": false,
+                  "@wait": true,
+                  "@list": [
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 19,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 0,
+                      "@parameters": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 19,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                ":barrier-1:0:入り口は崩れてふさがれてしまっている。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                "もう祠の中に入ることはできないだろう。\\!"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                ""
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                "……その必要もない。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 123,
+              "@parameters": [
+                "A",
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": true,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 205,
+              "@parameters": [
+                -1,
+                {
+                  "rgss3_klass": "RPG::MoveRoute",
+                  "@repeat": false,
+                  "@skippable": false,
+                  "@wait": true,
+                  "@list": [
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 19,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 0,
+                      "@parameters": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 19,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                ":barrier-2:0:祠の入り口は崩れてふさがれてしまっている。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                "もう中に入ることはできないだろう。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "4": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 4,
+      "@name": "#倒木",
+      "@x": 9,
+      "@y": 10,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 1,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                ":tree:0:倒木だ。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                "切り倒されて間もないように見える。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "6": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 6,
+      "@name": "+木",
+      "@x": 13,
+      "@y": 11,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 164,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 3,
+          "@move_speed": 3,
+          "@move_frequency": 5,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": false,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 45,
+                "@parameters": [
+                  "mapobject.shift(0.2,-0.25)"
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 45,
+                "@parameters": [
+                  "mapobject.mirror(true)"
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 1,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "@parallax_sx": 0,
+  "@bgm": {
+    "rgss3_klass": "RPG::BGM",
+    "@name": "Town2",
+    "@volume": 65,
+    "@pitch": 80
+  },
+  "@tileset_id": 2,
+  "@encounter_step": 30,
+  "@width": 20,
+  "@data": {
+    "rgss3_klass": "Table",
+    "@dimension": 3,
+    "@xsize": 20,
+    "@ysize": 15,
+    "@zsize": 4,
+    "@num_elements": 1200,
+    "@elements": [
+      [
+        [
+          7596,
+          7576,
+          7572,
+          7596,
+          7576,
+          7568,
+          7568,
+          7568,
+          7568,
+          7568,
+          7568,
+          7568,
+          7568,
+          7568,
+          7568,
+          7568,
+          7568,
+          7568,
+          7568,
+          7568
+        ],
+        [
+          7954,
+          7608,
+          7593,
+          7954,
+          7608,
+          7576,
+          7568,
+          7568,
+          7568,
+          7568,
+          7568,
+          7568,
+          7568,
+          7568,
+          7568,
+          7568,
+          7572,
+          7596,
+          7576,
+          7568
+        ],
+        [
+          7952,
+          7955,
+          7612,
+          7952,
+          7955,
+          7608,
+          7576,
+          7568,
+          7568,
+          7568,
+          7568,
+          7572,
+          7596,
+          7596,
+          7596,
+          7580,
+          7606,
+          7954,
+          7608,
+          7596
+        ],
+        [
+          7952,
+          7953,
+          7959,
+          7952,
+          7953,
+          7955,
+          7608,
+          7596,
+          7596,
+          7596,
+          7596,
+          7606,
+          7954,
+          7954,
+          7954,
+          7612,
+          7958,
+          7952,
+          7955,
+          7954
+        ],
+        [
+          7960,
+          7953,
+          7957,
+          7960,
+          7953,
+          7953,
+          7955,
+          7954,
+          7954,
+          7954,
+          7954,
+          7958,
+          7952,
+          7952,
+          7952,
+          7959,
+          7956,
+          7952,
+          7953,
+          7952
+        ],
+        [
+          4004,
+          7961,
+          7957,
+          1559,
+          7961,
+          7953,
+          7953,
+          7952,
+          7952,
+          7952,
+          7952,
+          7956,
+          7960,
+          7611,
+          7613,
+          7957,
+          7956,
+          7960,
+          7953,
+          7952
+        ],
+        [
+          3974,
+          4013,
+          7965,
+          1559,
+          1559,
+          7961,
+          7953,
+          7952,
+          7952,
+          7952,
+          7952,
+          7956,
+          7614,
+          1649,
+          1649,
+          7957,
+          7964,
+          4010,
+          7961,
+          7960
+        ],
+        [
+          3992,
+          1559,
+          4010,
+          1559,
+          1559,
+          4010,
+          7961,
+          7960,
+          7960,
+          7960,
+          7960,
+          7964,
+          1656,
+          1657,
+          1657,
+          7965,
+          4002,
+          3971,
+          3988,
+          3988
+        ],
+        [
+          3970,
+          3988,
+          3994,
+          1559,
+          1559,
+          3987,
+          4001,
+          3990,
+          3988,
+          3988,
+          3988,
+          3988,
+          4004,
+          4062,
+          4002,
+          3988,
+          3969,
+          3972,
+          3996,
+          3976
+        ],
+        [
+          3968,
+          3968,
+          3970,
+          3988,
+          3988,
+          3994,
+          1559,
+          3984,
+          3968,
+          3968,
+          3968,
+          3968,
+          3970,
+          3988,
+          3969,
+          3968,
+          3968,
+          3992,
+          4062,
+          4008
+        ],
+        [
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3970,
+          3988,
+          3969,
+          3972,
+          3996,
+          3976,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3970,
+          4004,
+          4059
+        ],
+        [
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3992,
+          4062,
+          3984,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3970,
+          3988
+        ],
+        [
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3970,
+          3988,
+          3969,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968
+        ],
+        [
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968
+        ],
+        [
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968,
+          3968
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4194
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4194,
+          4161
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4200,
+          4168
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4200
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          157,
+          157,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          165,
+          165,
+          157,
+          0,
+          0,
+          157,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          157,
+          0
+        ],
+        [
+          157,
+          0,
+          165,
+          0,
+          0,
+          158,
+          157,
+          157,
+          157,
+          0,
+          157,
+          157,
+          0,
+          207,
+          157,
+          0,
+          0,
+          0,
+          165,
+          0
+        ],
+        [
+          158,
+          157,
+          157,
+          0,
+          0,
+          165,
+          165,
+          158,
+          165,
+          157,
+          158,
+          158,
+          157,
+          107,
+          165,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          158,
+          158,
+          158,
+          157,
+          157,
+          157,
+          0,
+          165,
+          0,
+          165,
+          158,
+          165,
+          165,
+          0,
+          0,
+          0,
+          0,
+          0,
+          157,
+          0
+        ],
+        [
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          157,
+          157,
+          0,
+          100,
+          165,
+          0,
+          157,
+          0,
+          156,
+          0,
+          157,
+          157,
+          158,
+          157
+        ],
+        [
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          157,
+          0,
+          157,
+          0,
+          158,
+          157,
+          0,
+          157,
+          158,
+          158,
+          158,
+          158
+        ],
+        [
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          157,
+          158,
+          157,
+          158,
+          158,
+          157,
+          158,
+          158,
+          158,
+          158,
+          158
+        ],
+        [
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158
+        ],
+        [
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158,
+          158
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          5,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          15,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          7,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          5,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "@bgs": {
+    "rgss3_klass": "RPG::BGS",
+    "@name": "",
+    "@volume": 80,
+    "@pitch": 100
+  },
+  "@parallax_loop_y": false,
+  "@autoplay_bgm": true,
+  "@encounter_list": [
+
+  ],
+  "@autoplay_bgs": true,
+  "@parallax_show": false,
+  "@scroll_type": 0,
+  "@parallax_loop_x": false,
+  "@disable_dashing": true,
+  "@parallax_sy": 0,
+  "@display_name": "ハルナの祠",
+  "@specify_battleback": false,
+  "@note": "",
+  "@battleback1_name": "",
+  "@battleback2_name": ""
+}

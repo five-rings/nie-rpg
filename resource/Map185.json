@@ -1,0 +1,4381 @@
+{
+  "rgss3_klass": "RPG::Map",
+  "@parallax_name": "",
+  "@height": 18,
+  "@events": {
+    "1": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 1,
+      "@name": "+集い",
+      "@x": 7,
+      "@y": 6,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "!Flame",
+            "@character_index": 7,
+            "@direction": 4,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": true,
+          "@direction_fix": true,
+          "@through": false,
+          "@priority_type": 1,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "4": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 4,
+      "@name": "EV004",
+      "@x": 5,
+      "@y": 4,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 2
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "People7",
+            "@character_index": 3,
+            "@direction": 4,
+            "@pattern": 1
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 1,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 108,
+              "@parameters": [
+                "*shop,2"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 102,
+              "@parameters": [
+                [
+                  "取引",
+                  "物々交換",
+                  "話をする",
+                  "立ち去る"
+                ],
+                4
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 402,
+              "@parameters": [
+                0,
+                "取引"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 243,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 241,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::BGM",
+                  "@name": "Town7",
+                  "@volume": 80,
+                  "@pitch": 85
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 108,
+              "@parameters": [
+                ":shop_location=erlc"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 302,
+              "@parameters": [
+                2,
+                70,
+                0,
+                0,
+                false
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 605,
+              "@parameters": [
+                2,
+                71,
+                0,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 605,
+              "@parameters": [
+                0,
+                103,
+                0,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 605,
+              "@parameters": [
+                0,
+                104,
+                0,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 605,
+              "@parameters": [
+                0,
+                101,
+                0,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 605,
+              "@parameters": [
+                0,
+                102,
+                0,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 605,
+              "@parameters": [
+                2,
+                72,
+                0,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 108,
+              "@parameters": [
+                ":shop_location"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 244,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                "\\>【キン】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                "身に着ける物はきちんと手入れをすれば長く使える……。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                "要らなくなったものは高く買い取るからさ。捨てたりせずに持ってきなよ。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 402,
+              "@parameters": [
+                1,
+                "物々交換"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                "\\>【キン】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                "色々と入用なんだが、この足じゃ自分で取りに行くってわけにはいかなくてね……。必要なものを持ってきてくれたら、便利なものと交換するよ。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 112,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 108,
+              "@parameters": [
+                ":push_choice=141,\\C[17]\\i[141]\\C[0] (1/\\ni[141])"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 408,
+              "@parameters": [
+                ":push_choice=147,\\C[17]\\i[147]\\C[0] (1/\\ni[147])"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 108,
+              "@parameters": [
+                ":push_choice=148,\\i[148] (1/\\ni[148])"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 408,
+              "@parameters": [
+                ":push_choice=149,\\i[149] (1/\\ni[149])"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 408,
+              "@parameters": [
+                ":push_choice=150,\\i[150] (1/\\ni[150])"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 408,
+              "@parameters": [
+                ":push_choice=151,\\i[151] (1/\\ni[151])"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 408,
+              "@parameters": [
+                ":push_choice=152,\\i[152] (1/\\ni[152])"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 408,
+              "@parameters": [
+                ":push_choice=153,\\i[153] (1/\\ni[153])"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 108,
+              "@parameters": [
+                ":push_choice=0,立ち去る,true"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 408,
+              "@parameters": [
+                ":show_choice"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 122,
+              "@parameters": [
+                5,
+                5,
+                0,
+                4,
+                "branch_result(indent)"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 111,
+              "@parameters": [
+                1,
+                5,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 113,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 411,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 111,
+              "@parameters": [
+                12,
+                "number_of_items(variable(5)) > 0"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 108,
+              "@parameters": [
+                "通常の報酬"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 122,
+              "@parameters": [
+                6,
+                6,
+                0,
+                4,
+                "PRICE_REWARDED"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 111,
+              "@parameters": [
+                1,
+                5,
+                0,
+                141,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 5,
+              "@code": 108,
+              "@parameters": [
+                "ヘスパイア報酬"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 5,
+              "@code": 122,
+              "@parameters": [
+                7,
+                7,
+                0,
+                4,
+                "PRICE_REWARDED"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 5,
+              "@code": 122,
+              "@parameters": [
+                6,
+                6,
+                0,
+                4,
+                "PRICE_UNQUALIFIED"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 5,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 411,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 5,
+              "@code": 122,
+              "@parameters": [
+                7,
+                7,
+                0,
+                4,
+                "PRICE_UNQUALIFIED"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 5,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 111,
+              "@parameters": [
+                1,
+                5,
+                0,
+                147,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 5,
+              "@code": 108,
+              "@parameters": [
+                "イエネテス報酬"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 5,
+              "@code": 122,
+              "@parameters": [
+                8,
+                8,
+                0,
+                4,
+                "PRICE_REWARDED"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 5,
+              "@code": 122,
+              "@parameters": [
+                6,
+                6,
+                0,
+                4,
+                "PRICE_UNQUALIFIED"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 5,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 411,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 5,
+              "@code": 122,
+              "@parameters": [
+                8,
+                8,
+                0,
+                4,
+                "PRICE_UNQUALIFIED"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 5,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 108,
+              "@parameters": [
+                ":price_as_variable"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 302,
+              "@parameters": [
+                2,
+                297,
+                1,
+                7,
+                true
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 605,
+              "@parameters": [
+                2,
+                296,
+                1,
+                8
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 605,
+              "@parameters": [
+                2,
+                279,
+                1,
+                6
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 108,
+              "@parameters": [
+                ":price_as_variable=false"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 111,
+              "@parameters": [
+                12,
+                "branch_result(indent)"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 5,
+              "@code": 355,
+              "@parameters": [
+                "event_add_item(variable(5), -1)"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 5,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 401,
+              "@parameters": [
+                "\\>【キン】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 401,
+              "@parameters": [
+                "他に興味のあるものはあるかい？"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 411,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 401,
+              "@parameters": [
+                "\\>【キン】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 401,
+              "@parameters": [
+                "\\i[\\V[5]]を持っていないみたいだね。\\!"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 401,
+              "@parameters": [
+                "他に興味のあるものはあるかい？"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 413,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 111,
+              "@parameters": [
+                4,
+                2,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "\\>【キン】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "むらおさにはなにかと世話になっててね。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "あんな人だけど悪く思わないでくれよ。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 402,
+              "@parameters": [
+                2,
+                "話をする"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 111,
+              "@parameters": [
+                1,
+                103,
+                0,
+                2,
+                4
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "\\>【キン】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "足を悪くして働きがないってんで、こうして日がな道具の手入れや修理をするばかりでね。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "\\>【キン】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "はじめはつまんねぇなぁ、こんな鉄くずの相手ばかりしてないで、前みてぇに山に狩りにでもいきてぇなぁとばかり思ってはいたけど……。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "\\>【キン】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "ずっとこうやって付き合ってみると、鉄くずにも表情があるってのがちょっとずつわかってきてね。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "今じゃなかなか楽しいもんよ。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 411,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "\\>【キン】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "あんたらハルナの祠に向かったはずじゃなかったっけ……。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "嫌ならやめたっていいんだ。もともと村の問題なんだ。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "他所からきたあんたらが背負い込むことじゃないしさ……。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 402,
+              "@parameters": [
+                3,
+                "立ち去る"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 111,
+              "@parameters": [
+                4,
+                2,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "\\>【キン】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "むらおさにはなにかと世話になっててね。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "あんな人だけど悪く思わないでくれよ。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 404,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": true,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 22,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "5": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 5,
+      "@name": "EV005",
+      "@x": 4,
+      "@y": 4,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "Animal",
+            "@character_index": 3,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 1,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                "交換アイテムを持っている場合を想定して"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                "任意でアイテムを購入。利用回数は記憶しておく。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 302,
+              "@parameters": [
+                2,
+                335,
+                1,
+                1,
+                false
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 605,
+              "@parameters": [
+                2,
+                332,
+                1,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 605,
+              "@parameters": [
+                2,
+                359,
+                1,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 605,
+              "@parameters": [
+                2,
+                334,
+                1,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 605,
+              "@parameters": [
+                2,
+                333,
+                1,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 605,
+              "@parameters": [
+                2,
+                357,
+                1,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 605,
+              "@parameters": [
+                2,
+                358,
+                1,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 605,
+              "@parameters": [
+                0,
+                20,
+                1,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 605,
+              "@parameters": [
+                0,
+                112,
+                1,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 605,
+              "@parameters": [
+                0,
+                113,
+                1,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": true,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 22,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "6": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 6,
+      "@name": "EV006",
+      "@x": 3,
+      "@y": 4,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "Animal",
+            "@character_index": 3,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 1,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                "交換アイテムを持っている場合を想定して"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                "任意でアイテムを購入。利用回数は記憶しておく。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 302,
+              "@parameters": [
+                2,
+                332,
+                1,
+                1,
+                false
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 605,
+              "@parameters": [
+                2,
+                333,
+                1,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 605,
+              "@parameters": [
+                2,
+                334,
+                1,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 605,
+              "@parameters": [
+                2,
+                335,
+                1,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 605,
+              "@parameters": [
+                2,
+                357,
+                1,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 605,
+              "@parameters": [
+                2,
+                358,
+                1,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 605,
+              "@parameters": [
+                2,
+                359,
+                1,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": true,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 22,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "7": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 7,
+      "@name": "EV007",
+      "@x": 2,
+      "@y": 4,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "Animal",
+            "@character_index": 3,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 1,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                "交換アイテムを持っている場合を想定して"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                "任意でアイテムを購入。利用回数は記憶しておく。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 302,
+              "@parameters": [
+                2,
+                378,
+                1,
+                9999,
+                false
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 605,
+              "@parameters": [
+                2,
+                379,
+                1,
+                9999
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 605,
+              "@parameters": [
+                2,
+                380,
+                1,
+                9999
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 605,
+              "@parameters": [
+                2,
+                335,
+                1,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 605,
+              "@parameters": [
+                2,
+                357,
+                1,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 605,
+              "@parameters": [
+                2,
+                358,
+                1,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 605,
+              "@parameters": [
+                2,
+                359,
+                1,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": true,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 22,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "8": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 8,
+      "@name": "EV008",
+      "@x": 6,
+      "@y": 8,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "Monster2",
+            "@character_index": 2,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 301,
+              "@parameters": [
+                0,
+                337,
+                false,
+                false
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": true,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 22,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "9": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 9,
+      "@name": "EV009",
+      "@x": 6,
+      "@y": 9,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "Monster2",
+            "@character_index": 2,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 301,
+              "@parameters": [
+                0,
+                338,
+                false,
+                false
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": true,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 22,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "10": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 10,
+      "@name": "+物々交換",
+      "@x": 1,
+      "@y": 3,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "Monster3",
+            "@character_index": 4,
+            "@direction": 8,
+            "@pattern": 1
+          },
+          "@move_type": 3,
+          "@move_speed": 3,
+          "@move_frequency": 5,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": false,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 45,
+                "@parameters": [
+                  "mapobject.scale(1.5)"
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 45,
+                "@parameters": [
+                  "mapobject.tone(-96, -96,-96)"
+                ]
+              },
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": true,
+          "@through": false,
+          "@priority_type": 1,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 3,
+      "@name": "+移動",
+      "@x": 5,
+      "@y": 6,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "!Hexagram",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 1
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                35,
+                13,
+                10,
+                0,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "@parallax_sx": 0,
+  "@bgm": {
+    "rgss3_klass": "RPG::BGM",
+    "@name": "Dungeon3",
+    "@volume": 100,
+    "@pitch": 95
+  },
+  "@tileset_id": 3,
+  "@encounter_step": 30,
+  "@width": 23,
+  "@data": {
+    "rgss3_klass": "Table",
+    "@dimension": 3,
+    "@xsize": 23,
+    "@ysize": 18,
+    "@zsize": 4,
+    "@num_elements": 1656,
+    "@elements": [
+      [
+        [
+          6884,
+          2376,
+          2364,
+          2364,
+          2374,
+          6882,
+          6869,
+          6877,
+          6876,
+          6876,
+          6873,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          6886,
+          3290,
+          1631,
+          6891,
+          6881,
+          6877,
+          6886,
+          8050,
+          8050,
+          8050,
+          6880,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          8054,
+          3265,
+          3284,
+          8051,
+          8050,
+          8050,
+          8054,
+          8056,
+          8056,
+          8056,
+          6880,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          8060,
+          3264,
+          3272,
+          8057,
+          8056,
+          8056,
+          8060,
+          3282,
+          3268,
+          3284,
+          6880,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          3268,
+          3249,
+          3250,
+          3268,
+          3268,
+          3268,
+          3268,
+          3249,
+          3248,
+          3272,
+          6880,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          3252,
+          3276,
+          3276,
+          3256,
+          3248,
+          3248,
+          3248,
+          3248,
+          3248,
+          3272,
+          6880,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          3272,
+          2658,
+          2660,
+          3264,
+          3248,
+          3248,
+          3248,
+          3248,
+          3248,
+          3272,
+          6892,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          3272,
+          2640,
+          2648,
+          3264,
+          3252,
+          3276,
+          3256,
+          3248,
+          3248,
+          3272,
+          8055,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          3272,
+          2640,
+          2648,
+          3264,
+          3272,
+          1631,
+          3264,
+          3248,
+          3248,
+          3272,
+          8061,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          3286,
+          2640,
+          2648,
+          3288,
+          3278,
+          3270,
+          3249,
+          3248,
+          3248,
+          3250,
+          3284,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2657,
+          2653,
+          2654,
+          2657,
+          2669,
+          3288,
+          3276,
+          3276,
+          3276,
+          3276,
+          3286,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3150,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          444,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          444,
+          0,
+          0,
+          444,
+          0,
+          0,
+          444,
+          0,
+          0,
+          454,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          454,
+          0,
+          0,
+          454,
+          0,
+          0,
+          454,
+          0,
+          0,
+          460,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          462,
+          0,
+          0,
+          460,
+          0,
+          0,
+          462,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          494,
+          0,
+          0,
+          495,
+          0,
+          0,
+          0,
+          221,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          502,
+          0,
+          0,
+          503,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          444,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          510,
+          0,
+          0,
+          511,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          454,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          221,
+          0,
+          0,
+          460,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "@bgs": {
+    "rgss3_klass": "RPG::BGS",
+    "@name": "",
+    "@volume": 80,
+    "@pitch": 100
+  },
+  "@parallax_loop_y": false,
+  "@autoplay_bgm": false,
+  "@encounter_list": [
+
+  ],
+  "@autoplay_bgs": false,
+  "@parallax_show": false,
+  "@scroll_type": 0,
+  "@parallax_loop_x": false,
+  "@disable_dashing": false,
+  "@parallax_sy": 0,
+  "@display_name": "",
+  "@specify_battleback": false,
+  "@note": "",
+  "@battleback1_name": "Ruins2",
+  "@battleback2_name": "Temple"
+}

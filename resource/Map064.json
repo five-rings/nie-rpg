@@ -1,0 +1,6276 @@
+{
+  "rgss3_klass": "RPG::Map",
+  "@parallax_name": "",
+  "@height": 15,
+  "@events": {
+    "1": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 1,
+      "@name": "+火",
+      "@x": 13,
+      "@y": 5,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "!Flame",
+            "@character_index": 3,
+            "@direction": 4,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": true,
+          "@direction_fix": true,
+          "@through": false,
+          "@priority_type": 1,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                ":hearth-1:0:暖炉の火は赤々と燃えている。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "2": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 2,
+      "@name": "+槍",
+      "@x": 6,
+      "@y": 5,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 431,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 3,
+      "@name": "#外へ",
+      "@x": 10,
+      "@y": 12,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 1,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 250,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::SE",
+                  "@name": "Open5",
+                  "@pitch": 75,
+                  "@volume": 70
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                42,
+                12,
+                7,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "4": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 4,
+      "@name": "女船乗り",
+      "@x": 8,
+      "@y": 7,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "People8",
+            "@character_index": 1,
+            "@direction": 4,
+            "@pattern": 1
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": true,
+          "@through": false,
+          "@priority_type": 1,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 108,
+              "@parameters": [
+                "*talk!"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                ":boatwoman-1:0:\\>【船乗り】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                "まったく。もう何日、舟を出してないと思ってるんだ。\\!"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                "一緒に舟に乗ってやろうっていう、根性のあるやつはいないのかね。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 213,
+              "@parameters": [
+                0,
+                7,
+                false
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": true,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 221,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "5": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 5,
+      "@name": "アザレア行き",
+      "@x": 12,
+      "@y": 7,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "People3",
+            "@character_index": 3,
+            "@direction": 2,
+            "@pattern": 1
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 1,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 108,
+              "@parameters": [
+                "*warp"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 122,
+              "@parameters": [
+                5,
+                5,
+                0,
+                0,
+                50
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 111,
+              "@parameters": [
+                0,
+                221,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                ":azalean-1:0:\\>【受付員】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                "人が減って寂しい感じがします……。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                "アザレアまでの船なら\\{[2]\\I[$]\\}[2]\\V[5]\\Gですよ。\\$"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 411,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                ":azalean-1:1:\\>【受付員】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                "アザレアまでなら、河を下る荷船に同乗できますよ。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                "料金は\\{[2]\\I[$]\\}[2]\\V[5]\\Gをいただきます。\\$"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 102,
+              "@parameters": [
+                [
+                  ":azalean-1-azalea:アザレアへ行く",
+                  ":azalean-1-leave:やめておく"
+                ],
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 402,
+              "@parameters": [
+                0,
+                ":azalean-1-azalea:アザレアへ行く"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 122,
+              "@parameters": [
+                6,
+                6,
+                0,
+                3,
+                7,
+                2,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 111,
+              "@parameters": [
+                1,
+                6,
+                1,
+                5,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 125,
+              "@parameters": [
+                1,
+                1,
+                5
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 201,
+              "@parameters": [
+                0,
+                31,
+                47,
+                14,
+                6,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 205,
+              "@parameters": [
+                -1,
+                {
+                  "rgss3_klass": "RPG::MoveRoute",
+                  "@repeat": false,
+                  "@skippable": false,
+                  "@wait": true,
+                  "@list": [
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 37,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 3,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 3,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 4,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 18,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 15,
+                      "@parameters": [
+                        15
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 38,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 0,
+                      "@parameters": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 37,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 3,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 3,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 4,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 18,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 15,
+                  "@parameters": [
+                    15
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 38,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 201,
+              "@parameters": [
+                0,
+                32,
+                5,
+                22,
+                4,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 411,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                ":azalean-1:2:\\>【受付員】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "うーむ。お金が足らないようですね。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "申し訳ありませんが、私の一存では運賃を下げたりはできませんので……。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 402,
+              "@parameters": [
+                1,
+                ":azalean-1-leave:やめておく"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 404,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "6": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 6,
+      "@name": "商人",
+      "@x": 13,
+      "@y": 8,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "People2",
+            "@character_index": 3,
+            "@direction": 4,
+            "@pattern": 1
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 1,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 108,
+              "@parameters": [
+                "*talk!"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                ":merchant-1:0:\\>【商人】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                "弱りました。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                "テナンの町へ行きたいのですが、舟が出ないのです。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                ":merchant-1:1:\\>【商人】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                "こんな霧の日には出るんだそうです。\\!"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                "化け物ですよ。\\!"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                "河を渡る舟を襲って、水底に沈めるんだそうです。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": true,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 221,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "7": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 7,
+      "@name": "村人",
+      "@x": 8,
+      "@y": 6,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "People2",
+            "@character_index": 4,
+            "@direction": 2,
+            "@pattern": 1
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 1,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 108,
+              "@parameters": [
+                "*find,n"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 111,
+              "@parameters": [
+                2,
+                "B",
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                ":jubesian-1:0:\\>【ユベスの村人】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                "舟を出すから、護衛についてこいと言うのです。\\!"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                "化け物に襲われたら戦えって。エルクの民じゃあるまいし、そんな無謀なこと、できません。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 411,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                ":jubesian-1:1:\\>【ユベスの村人】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                "舟を出すから、護衛についてこいと言うのです。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                "しかしあのエルクのガド殿がご一緒というなら、化け物が出ようと安心ですな。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 102,
+              "@parameters": [
+                [
+                  ":jubesian-1-monster:「化け物について」",
+                  ":jubesian-1-erlc:「エルクの民について」",
+                  ":jubesian-1-show:持ち物を見せる",
+                  ":jubesian-1-leave:立ち去る"
+                ],
+                4
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 402,
+              "@parameters": [
+                0,
+                ":jubesian-1-monster:「化け物について」"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                ":jubesian-1_monster:0:\\>【ユベスの村人】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                "化け物が出るというのは本当です。過去に何人も襲われているのです。こんな霧の日に舟を出して、生きて帰った者は一人もいません。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 101,
+              "@parameters": [
+                "Spiritual",
+                4,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                ":jubesian-1_monster:1:\\>【リル】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                "生きて帰った人がいないのに、どうして化け物だってわかるの……？"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                ":jubesian-1_monster:2:\\>【ユベスの村人】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                "舟が辿りつくのです。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                "人のものとは思えない力で潰され引き裂かれた残骸を実際に見れば、一目で信じてもらえるはずです。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 402,
+              "@parameters": [
+                1,
+                ":jubesian-1-erlc:「エルクの民について」"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                ":jubesian-1_erlc:0:\\>【ユベスの村人】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                "テナンの人たちからすれば、ユベスの村人もエルクの村人も同じようなものなのでしょうが、我々から言わせると心外です。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                ":jubesian-1_erlc:1:\\>【ユベスの村人】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                "「わぁ、ユベスの人ですか。素手で大木をへし折るんでしょう」などと言われても、できるはずがない。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 101,
+              "@parameters": [
+                "Spiritual",
+                4,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                ":jubesian-1_erlc:2:\\>【リル】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                "ヌマならやりそう。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 101,
+              "@parameters": [
+                "Actor5",
+                1,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                ":jubesian-1_erlc:3:\\>【ニエ】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                "さすがにできないと思いますが……。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                ":jubesian-1_erlc:4:\\>【ユベスの村人】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 401,
+              "@parameters": [
+                "エルクの豪傑でもいれば話は別ですがね。我々に化け物退治をしろだなんて言われたってとても無理ですよ。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 123,
+              "@parameters": [
+                "A",
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 111,
+              "@parameters": [
+                0,
+                381,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 121,
+              "@parameters": [
+                381,
+                381,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 122,
+              "@parameters": [
+                100,
+                100,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 402,
+              "@parameters": [
+                2,
+                ":jubesian-1-show:持ち物を見せる"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 111,
+              "@parameters": [
+                2,
+                "B",
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 104,
+              "@parameters": [
+                5
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 122,
+              "@parameters": [
+                7,
+                7,
+                0,
+                4,
+                "variable(5).name"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 122,
+              "@parameters": [
+                6,
+                6,
+                0,
+                4,
+                "database.items[2]"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 111,
+              "@parameters": [
+                1,
+                5,
+                1,
+                6,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 122,
+              "@parameters": [
+                5,
+                6,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 401,
+              "@parameters": [
+                ":jubesian-1_show:0:"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 401,
+              "@parameters": [
+                "　\\C[18]\\V[7]\\C[0]を見せた。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 230,
+              "@parameters": [
+                10
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 213,
+              "@parameters": [
+                0,
+                1,
+                true
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 230,
+              "@parameters": [
+                30
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 108,
+              "@parameters": [
+                ":autosave"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 111,
+              "@parameters": [
+                0,
+                381,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 121,
+              "@parameters": [
+                381,
+                381,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 122,
+              "@parameters": [
+                100,
+                100,
+                1,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 401,
+              "@parameters": [
+                ":jubesian-1_show:1:\\>【ユベスの村人】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 401,
+              "@parameters": [
+                "こ、これは……まさか、あなたがあのエルクのガド殿……！\\!"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 401,
+              "@parameters": [
+                "まさかこんなところでお目にかかるとは……。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 401,
+              "@parameters": [
+                "お、お会いできて光栄です！"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 101,
+              "@parameters": [
+                "Spiritual",
+                4,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 401,
+              "@parameters": [
+                ":jubesian-1_show:2:\\>【リル】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 401,
+              "@parameters": [
+                "ガドってそんなにすごい人だったの……？"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 101,
+              "@parameters": [
+                "Actor5",
+                1,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 401,
+              "@parameters": [
+                ":jubesian-1_show:3:\\>【ニエ】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 401,
+              "@parameters": [
+                "エルクの誇り高き勇者です。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 401,
+              "@parameters": [
+                ":jubesian-1_show:4:\\>【ユベスの村人】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 401,
+              "@parameters": [
+                "ガド殿がご一緒とあらば百人力、化け物だろうとなんだろうと恐れるものはありません。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 401,
+              "@parameters": [
+                "早速、舟を出させましょう。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 102,
+              "@parameters": [
+                [
+                  ":jubesian-1_show-prepare:準備をしてから",
+                  ":jubesian-1_show-board:舟に乗る"
+                ],
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 402,
+              "@parameters": [
+                0,
+                ":jubesian-1_show-prepare:準備をしてから"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 401,
+              "@parameters": [
+                ":jubesian-1_show:5:\\>【ユベスの村人】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 401,
+              "@parameters": [
+                "なるほど……たしかに準備は大切ですな。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 401,
+              "@parameters": [
+                "舟を出すのは準備が整い次第ということにいたしましょう。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 123,
+              "@parameters": [
+                "B",
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 115,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 402,
+              "@parameters": [
+                1,
+                ":jubesian-1_show-board:舟に乗る"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 119,
+              "@parameters": [
+                "quest"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 404,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 411,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 122,
+              "@parameters": [
+                5,
+                6,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 111,
+              "@parameters": [
+                1,
+                7,
+                0,
+                0,
+                5
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 401,
+              "@parameters": [
+                ":jubesian-1_wrong:0:"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 401,
+              "@parameters": [
+                "　\\C[18]\\V[7]\\C[0]を見せた。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 4,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 230,
+              "@parameters": [
+                10
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 213,
+              "@parameters": [
+                0,
+                2,
+                true
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 401,
+              "@parameters": [
+                ":jubesian-1_wrong:1:\\>【ユベスの村人】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 401,
+              "@parameters": [
+                "すみませんが、なんのことかよくわかりませんな。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 122,
+              "@parameters": [
+                7,
+                7,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 411,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 213,
+              "@parameters": [
+                0,
+                1,
+                true
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 108,
+              "@parameters": [
+                ":autosave"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                ":jubesian-1_again:0:\\>【ユベスの村人】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "おお、準備はお済みですか。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "ガド殿がご一緒とあらば百人力、怖いものなどありません。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "早速、舟を出させましょう。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 102,
+              "@parameters": [
+                [
+                  ":jubesian-1_again-prepare:準備をしてから",
+                  ":jubesian-1_again-board:舟に乗る"
+                ],
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 402,
+              "@parameters": [
+                0,
+                ":jubesian-1_again-prepare:準備をしてから"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 401,
+              "@parameters": [
+                ":jubesian-1_again:1:\\>【ユベスの村人】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 401,
+              "@parameters": [
+                "なるほど……もう少し時間がかかりそうですか。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 401,
+              "@parameters": [
+                "舟を出すのは準備が整い次第ということにいたしましょう。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 115,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 402,
+              "@parameters": [
+                1,
+                ":jubesian-1_again-board:舟に乗る"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 119,
+              "@parameters": [
+                "quest"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 3,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 404,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 402,
+              "@parameters": [
+                3,
+                ":jubesian-1-leave:立ち去る"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 404,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 115,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 118,
+              "@parameters": [
+                "quest"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 134,
+              "@parameters": [
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                ":jubesian-1_quest:0:\\>【ユベスの村人】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                "船頭にもこれで安心だと言っておきましょう。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                "どうぞご無事で……！"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 230,
+              "@parameters": [
+                30
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 205,
+              "@parameters": [
+                0,
+                {
+                  "rgss3_klass": "RPG::MoveRoute",
+                  "@repeat": false,
+                  "@skippable": false,
+                  "@wait": true,
+                  "@list": [
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 16,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 0,
+                      "@parameters": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 16,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 230,
+              "@parameters": [
+                30
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 213,
+              "@parameters": [
+                0,
+                8,
+                false
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 205,
+              "@parameters": [
+                4,
+                {
+                  "rgss3_klass": "RPG::MoveRoute",
+                  "@repeat": false,
+                  "@skippable": false,
+                  "@wait": true,
+                  "@list": [
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 36,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 15,
+                      "@parameters": [
+                        15
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 19,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 35,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 0,
+                      "@parameters": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 36,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 15,
+                  "@parameters": [
+                    15
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 19,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 35,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 230,
+              "@parameters": [
+                60
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 221,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 230,
+              "@parameters": [
+                30
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 216,
+              "@parameters": [
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                42,
+                6,
+                6,
+                4,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 222,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 230,
+              "@parameters": [
+                10
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 205,
+              "@parameters": [
+                -1,
+                {
+                  "rgss3_klass": "RPG::MoveRoute",
+                  "@repeat": false,
+                  "@skippable": false,
+                  "@wait": true,
+                  "@list": [
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 37,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 29,
+                      "@parameters": [
+                        3
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 2,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 41,
+                      "@parameters": [
+                        "Vehicle",
+                        0
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 16,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 0,
+                      "@parameters": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 37,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 29,
+                  "@parameters": [
+                    3
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 2,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 41,
+                  "@parameters": [
+                    "Vehicle",
+                    0
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 16,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 121,
+              "@parameters": [
+                181,
+                181,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 230,
+              "@parameters": [
+                30
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 205,
+              "@parameters": [
+                -1,
+                {
+                  "rgss3_klass": "RPG::MoveRoute",
+                  "@repeat": false,
+                  "@skippable": false,
+                  "@wait": true,
+                  "@list": [
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 15,
+                      "@parameters": [
+                        60
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 29,
+                      "@parameters": [
+                        2
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 1,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 29,
+                      "@parameters": [
+                        3
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 2,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 2,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 2,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 2,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 2,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 0,
+                      "@parameters": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 15,
+                  "@parameters": [
+                    60
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 29,
+                  "@parameters": [
+                    2
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 1,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 29,
+                  "@parameters": [
+                    3
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 2,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 2,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 2,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 2,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 2,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                65,
+                16,
+                7,
+                4,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 205,
+              "@parameters": [
+                -1,
+                {
+                  "rgss3_klass": "RPG::MoveRoute",
+                  "@repeat": false,
+                  "@skippable": false,
+                  "@wait": true,
+                  "@list": [
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 2,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 2,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 2,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 2,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 2,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 2,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 29,
+                      "@parameters": [
+                        2
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 2,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 0,
+                      "@parameters": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 2,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 2,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 2,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 2,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 2,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 2,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 29,
+                  "@parameters": [
+                    2
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 2,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 213,
+              "@parameters": [
+                -1,
+                1,
+                true
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 132,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::BGM",
+                  "@name": "Battle5",
+                  "@volume": 90,
+                  "@pitch": 100
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 301,
+              "@parameters": [
+                0,
+                274,
+                false,
+                false
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 132,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::BGM",
+                  "@name": "",
+                  "@volume": 90,
+                  "@pitch": 95
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 134,
+              "@parameters": [
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 108,
+              "@parameters": [
+                ":episode=defeat_jageila"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 230,
+              "@parameters": [
+                60
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 224,
+              "@parameters": [
+                {
+                  "rgss3_klass": "Color",
+                  "@red": 255.0,
+                  "@green": 255.0,
+                  "@blue": 255.0,
+                  "@alpha": 255.0
+                },
+                120,
+                false
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 230,
+              "@parameters": [
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 355,
+              "@parameters": [
+                "map_manager.gimmick_unit."
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 655,
+              "@parameters": [
+                "add_gimmick(:additional, nil)"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 230,
+              "@parameters": [
+                120
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 230,
+              "@parameters": [
+                60
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 205,
+              "@parameters": [
+                -1,
+                {
+                  "rgss3_klass": "RPG::MoveRoute",
+                  "@repeat": false,
+                  "@skippable": false,
+                  "@wait": true,
+                  "@list": [
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 2,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 29,
+                      "@parameters": [
+                        3
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 2,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 2,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 2,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 2,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 2,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 2,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 0,
+                      "@parameters": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 2,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 29,
+                  "@parameters": [
+                    3
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 2,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 2,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 2,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 2,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 2,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 2,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 201,
+              "@parameters": [
+                0,
+                23,
+                17,
+                6,
+                4,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 205,
+              "@parameters": [
+                -1,
+                {
+                  "rgss3_klass": "RPG::MoveRoute",
+                  "@repeat": false,
+                  "@skippable": false,
+                  "@wait": true,
+                  "@list": [
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 2,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 2,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 2,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 29,
+                      "@parameters": [
+                        2
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 2,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 19,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 35,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 1,
+                      "@parameters": [
+
+                      ]
+                    },
+                    {
+                      "rgss3_klass": "RPG::MoveCommand",
+                      "@code": 0,
+                      "@parameters": [
+
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 2,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 2,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 2,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 29,
+                  "@parameters": [
+                    2
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 2,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 19,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 35,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 505,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::MoveCommand",
+                  "@code": 1,
+                  "@parameters": [
+
+                  ]
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 121,
+              "@parameters": [
+                181,
+                181,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 230,
+              "@parameters": [
+                30
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 121,
+              "@parameters": [
+                222,
+                222,
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 115,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": true,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 221,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": false,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "8": {
+      "rgss3_klass": "RPG::Event",
+      "@id": 8,
+      "@name": "武人スキル",
+      "@x": 7,
+      "@y": 8,
+      "@pages": [
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": true,
+            "@switch2_valid": false,
+            "@variable_valid": false,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 221,
+            "@switch2_id": 1,
+            "@variable_id": 1,
+            "@variable_value": 0,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "People4",
+            "@character_index": 6,
+            "@direction": 8,
+            "@pattern": 1
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 1,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 108,
+              "@parameters": [
+                "*skill,n"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                ":knight-1:0:\\>【騎士】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                "私は国々を渡り歩く遍歴の騎士……。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                "お見受けしたところ貴殿も剣を使うようだが、剣を振るうだけが剣技ではないことをご存じかな。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                ":knight-1:1:\\>【騎士】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                "私が遍歴修行をする中で身に付けた、剣を振るわぬ剣士の技を、貴殿に伝授いたそう。ただし幾ばくかの礼物は頂戴するが……。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 243,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 241,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::BGM",
+                  "@name": "Town3",
+                  "@volume": 75,
+                  "@pitch": 95
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 108,
+              "@parameters": [
+                ":shop_mode=skill"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 302,
+              "@parameters": [
+                1,
+                77,
+                1,
+                1,
+                true
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 605,
+              "@parameters": [
+                1,
+                78,
+                1,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 108,
+              "@parameters": [
+                ":shop_mode"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 244,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 111,
+              "@parameters": [
+                9,
+                77,
+                false
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 111,
+              "@parameters": [
+                4,
+                1,
+                3,
+                103
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 411,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 213,
+              "@parameters": [
+                0,
+                8,
+                true
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 122,
+              "@parameters": [
+                5,
+                5,
+                0,
+                0,
+                77
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                ":knight-1_desperation:0:\\>【騎士】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "剣を握る者には覚悟が必要だ。時に守るべき人のためすべてを投げ出さなければならない。そのための捨て身の技をお教えしよう。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                ":knight-1_desperation:1:\\>【騎士】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "己の限界を超えた力は強大だが、それらは自らに跳ね返ってくる。みだりに使うことはお勧めしないが、いざというときのために身に付けておくといい。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 230,
+              "@parameters": [
+                60
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 318,
+              "@parameters": [
+                0,
+                1,
+                0,
+                103
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 249,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::ME",
+                  "@name": "Victory1",
+                  "@pitch": 100,
+                  "@volume": 100
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                ":knight-1_desperation:2:"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "　\\C[18]\\w[\\V[5]]\\C[0]を習得した。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 111,
+              "@parameters": [
+                9,
+                78,
+                false
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 111,
+              "@parameters": [
+                4,
+                1,
+                3,
+                104
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 411,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 213,
+              "@parameters": [
+                0,
+                8,
+                true
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 122,
+              "@parameters": [
+                5,
+                5,
+                0,
+                0,
+                78
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                ":knight-1_protection:0:\\>【騎士】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "騎士が剣を握るのは大切な者を守るためだ。しかし誰かを守るに必ずしも剣を振るう必要はない。そのことを私は異国での修行で学んだ。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                ":knight-1_protection:1:\\>【騎士】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "剣気を身にまとわせることで、斬撃・刺突・打撃を受け止め、火・水・風・地・氷・雷・霊のエネルギーを逸らすことができる。自分の中の力の流れを意識するのだ。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 230,
+              "@parameters": [
+                60
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 318,
+              "@parameters": [
+                0,
+                1,
+                0,
+                104
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 249,
+              "@parameters": [
+                {
+                  "rgss3_klass": "RPG::ME",
+                  "@name": "Victory1",
+                  "@pitch": 100,
+                  "@volume": 100
+                }
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                ":knight-1_protection:2:"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 401,
+              "@parameters": [
+                "　\\C[18]\\w[\\V[5]]\\C[0]を習得した。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 111,
+              "@parameters": [
+                4,
+                1,
+                3,
+                103
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 111,
+              "@parameters": [
+                4,
+                1,
+                3,
+                104
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 123,
+              "@parameters": [
+                "A",
+                0
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 122,
+              "@parameters": [
+                199,
+                199,
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 2,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 1,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 412,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 115,
+              "@parameters": [
+
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": true,
+            "@self_switch_valid": false,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 1,
+            "@switch2_id": 1,
+            "@variable_id": 199,
+            "@variable_value": 1,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "",
+            "@character_index": 0,
+            "@direction": 2,
+            "@pattern": 0
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 0,
+          "@trigger": 2,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "rgss3_klass": "RPG::Event::Page",
+          "@condition": {
+            "rgss3_klass": "RPG::Event::Page::Condition",
+            "@switch1_valid": false,
+            "@switch2_valid": false,
+            "@variable_valid": true,
+            "@self_switch_valid": true,
+            "@item_valid": false,
+            "@actor_valid": false,
+            "@switch1_id": 221,
+            "@switch2_id": 1,
+            "@variable_id": 199,
+            "@variable_value": 1,
+            "@self_switch_ch": "A",
+            "@item_id": 1,
+            "@actor_id": 1
+          },
+          "@graphic": {
+            "rgss3_klass": "RPG::Event::Page::Graphic",
+            "@tile_id": 0,
+            "@character_name": "People4",
+            "@character_index": 6,
+            "@direction": 8,
+            "@pattern": 1
+          },
+          "@move_type": 0,
+          "@move_speed": 3,
+          "@move_frequency": 3,
+          "@move_route": {
+            "rgss3_klass": "RPG::MoveRoute",
+            "@repeat": true,
+            "@skippable": false,
+            "@wait": false,
+            "@list": [
+              {
+                "rgss3_klass": "RPG::MoveCommand",
+                "@code": 0,
+                "@parameters": [
+
+                ]
+              }
+            ]
+          },
+          "@walk_anime": true,
+          "@step_anime": false,
+          "@direction_fix": false,
+          "@through": false,
+          "@priority_type": 1,
+          "@trigger": 0,
+          "@list": [
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 108,
+              "@parameters": [
+                "*talk!"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 101,
+              "@parameters": [
+                "",
+                0,
+                0,
+                2
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                ":knight-3:0:\\>【騎士】"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                "私の技は遥か東方に旅をしたときに身に付けたものだ。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                "文化が違えば戦いの捉え方も変わる。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 401,
+              "@parameters": [
+                "己の視野を拓くことが技そのものよりも大切なのではないかな。"
+              ]
+            },
+            {
+              "rgss3_klass": "RPG::EventCommand",
+              "@indent": 0,
+              "@code": 0,
+              "@parameters": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "@parallax_sx": 0,
+  "@bgm": {
+    "rgss3_klass": "RPG::BGM",
+    "@name": "",
+    "@volume": 100,
+    "@pitch": 100
+  },
+  "@tileset_id": 3,
+  "@encounter_step": 30,
+  "@width": 20,
+  "@data": {
+    "rgss3_klass": "Table",
+    "@dimension": 3,
+    "@xsize": 20,
+    "@ysize": 15,
+    "@zsize": 4,
+    "@num_elements": 1200,
+    "@elements": [
+      [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6739,
+          6737,
+          6737,
+          6737,
+          6737,
+          6737,
+          6737,
+          6737,
+          6749,
+          6075,
+          6065,
+          6077,
+          6747,
+          6741,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6736,
+          7090,
+          7090,
+          7090,
+          7090,
+          7090,
+          7090,
+          7090,
+          7094,
+          6418,
+          6418,
+          6422,
+          1563,
+          6736,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6736,
+          7096,
+          7096,
+          7096,
+          7096,
+          7096,
+          7096,
+          7096,
+          7100,
+          1566,
+          6424,
+          6428,
+          1563,
+          6736,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6736,
+          3234,
+          3220,
+          3220,
+          3220,
+          3220,
+          3220,
+          3220,
+          3220,
+          3220,
+          3220,
+          3220,
+          3236,
+          6736,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6736,
+          3216,
+          3200,
+          3200,
+          3200,
+          3200,
+          3200,
+          3200,
+          3200,
+          3200,
+          3200,
+          3200,
+          3224,
+          6736,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6736,
+          3216,
+          3200,
+          3200,
+          3200,
+          3200,
+          3200,
+          3200,
+          3200,
+          3200,
+          3200,
+          3200,
+          3224,
+          6736,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6736,
+          3240,
+          3228,
+          3228,
+          3228,
+          3228,
+          3228,
+          3212,
+          3228,
+          3228,
+          3228,
+          3228,
+          3238,
+          6736,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6745,
+          6737,
+          6737,
+          6737,
+          6737,
+          6737,
+          6749,
+          3232,
+          6747,
+          6737,
+          6737,
+          6737,
+          6737,
+          6743,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          7091,
+          7090,
+          7090,
+          7090,
+          7090,
+          7090,
+          7094,
+          3232,
+          7091,
+          7090,
+          7090,
+          7090,
+          7090,
+          7094,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          7097,
+          7096,
+          7096,
+          7096,
+          7096,
+          7096,
+          7100,
+          3244,
+          7097,
+          7096,
+          7096,
+          7096,
+          7096,
+          7100,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          393,
+          393,
+          16,
+          379,
+          0,
+          16,
+          0,
+          0,
+          0,
+          132,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          226,
+          227,
+          24,
+          0,
+          0,
+          24,
+          0,
+          0,
+          0,
+          140,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          234,
+          235,
+          439,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          216,
+          200,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          248,
+          249,
+          0,
+          96,
+          104,
+          0,
+          0,
+          0,
+          104,
+          0,
+          0,
+          200,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          243,
+          0,
+          0,
+          104,
+          0,
+          0,
+          0,
+          104,
+          96,
+          0,
+          0,
+          201,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          243,
+          243,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          201,
+          201,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  "@bgs": {
+    "rgss3_klass": "RPG::BGS",
+    "@name": "Fire",
+    "@volume": 70,
+    "@pitch": 70
+  },
+  "@parallax_loop_y": false,
+  "@autoplay_bgm": false,
+  "@encounter_list": [
+
+  ],
+  "@autoplay_bgs": true,
+  "@parallax_show": false,
+  "@scroll_type": 0,
+  "@parallax_loop_x": false,
+  "@disable_dashing": false,
+  "@parallax_sy": 0,
+  "@display_name": "渡河場-室内",
+  "@specify_battleback": false,
+  "@note": ":volume=0.5",
+  "@battleback1_name": "",
+  "@battleback2_name": ""
+}

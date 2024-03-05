@@ -1,0 +1,7849 @@
+[
+  null,
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "ぼろぼろに破れた小さな冊子。",
+    "@name": "追思帳",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 229,
+    "@price": 0,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "捨てるとタイトル画面に戻る。",
+    "@speed": 0,
+    "@id": 1,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "エルクの村で最も勇敢な者に代々受け継がれてきたもの。",
+    "@name": "勇者の証",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 245,
+    "@price": 50,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "エルクの村で勇者ガドから受け取る。\r\nツルグ河渡河イベントなどで使用。",
+    "@speed": 0,
+    "@id": 2,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【帰還】最後に訪れた妖精の集いへと戻ることができる。\\C[0]",
+    "@name": "妖精の道標",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 202,
+    "@price": 50,
+    "@scope": 11,
+    "@animation_id": 0,
+    "@note": ":menu_target=all\r\n:sort=0.70\r\n",
+    "@speed": 0,
+    "@id": 3,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 6,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【エンカウント半減】\\C[0]\r\n竜の首の下にある香嚢から分泌される液体が原料だという香水。",
+    "@name": "竜香",
+    "@consumable": true,
+    "@occasion": 2,
+    "@icon_index": 221,
+    "@price": 220,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 4,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 21,
+        "@data_id": 30,
+        "@value1": 1.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "イニア街道の通行料を支払ったことを証明する書類。",
+    "@name": "通行証",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 236,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 5,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "痛んでぼろぼろになった冒険者の証。",
+    "@name": "冒険者の証",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 338,
+    "@price": 0,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "テナンで拾う。\r\nアザレアの隠し酒場に入るのに必要。",
+    "@speed": 0,
+    "@id": 6,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "アザレアの連絡船に乗るために必要なチケット。",
+    "@name": "乗船券",
+    "@consumable": true,
+    "@occasion": 3,
+    "@icon_index": 239,
+    "@price": 0,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 7,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【帰還】女神リリアにゆかりのある場所に帰還できる。\\C[0]",
+    "@name": "女神の導き",
+    "@consumable": false,
+    "@occasion": 2,
+    "@icon_index": 347,
+    "@price": 0,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 8,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 5,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【エンカウント】\\C[0]\r\n特殊な音色で近くの敵をおびき寄せる角笛。",
+    "@name": "獣の呼び笛",
+    "@consumable": false,
+    "@occasion": 2,
+    "@icon_index": 252,
+    "@price": 120,
+    "@scope": 11,
+    "@animation_id": 0,
+    "@note": ":menu_target=all\r\n:sort=0.1\r\n:amount=1\r\n",
+    "@speed": 0,
+    "@id": 9,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 18,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【経験値】+10\\C[0]\r\nちょっとした機智の結晶化したもの。砕くと経験値を得ることができる。",
+    "@name": "小さなエスプリの欠片",
+    "@consumable": true,
+    "@occasion": 2,
+    "@icon_index": 347,
+    "@price": 10,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": ":exp=10\r\nexp15 gold15（森基準）",
+    "@speed": 0,
+    "@id": 10,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【経験値】+50\\C[0]\r\n結晶化した機智から薄く剥がれたもの。砕くと経験値を得ることができる。",
+    "@name": "エスプリの薄片",
+    "@consumable": true,
+    "@occasion": 2,
+    "@icon_index": 347,
+    "@price": 50,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": ":exp=50",
+    "@speed": 0,
+    "@id": 11,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【経験値】+100\\C[0]\r\n結晶化した機智から小さくこぼれ落ちたもの。砕くと経験値を得ることができる。",
+    "@name": "エスプリの小片",
+    "@consumable": true,
+    "@occasion": 2,
+    "@icon_index": 347,
+    "@price": 100,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": ":exp=100",
+    "@speed": 0,
+    "@id": 12,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【経験値】+500\\C[0]\r\n結晶化した機智から欠け落ちたもの。砕くと経験値を得ることができる。",
+    "@name": "エスプリの欠片",
+    "@consumable": true,
+    "@occasion": 2,
+    "@icon_index": 347,
+    "@price": 200,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": ":exp=500",
+    "@speed": 0,
+    "@id": 13,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【経験値】+1000\\C[0]\r\n遠い昔から残る機智の結晶、その砕けた一片。砕くと経験値を得ることができる。",
+    "@name": "古いエスプリの砕片",
+    "@consumable": true,
+    "@occasion": 2,
+    "@icon_index": 347,
+    "@price": 500,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": ":exp=1000",
+    "@speed": 0,
+    "@id": 14,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【経験値】+5000\\C[0]\r\n遠い昔から残る機智の結晶、その欠けた一片。砕くと経験値を得ることができる。",
+    "@name": "古いエスプリの欠片",
+    "@consumable": true,
+    "@occasion": 2,
+    "@icon_index": 347,
+    "@price": 1000,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": ":exp=5000",
+    "@speed": 0,
+    "@id": 15,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【経験値】+10000\\C[0]\r\n遠い昔から伝わる機智の凝ってできたもの。砕くと経験値を得ることができる。",
+    "@name": "古いエスプリの塊",
+    "@consumable": true,
+    "@occasion": 2,
+    "@icon_index": 347,
+    "@price": 2000,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": ":exp=10000",
+    "@speed": 0,
+    "@id": 16,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 17,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【売却】それなりの値で買い取ってもらえる。\\C[0]\r\n何に使うのかはわからないがとにかく綺麗な石。",
+    "@name": "綺麗な石",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 341,
+    "@price": 80,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "換金アイテム。\r\nクリア後に持ち越せる。\r\n200→80(仮)",
+    "@speed": 0,
+    "@id": 18,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【強化】女神の力で武器の性能を高める。\\C[0]\r\n不思議な力の閉じ込められた緑色の石。",
+    "@name": "精霊の琥珀",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 340,
+    "@price": 100,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": ":material",
+    "@speed": 0,
+    "@id": 19,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【強化】女神の力で武器の性能を高める。\\C[0]\r\n不思議な力が凝ってできた赤い石。",
+    "@name": "精霊の紅玉",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 358,
+    "@price": 100,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": ":material",
+    "@speed": 0,
+    "@id": 20,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【強化】女神の力で武器の性能を高める。\\C[0]\r\n不思議な力でできた透明の構造物。",
+    "@name": "精霊の水晶",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 345,
+    "@price": 1000,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": ":material",
+    "@speed": 0,
+    "@id": 21,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】\\C[0]\r\n古代に鋳造された金貨。何か特別な価値があるらしい。",
+    "@name": "イニウス貨",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 361,
+    "@price": 1000,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "アメニアと戦うのに使う。\r\nスキルの購入などにも使用する。",
+    "@speed": 0,
+    "@id": 22,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 23,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【力を授かる】\\C[0]\r\n古代スミネラの様式で作られた鏡。覗くと不思議な体験をする。",
+    "@name": "スミネラの鏡",
+    "@consumable": false,
+    "@occasion": 2,
+    "@icon_index": 282,
+    "@price": 100,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": ":amount=1",
+    "@speed": 0,
+    "@id": 24,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 34,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【捧げ物】\\C[0]\r\n女神に捧げると武器の一枠あたりの強化数が増える。",
+    "@name": "肥沃の恵み",
+    "@consumable": true,
+    "@occasion": 3,
+    "@icon_index": 303,
+    "@price": 2000,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": ":material",
+    "@speed": 0,
+    "@id": 25,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【捧げ物】\\C[0]\r\n女神に捧げると武器を強化する枠が増える。",
+    "@name": "豊穣の果実",
+    "@consumable": true,
+    "@occasion": 3,
+    "@icon_index": 296,
+    "@price": 10000,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": ":material",
+    "@speed": 0,
+    "@id": 26,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【捧げ物】\\C[0]\r\n女神に捧げると術式を装着する枠が増える。",
+    "@name": "旱天の下露",
+    "@consumable": true,
+    "@occasion": 3,
+    "@icon_index": 339,
+    "@price": 10000,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": ":material",
+    "@speed": 0,
+    "@id": 27,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 28,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 29,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "不思議な力を秘めた巻物。",
+    "@name": "不思議な巻物",
+    "@consumable": false,
+    "@occasion": 2,
+    "@icon_index": 232,
+    "@price": 2,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n偽者の不思議な巻物",
+    "@speed": 0,
+    "@id": 30,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 20,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "不思議な力を秘めた巻物。",
+    "@name": "不思議な巻物",
+    "@consumable": false,
+    "@occasion": 2,
+    "@icon_index": 232,
+    "@price": 2,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n偽者の不思議な巻物",
+    "@speed": 0,
+    "@id": 31,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 20,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "不思議な力を秘めた巻物。",
+    "@name": "不思議な巻物",
+    "@consumable": false,
+    "@occasion": 2,
+    "@icon_index": 232,
+    "@price": 2,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n偽者の不思議な巻物",
+    "@speed": 0,
+    "@id": 32,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 20,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "不思議な力を秘めた巻物。",
+    "@name": "不思議な巻物",
+    "@consumable": false,
+    "@occasion": 2,
+    "@icon_index": 232,
+    "@price": 2,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n偽者の不思議な巻物",
+    "@speed": 0,
+    "@id": 33,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 20,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 34,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "ガドの家で見つけた巻物。開けて中を読めば何かわかるだろうか。",
+    "@name": "ガドの巻物",
+    "@consumable": false,
+    "@occasion": 2,
+    "@icon_index": 232,
+    "@price": 5,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 35,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 19,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 36,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 37,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 38,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 39,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "贋作師ダロスから娘に届けるよう頼まれた手紙。",
+    "@name": "ダロスの封書",
+    "@consumable": false,
+    "@occasion": 2,
+    "@icon_index": 235,
+    "@price": 0,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": "贋作師イベントで託される。",
+    "@speed": 0,
+    "@id": 40,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 21,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "深い紫がかった色のついた濃い液体。なぜかチーズと呼ばれている。",
+    "@name": "あやしい液体",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 219,
+    "@price": 0,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "贋作師イベントで要求される。",
+    "@speed": 0,
+    "@id": 41,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "ツミナレの葉や根を煎じた汁の混ざった液体の入った瓶。摂取するとめまいが起きたり、見えないものが見えてしまったりする。",
+    "@name": "メテルの瓶",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 195,
+    "@price": 0,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "贋作師イベントで要求される。",
+    "@speed": 0,
+    "@id": 42,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "ダロスの家で見つけた娘の書き置き。",
+    "@name": "ミミの書き置き",
+    "@consumable": false,
+    "@occasion": 2,
+    "@icon_index": 235,
+    "@price": 0,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": "贋作師イベントで手に入れる。",
+    "@speed": 0,
+    "@id": 43,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 22,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "ミミから預かったダロスへ宛てられた手紙。",
+    "@name": "ミミの手紙",
+    "@consumable": false,
+    "@occasion": 2,
+    "@icon_index": 235,
+    "@price": 0,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": "贋作師イベントで託される。",
+    "@speed": 0,
+    "@id": 44,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 23,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "ダロスの家の貴重品箱を開けることができる。",
+    "@name": "ダロスの鍵",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 242,
+    "@price": 0,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "贋作師イベントで受け取る。",
+    "@speed": 0,
+    "@id": 45,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "雪に下に覆われたものを照らして見やすくする器具。",
+    "@name": "雪渓照灯",
+    "@consumable": true,
+    "@occasion": 2,
+    "@icon_index": 272,
+    "@price": 300,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": "ユベシア氷原の割れ目が見えやすくなる。",
+    "@speed": 0,
+    "@id": 46,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 24,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "大したものが入っていそうには見えない財布。",
+    "@name": "ボロの財布",
+    "@consumable": false,
+    "@occasion": 2,
+    "@icon_index": 264,
+    "@price": 0,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": "テナンのクエストで手に入れる。",
+    "@speed": 0,
+    "@id": 47,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 31,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "タナル砂漠に棲む蛇の牙。見た目はいかにも毒がありそう。",
+    "@name": "（未使用）蛇の牙",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 326,
+    "@price": 0,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "テナンで持っていくとクリアできるクエストがある（なぞなぞじいさん）。\r\n※→ID.157サンドスネークの牙に統合する\r\n",
+    "@speed": 0,
+    "@id": 48,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "歩きやすそうなサンダルだが一足のうちの片側だけしかないので使い道に困る。",
+    "@name": "片足分のサンダル",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 470,
+    "@price": 0,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "テナンのクエストで手に入れる。",
+    "@speed": 0,
+    "@id": 49,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "年代物なのかとても傷んだランプ。タナル砂漠入口の日陰で使用すると何かが起こるらしい。",
+    "@name": "古びたランプ",
+    "@consumable": false,
+    "@occasion": 2,
+    "@icon_index": 217,
+    "@price": 0,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": "テナンのクエストで手に入れる。",
+    "@speed": 0,
+    "@id": 50,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 25,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "テナンで預かった手紙。酒場にいるという冒険者へ宛てられたもの。",
+    "@name": "冒険者への手紙",
+    "@consumable": false,
+    "@occasion": 2,
+    "@icon_index": 235,
+    "@price": 0,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": "テナンのクエストで入手する。",
+    "@speed": 0,
+    "@id": 51,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 26,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "製本されたまままだ小口が切られていない本。手書きの署名がされている。",
+    "@name": "路地裏に生まれ後に砂の海を渡り陸の孤島に流れ着いた放浪者の冒険記",
+    "@consumable": false,
+    "@occasion": 2,
+    "@icon_index": 368,
+    "@price": 0,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": "テナンのクエストで入手する。",
+    "@speed": 0,
+    "@id": 52,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 27,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "むかしアザレアでよく食べられていた貝。",
+    "@name": "エムル貝",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 363,
+    "@price": 0,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "アザレアのクエストで使用する。\r\nアザレア近郊で入手できる。",
+    "@speed": 0,
+    "@id": 53,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "カゲツ島の旧灯台になぜか落ちていたカバン。",
+    "@name": "手提げ鞄",
+    "@consumable": false,
+    "@occasion": 2,
+    "@icon_index": 263,
+    "@price": 0,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": "アザレアのクエストで入手する。",
+    "@speed": 0,
+    "@id": 54,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 28,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "レクシ坑道で見つけた年季の入ったツルハシ。柄には血と汗と涙が染みこんでいる。",
+    "@name": "銀のツルハシ",
+    "@consumable": true,
+    "@occasion": 1,
+    "@icon_index": 276,
+    "@price": 0,
+    "@scope": 1,
+    "@animation_id": 13,
+    "@note": ":sort=0.73\r\n\r\nアザレアのクエストで必要になる。\r\nレクシ坑道で入手する。",
+    "@speed": 0,
+    "@id": 55,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 1,
+      "@element_id": 2,
+      "@formula": "50",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【攻撃】対象に風属性999のダメージを与える。\\C[0]\r\n風の精霊ヤスペンカイトの力を解き放つ。",
+    "@name": "ヤスペンカイト",
+    "@consumable": true,
+    "@occasion": 1,
+    "@icon_index": 109,
+    "@price": 0,
+    "@scope": 1,
+    "@animation_id": 74,
+    "@note": ":sort=0.80\r\n\r\n精霊を倒すと入手できる。",
+    "@speed": 0,
+    "@id": 56,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 1,
+      "@element_id": 6,
+      "@formula": "999",
+      "@variance": 0,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【補助】味方すべてのHPとMPを自動回復し、火・殴耐性+5を与える。\\C[0]\r\n水の精霊シーナイレシアの力を解き放つ。",
+    "@name": "シーナイレシア",
+    "@consumable": true,
+    "@occasion": 1,
+    "@icon_index": 107,
+    "@price": 0,
+    "@scope": 8,
+    "@animation_id": 70,
+    "@note": ":sort=0.81\r\n\r\n精霊を倒すと入手できる。",
+    "@speed": 0,
+    "@id": 57,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 21,
+        "@data_id": 140,
+        "@value1": 1.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 3,
+      "@element_id": 0,
+      "@formula": "999",
+      "@variance": 0,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【弱体】敵全体の物理・秘術ダメージを8ターンの間1.5倍にする。\\C[0]\r\n地の精霊デギナンホマスの力を解き放つ。",
+    "@name": "デギナンホマス",
+    "@consumable": true,
+    "@occasion": 1,
+    "@icon_index": 108,
+    "@price": 0,
+    "@scope": 2,
+    "@animation_id": 113,
+    "@note": ":sort=0.82\r\n\r\n精霊を倒すと入手できる。",
+    "@speed": 0,
+    "@id": 58,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 21,
+        "@data_id": 141,
+        "@value1": 1.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "火の精霊ヴェイングラドの力を解き放つ。",
+    "@name": "ヴェイングラド",
+    "@consumable": true,
+    "@occasion": 3,
+    "@icon_index": 104,
+    "@price": 0,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": ":not_to_discard\r\n:sort=0.83\r\n\r\n精霊を倒すと入手できる。\r\n持ち越すと武器に変化する。\r\n",
+    "@speed": 0,
+    "@id": 59,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 33,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "採取した地質標本を入れておくためのビン。",
+    "@name": "試料ビン",
+    "@consumable": false,
+    "@occasion": 2,
+    "@icon_index": 366,
+    "@price": 0,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": "アザレアのクエストで入手する。",
+    "@speed": 0,
+    "@id": 60,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 29,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "水晶淵底の鍾乳石を採取した試料ビン。",
+    "@name": "水晶淵底の鍾乳石",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 367,
+    "@price": 0,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "アザレアのクエストで入手する。",
+    "@speed": 0,
+    "@id": 61,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "願い事をするとそれが叶うという伝説の花。",
+    "@name": "星見草の花",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 313,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "アザレアのクエストで入手する。",
+    "@speed": 0,
+    "@id": 62,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "エルキアの森で拾った風呂敷。中に商品のようなものがいっぱい詰まっている。",
+    "@name": "ふろしき",
+    "@consumable": false,
+    "@occasion": 2,
+    "@icon_index": 264,
+    "@price": 0,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": "エルクのクエストで入手する。",
+    "@speed": 0,
+    "@id": 63,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 30,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "ゆるやかに巻かれた小さな花輪。",
+    "@name": "小さい花輪",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 204,
+    "@price": 0,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "熔岩洞窟でニエが落す。",
+    "@speed": 0,
+    "@id": 64,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【贈り物】大切な人にプレゼントすると喜ばれる。\\C[0]\r\nかつて砕けた天が降り積もってできたといわれるタナル砂漠の星砂の中に時折見つかる紺青の宝石の粒。",
+    "@name": "星空のかけら",
+    "@consumable": false,
+    "@occasion": 2,
+    "@icon_index": 280,
+    "@price": 10000,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": "灯台人探し報酬（通行証所持時）\r\n売却価格は通行証を交換するイベントの報酬と同額",
+    "@speed": 0,
+    "@id": 65,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 55,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【移動】\\C[0]\r\n所持していると不安定な場所を素早く移動できる。",
+    "@name": "かろやかな羽毛",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 328,
+    "@price": 0,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 66,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【売却】それなりの値で買い取ってもらえる。\\C[0]\r\n長期保存が可能なように乾燥させ香辛料をたっぷり振ってあるので、そのまま食べるのはとても無理。",
+    "@name": "乾燥肉",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 291,
+    "@price": 600,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 67,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【売却】それなりの値で買い取ってもらえる。\\C[0]\r\n畑から引き抜いたばかりの瑞々しい野菜。",
+    "@name": "採れたての野菜",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 288,
+    "@price": 200,
+    "@scope": 0,
+    "@animation_id": 37,
+    "@note": "イベント報酬",
+    "@speed": 0,
+    "@id": 68,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "20",
+      "@variance": 0,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【売却】それなりの値で買い取ってもらえる。\\C[0]\r\n身に付けるもの一式だが、大した物ではない。",
+    "@name": "身ぐるみ",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 261,
+    "@price": 400,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "イベント報酬",
+    "@speed": 0,
+    "@id": 69,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【売却】それなりの値で買い取ってもらえる。\\C[0]\r\n古い時代の貨幣だが金でできているので価値は衰えない。",
+    "@name": "古代の金貨",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 262,
+    "@price": 4000,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "イベント報酬",
+    "@speed": 0,
+    "@id": 70,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【売却】それなりの値で買い取ってもらえる。\\C[0]\r\n見るからに古いボトルだが未開栓のワイン。テナンの上流階級の間で人気の銘柄。",
+    "@name": "古びたワイン",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 308,
+    "@price": 6000,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "イベント報酬",
+    "@speed": 0,
+    "@id": 71,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【売却】それなりの値で買い取ってもらえる。\\C[0]\r\nアザレアの近海でよく見かける魚だが、かなりの大物。",
+    "@name": "釣れたての魚",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 292,
+    "@price": 1600,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "イベント報酬",
+    "@speed": 0,
+    "@id": 72,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【逃走】\\C[0]\r\n逃走可能な戦闘から確実に逃げることができる。",
+    "@name": "日陰者の香壺",
+    "@consumable": false,
+    "@occasion": 1,
+    "@icon_index": 211,
+    "@price": 2000,
+    "@scope": 11,
+    "@animation_id": 0,
+    "@note": ":sort=0.72\r\n\r\n贋作師イベント報酬",
+    "@speed": 10,
+    "@id": 73,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 21,
+        "@data_id": 9,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 41,
+        "@data_id": 0,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "赤いキスマーク。とある酒場で働いているウェイトレスを\\C[21]\\V[260]ターン\\C[0]で倒した証。",
+    "@name": "悪魔のキス",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 122,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "アメニア報酬",
+    "@speed": 0,
+    "@id": 74,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【贈り物】大切な人にプレゼントすると喜ばれる。\\C[0]\r\nかわいらしい熊のぬいぐるみ。わたがギュっと詰まっている。",
+    "@name": "クマのぬいぐるみ",
+    "@consumable": false,
+    "@occasion": 2,
+    "@icon_index": 259,
+    "@price": 720,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n",
+    "@speed": 0,
+    "@id": 75,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 56,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【贈り物】大切な人にプレゼントすると喜ばれる。\\C[0]\r\nかわいらしい猫のぬいぐるみ。眠そうな目に癒される。",
+    "@name": "ネコのぬいぐるみ",
+    "@consumable": false,
+    "@occasion": 2,
+    "@icon_index": 259,
+    "@price": 720,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n",
+    "@speed": 0,
+    "@id": 76,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 57,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【贈り物】大切な人にプレゼントすると喜ばれる。\\C[0]\r\nかわいらしい犬のぬいぐるみ。黒い鼻がチャームポイント。",
+    "@name": "イヌのぬいぐるみ",
+    "@consumable": false,
+    "@occasion": 2,
+    "@icon_index": 259,
+    "@price": 720,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n",
+    "@speed": 0,
+    "@id": 77,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 58,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【贈り物】大切な人にプレゼントすると喜ばれる。\\C[0]\r\n青金石があしらわれた美しい首飾り。",
+    "@name": "青金石のペンダント",
+    "@consumable": false,
+    "@occasion": 2,
+    "@icon_index": 259,
+    "@price": 1640,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n",
+    "@speed": 0,
+    "@id": 78,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 59,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【贈り物】大切な人にプレゼントすると喜ばれる。\\C[0]\r\n砂金石があしらわれた美しい胸飾り。",
+    "@name": "砂金石のブローチ",
+    "@consumable": false,
+    "@occasion": 2,
+    "@icon_index": 259,
+    "@price": 1510,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n",
+    "@speed": 0,
+    "@id": 79,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 60,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【贈り物】大切な人にプレゼントすると喜ばれる。\\C[0]\r\n金緑石があしらわれた美しい指輪。",
+    "@name": "金緑石のリング",
+    "@consumable": false,
+    "@occasion": 2,
+    "@icon_index": 259,
+    "@price": 1320,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n",
+    "@speed": 0,
+    "@id": 80,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 61,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【贈り物】大切な人にプレゼントすると喜ばれる。\\C[0]\r\n箱を開けると音が鳴るがどこの地方の子守歌かはわからない。",
+    "@name": "子守歌のオルゴール",
+    "@consumable": false,
+    "@occasion": 2,
+    "@icon_index": 259,
+    "@price": 2130,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n",
+    "@speed": 0,
+    "@id": 81,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 62,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【贈り物】大切な人にプレゼントすると喜ばれる。\\C[0]\r\n一度匂いを嗅ぐとなかなか止められない。",
+    "@name": "ニャムの香り瓶",
+    "@consumable": false,
+    "@occasion": 2,
+    "@icon_index": 259,
+    "@price": 2050,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n",
+    "@speed": 0,
+    "@id": 82,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 63,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【贈り物】大切な人にプレゼントすると喜ばれる。\\C[0]\r\n遥か西方から持ち運ばれた逸品。",
+    "@name": "小さな万華鏡",
+    "@consumable": false,
+    "@occasion": 2,
+    "@icon_index": 259,
+    "@price": 2350,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n",
+    "@speed": 0,
+    "@id": 83,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 64,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 84,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 85,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 86,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 87,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 88,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 89,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 90,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 91,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 92,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 93,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 94,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 95,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 96,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 97,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 98,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 99,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 100,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【治療】傷病状態を治す。\\C[0]\r\n　細かくちぎって飲めば毒消しになる薬草。苦すぎる。",
+    "@name": "（未使用）スッキリ草",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 201,
+    "@price": 10,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 101,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 2,
+        "@value1": 1.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【治療・回復】傷病状態を治し、体力を少し回復する。\\C[0]\r\n　すり潰して飲めば毒消しになる薬草。変なにおいがする。",
+    "@name": "（未使用）ハッキリ草",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 200,
+    "@price": 100,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 102,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 2,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 11,
+        "@data_id": 1,
+        "@value1": 0.1,
+        "@value2": 10.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【治療】行動不能を治す。\\C[0]\r\n　昏倒した人も痺れた人も一発で動けるようになる。ちょっと痛い。思い切り叩くので一度で砕けてしまう。",
+    "@name": "（未使用）気付け棒",
+    "@consumable": true,
+    "@occasion": 1,
+    "@icon_index": 21,
+    "@price": 5,
+    "@scope": 7,
+    "@animation_id": 19,
+    "@note": "",
+    "@speed": 2000,
+    "@id": 103,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 3,
+        "@value1": 1.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 1,
+      "@element_id": 3,
+      "@formula": "1",
+      "@variance": 0,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【治療・補助】行動不能を治し、防御状態にする。\\C[0]\r\n　変な声がでるほど痛く、思わず身構えてしまう。思い切り叩くので一度で砕け散る。",
+    "@name": "（未使用）気合注入棒",
+    "@consumable": true,
+    "@occasion": 1,
+    "@icon_index": 21,
+    "@price": 100,
+    "@scope": 7,
+    "@animation_id": 19,
+    "@note": "",
+    "@speed": 2000,
+    "@id": 104,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 3,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 21,
+        "@data_id": 4,
+        "@value1": 1.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 1,
+      "@element_id": 3,
+      "@formula": "2",
+      "@variance": 0,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 21,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 105,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 106,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【回復】MPを10ほど回復する。\\C[0]\r\n不思議な音色の竪琴だが、何度も使用していると壊れてしまう。",
+    "@name": "女神の竪琴",
+    "@consumable": false,
+    "@occasion": 1,
+    "@icon_index": 248,
+    "@price": 5000,
+    "@scope": 7,
+    "@animation_id": 37,
+    "@note": ":sort=0.71\r\n",
+    "@speed": 0,
+    "@id": 107,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 35,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 4,
+      "@element_id": 0,
+      "@formula": "10",
+      "@variance": 10,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【蘇生】あらかじめ身に付けておくと、戦闘不能時に一度だけHPを全回復する。\\C[0]\r\n持ち主の代わりに不幸を引き受けるヒトガタ。",
+    "@name": "身代わりの形代",
+    "@consumable": false,
+    "@occasion": 2,
+    "@icon_index": 121,
+    "@price": 5000,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": ":equip=migawari\r\n#:common_event=36\r\n:auto_state=0,180",
+    "@speed": 0,
+    "@id": 108,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 109,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【回復】HPを2～3回復する。\\C[0]\r\n小憐花という植物の小さな種子。妖精がおやつに好んで食べる。",
+    "@name": "コレンカの種",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 377,
+    "@price": 3,
+    "@scope": 7,
+    "@animation_id": 37,
+    "@note": ":sort=0.20\r\n\r\n出現=エルク\r\n入手=店売り、宝箱、ドロップ\r\n\r\n\r\n回復量と価格は要調整。",
+    "@speed": 0,
+    "@id": 110,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 3,
+      "@element_id": 0,
+      "@formula": "2 + rand(2)",
+      "@variance": 0,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【回復】HPを50ほど回復する。戦闘が終わるまでHPを自動的に回復する。\\C[0]\r\nセキトウの実から抽出される赤く透けた精製液。冒険者たちに愛用されている。",
+    "@name": "赤のエキス",
+    "@consumable": true,
+    "@occasion": 1,
+    "@icon_index": 212,
+    "@price": 150,
+    "@scope": 7,
+    "@animation_id": 37,
+    "@note": ":sort=0.23\r\n\r\n出現=エルク\r\n入手=店売り(高額)、宝箱、レアドロップ\r\n\r\nポーション類は基本的に非売品？\r\n安くすると後半簡単に投入できてしまう。\r\nリジェネのステート仕様上、戦闘中のみの使用に現時点では制限。\r\n※戦闘前に全員にリジェネ付与という使い方が可能なため。",
+    "@speed": 0,
+    "@id": 111,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 21,
+        "@data_id": 57,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 82,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 145,
+        "@value1": 1.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 3,
+      "@element_id": 0,
+      "@formula": "50",
+      "@variance": 10,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【回復】HPを120ほど回復する。戦闘が終わるまでHPを自動的に回復する。\\C[0]\r\nコガネリの根から抽出された黄色く煌く精製液。冒険者たちも使用をためらう高級品。",
+    "@name": "黄のエキス",
+    "@consumable": true,
+    "@occasion": 1,
+    "@icon_index": 212,
+    "@price": 900,
+    "@scope": 7,
+    "@animation_id": 37,
+    "@note": ":sort=0.24\r\n\r\n出現=坑道\r\n入手=店売り(高額)、宝箱、レアドロップ\r\n\r\nポーション類は基本的に非売品？\r\nこのくらいの回復量でもヒール相当なので、",
+    "@speed": 0,
+    "@id": 112,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 21,
+        "@data_id": 57,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 82,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 145,
+        "@value1": 1.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 3,
+      "@element_id": 0,
+      "@formula": "120",
+      "@variance": 10,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【回復】HPを250ほど回復する。戦闘が終わるまでHPを自動的に回復する。\\C[0]\r\nその存在が一部の冒険者たちの間で噂に上る乳白色の精製液。何から抽出した物なのかは誰も知らない。",
+    "@name": "白のエキス",
+    "@consumable": true,
+    "@occasion": 1,
+    "@icon_index": 212,
+    "@price": 1800,
+    "@scope": 7,
+    "@animation_id": 37,
+    "@note": ":sort=0.25\r\n\r\n出現=精霊\r\n入手=宝箱、レアドロップ\r\n\r\nポーション類は基本的に非売品？\r\n希少品として扱い、精霊やラスボスで使う形に。",
+    "@speed": 0,
+    "@id": 113,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 21,
+        "@data_id": 57,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 82,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 145,
+        "@value1": 1.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 3,
+      "@element_id": 0,
+      "@formula": "250",
+      "@variance": 10,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【回復】MPを1～2回復する。\\C[0]\r\n月夜に生まれる美しい蛾の繭。妖精に贈ると非常に喜ばれる。",
+    "@name": "三日月の繭",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 237,
+    "@price": 3,
+    "@scope": 7,
+    "@animation_id": 37,
+    "@note": ":sort=0.40\r\n\r\n出現=エルク\r\n入手=宝箱、レアドロップ\r\n\r\n非売品。ＭＰ回復量は要調整。",
+    "@speed": 0,
+    "@id": 114,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 4,
+      "@element_id": 0,
+      "@formula": "1 + rand(2)",
+      "@variance": 0,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【回復】MPを20回復する。\\C[0]\r\n一部の秘術師たちの間で流通している青い精製液。何から抽出した物かは決して教えてもらえない。",
+    "@name": "青のエキス",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 192,
+    "@price": 2500,
+    "@scope": 7,
+    "@animation_id": 37,
+    "@note": ":sort=0.41\r\n\r\n出現=エルク\r\n入手=宝箱、レアドロップ\r\n\r\n非売品、供給は序盤から宝箱などで",
+    "@speed": 0,
+    "@id": 115,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 12,
+        "@data_id": 0,
+        "@value1": 0.0,
+        "@value2": 20.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 145,
+        "@value1": 1.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 116,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【治癒】解毒し、HPを30ほど回復する。しばらく毒を予防する。\\C[0]\r\n怪しい草花をたくさん擦り混ぜた気味の悪い色の精製液。飲むには少し勇気がいる。",
+    "@name": "緑のエキス",
+    "@consumable": true,
+    "@occasion": 1,
+    "@icon_index": 194,
+    "@price": 50,
+    "@scope": 7,
+    "@animation_id": 37,
+    "@note": ":sort=0.50\r\n\r\n※毒予防の効果をつけてもよい。",
+    "@speed": 0,
+    "@id": 117,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 10,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 11,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 104,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 37,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 101,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 21,
+        "@data_id": 120,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 145,
+        "@value1": 1.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 3,
+      "@element_id": 0,
+      "@formula": "30",
+      "@variance": 10,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【治癒】凍傷や氷結状態を治す。戦闘が終わるまで徐々にHPを回復する。\\C[0]\r\nとてもつよい酒精。体を温める効果があり、寒いユベシアで愛飲されている。",
+    "@name": "スピリトゥス",
+    "@consumable": true,
+    "@occasion": 1,
+    "@icon_index": 220,
+    "@price": 50,
+    "@scope": 7,
+    "@animation_id": 37,
+    "@note": ":sort=0.51\r\n\r\n出現=ユベス（あるいは坑道）\r\n入手=店売り(高額)、宝箱、ドロップ\r\n\r\n気付けとして様々な状態異常を解除する？\r\nユベス特産？\r\nアザレアから登場させればガレイシア戦で使用できる。\r\n\r\n一応回復効果もつけておく\r\nお酒ならではの特殊効果でコンボを考えても良い",
+    "@speed": 0,
+    "@id": 118,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 66,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 67,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 76,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 21,
+        "@data_id": 68,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 145,
+        "@value1": 1.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 3,
+      "@element_id": 0,
+      "@formula": "30",
+      "@variance": 10,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【蘇生】HP10%で戦闘不能から蘇生する。\\C[0]\r\n満月の夜に月のしずくが天からこぼれ落ちた物だと言われている。",
+    "@name": "満月の露",
+    "@consumable": true,
+    "@occasion": 1,
+    "@icon_index": 211,
+    "@price": 500,
+    "@scope": 9,
+    "@animation_id": 38,
+    "@note": ":sort=0.31\r\n\r\n出現=テナン\r\n入手=店売り(高額)、宝箱、レアドロップ\r\n\r\n非売品にすると使用できなくなるので\r\n高額品として提供でよさそう。\r\n店で売る場合は1500G\r\n終盤、大量に購入して使える…けど、結局満タン蘇生でもない限り微妙ではある。",
+    "@speed": 0,
+    "@id": 119,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 1,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 11,
+        "@data_id": 0,
+        "@value1": 0.1,
+        "@value2": 1.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 21,
+        "@data_id": 131,
+        "@value1": 1.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "b.mhp / 2",
+      "@variance": 10,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【治癒】ほとんどの状態異常を治し、HPとMPをわずかに回復する。\\C[0]\r\n高名な薬学者が自らを実験台にして苦心の末に作り出した知識の結晶。",
+    "@name": "ヨクナール",
+    "@consumable": true,
+    "@occasion": 1,
+    "@icon_index": 214,
+    "@price": 98,
+    "@scope": 7,
+    "@animation_id": 37,
+    "@note": ":sort=0.54\r\n\r\n出現=テナン\r\n入手=店売り(高額)、宝箱、レアドロップ\r\n\r\n内部の状態はあらゆるものを回復\r\n外部の問題は改善できない形に設定",
+    "@speed": 0,
+    "@id": 120,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 12,
+        "@data_id": 0,
+        "@value1": 0.0,
+        "@value2": 5.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 10,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 11,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 12,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 13,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 14,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 15,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 16,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 17,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 18,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 19,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 37,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 101,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 104,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 82,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 121,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 20,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 21,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 22,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 23,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 24,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 25,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 26,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 27,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 28,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 29,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 38,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 39,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 59,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 62,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 63,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 83,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 102,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 103,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 54,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 67,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 76,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 53,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 176,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 65,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 66,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 71,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 74,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 108,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 111,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 117,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 118,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 119,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 130,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 164,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 64,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 85,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 99,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 145,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 149,
+        "@value1": 1.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 3,
+      "@element_id": 0,
+      "@formula": "30",
+      "@variance": 10,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "上空を飛ぶ大きな生き物を撃ち落とすことができる。",
+    "@name": "スリングショット",
+    "@consumable": true,
+    "@occasion": 1,
+    "@icon_index": 158,
+    "@price": 100,
+    "@scope": 1,
+    "@animation_id": 159,
+    "@note": ":sort=0.1\r\n\r\n出現=ユベス\r\n入手=イベント？　店売り？\r\n\r\nコモンイベントでスイッチを入れてグループイベントを起こす。",
+    "@speed": 0,
+    "@id": 121,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 44,
+        "@data_id": 51,
+        "@value1": 0.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 1,
+      "@element_id": 0,
+      "@formula": "99",
+      "@variance": 0,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 122,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【極限】戦闘が終わるまで最大HPを1.5倍にする。\\C[0]\r\n人間界では見られない果実。巨人族が好んで食べたという伝説がある。",
+    "@name": "強靭の果実",
+    "@consumable": true,
+    "@occasion": 1,
+    "@icon_index": 297,
+    "@price": 50,
+    "@scope": 7,
+    "@animation_id": 37,
+    "@note": ":sort=0.60\r\n\r\n出現=精霊\r\n入手=宝箱、レアドロップ\r\n\r\n決戦用限定強化消耗品シリーズ。\r\nクリア前段階でも途中で一つ供給しても良いか。\r\n\r\n戦闘前に使用可能な仕様に変更",
+    "@speed": 0,
+    "@id": 123,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 21,
+        "@data_id": 86,
+        "@value1": 1.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "30",
+      "@variance": 10,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【極限】MPを30回復し、戦闘が終わるまで毎ターンMPを自動的に回復する。\\C[0]\r\n人間界では見られない果実。魔女の庭で育つ禁忌の実と昔話に語られている。",
+    "@name": "再生の果実",
+    "@consumable": true,
+    "@occasion": 1,
+    "@icon_index": 302,
+    "@price": 50,
+    "@scope": 7,
+    "@animation_id": 37,
+    "@note": ":sort=0.61\r\n\r\n出現=精霊\r\n入手=宝箱、レアドロップ\r\n\r\n決戦用限定強化消耗品シリーズ。\r\nクリア前段階でも途中で一つ供給しても良いか。",
+    "@speed": 0,
+    "@id": 124,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 21,
+        "@data_id": 87,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 12,
+        "@data_id": 0,
+        "@value1": 0.0,
+        "@value2": 30.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "30",
+      "@variance": 10,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【極限】戦闘が終わるまで敵にダメージを与えるとHPを回復するようになる。\\C[0]\r\n人間界では見られない果実。これを食すと吸血鬼を呼び寄せるという伝承がある。",
+    "@name": "嗜虐の果実",
+    "@consumable": true,
+    "@occasion": 1,
+    "@icon_index": 317,
+    "@price": 50,
+    "@scope": 7,
+    "@animation_id": 37,
+    "@note": ":sort=0.62\r\n\r\n出現=精霊\r\n入手=宝箱、レアドロップ\r\n\r\n決戦用限定強化消耗品シリーズ。\r\nクリア前段階でも途中で一つ供給しても良いか。",
+    "@speed": 0,
+    "@id": 125,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 21,
+        "@data_id": 88,
+        "@value1": 1.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "30",
+      "@variance": 10,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【極限】戦闘が終わるまで受けたダメージに応じてMPを回復するようになる。\\C[0]\r\n人間界では見られない果実。苦難の道を歩む聖者はこの実を食べているという学説がある。",
+    "@name": "被虐の果実",
+    "@consumable": true,
+    "@occasion": 1,
+    "@icon_index": 316,
+    "@price": 50,
+    "@scope": 7,
+    "@animation_id": 37,
+    "@note": ":sort=0.63\r\n\r\n出現=精霊\r\n入手=宝箱、レアドロップ\r\n\r\n決戦用限定強化消耗品シリーズ。\r\nクリア前段階でも途中で一つ供給しても良いか。",
+    "@speed": 0,
+    "@id": 126,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 21,
+        "@data_id": 89,
+        "@value1": 1.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "30",
+      "@variance": 10,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【回復】HPとMPを全回復する。\\C[0]\r\nただのお守りだと思われているが、世界の調和をとりなす女神の力が秘められている。",
+    "@name": "リリアの寵愛",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 125,
+    "@price": 800,
+    "@scope": 7,
+    "@animation_id": 37,
+    "@note": ":sort=0.30\r\n\r\n出現=テナン\r\n入手=宝箱、レアドロップ(精霊D)\r\n\r\n提供自体は序盤からでも可能と想定。\r\n名前を知って入ればまず使わないけど\r\nそうでないプレイヤーが希少性をどう認識するかは不明。",
+    "@speed": 0,
+    "@id": 127,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 12,
+        "@data_id": 0,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 11,
+        "@data_id": 0,
+        "@value1": 1.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 128,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 129,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【回復】HPを5～6回復する。\\C[0]\r\nちょっと発芽させた小憐花の種。栄養たっぷりで妖精には人気がある。",
+    "@name": "コレンカの芽",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 379,
+    "@price": 3,
+    "@scope": 7,
+    "@animation_id": 37,
+    "@note": ":sort=0.21\r\n\r\n出現=アザレア\r\n入手=店売り、宝箱、ドロップ\r\n\r\nイモ上位版\r\nアザレア以東の植生で、木の実のようなもの？",
+    "@speed": 0,
+    "@id": 130,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 3,
+      "@element_id": 0,
+      "@formula": "5 + rand(2)",
+      "@variance": 0,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]\\ds[48]\\C[0]\r\n不思議な力が凝固してできた石。",
+    "@name": "キュアの結晶",
+    "@consumable": true,
+    "@occasion": 1,
+    "@icon_index": 343,
+    "@price": 250,
+    "@scope": 7,
+    "@animation_id": 114,
+    "@note": ":sort=0.52\r\n\r\nスキル id.48 キュアと同性能",
+    "@speed": 0,
+    "@id": 131,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 21,
+        "@data_id": 40,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 10,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 11,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 12,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 13,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 14,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 15,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 16,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 17,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 18,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 19,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 37,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 101,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 104,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 82,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 121,
+        "@value1": 1.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]\\ds[49]\\C[0]\r\n不思議な力が凝固してできた石。",
+    "@name": "トニカの結晶",
+    "@consumable": true,
+    "@occasion": 1,
+    "@icon_index": 342,
+    "@price": 250,
+    "@scope": 7,
+    "@animation_id": 114,
+    "@note": ":sort=0.53\r\n\r\nスキル id.49 トニカと同性能\r\n",
+    "@speed": 0,
+    "@id": 132,
+    "@features": [
+
+    ],
+    "@effects": [
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 21,
+        "@data_id": 41,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 20,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 21,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 22,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 23,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 24,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 25,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 26,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 27,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 28,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 29,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 38,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 39,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 59,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 62,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 63,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 83,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 102,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 103,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 54,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 67,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 76,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 114,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 147,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 53,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 176,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 65,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 66,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 71,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 74,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 108,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 111,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 117,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 118,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 119,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 130,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 153,
+        "@value1": 1.0,
+        "@value2": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::UsableItem::Effect",
+        "@code": 22,
+        "@data_id": 164,
+        "@value1": 1.0,
+        "@value2": 0.0
+      }
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【威嚇】行動前の敵全体の行動順序を少しだけ遅らせる。\\C[0]\r\n妖精の間で最近はやりのオモチャ。大きな音と光を発する。",
+    "@name": "かんしゃく玉",
+    "@consumable": true,
+    "@occasion": 1,
+    "@icon_index": 278,
+    "@price": 100,
+    "@scope": 2,
+    "@animation_id": 126,
+    "@note": ":sort=0.705\r\n:speed_damage=5\r\n",
+    "@speed": 2000,
+    "@id": 133,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 134,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 135,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 136,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 137,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 138,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 139,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【売却】僅かな値だが買い取ってもらえる。\\C[0]\r\n形状からするとどうやらネズミの骨らしい。",
+    "@name": "ネズミのほね",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 326,
+    "@price": 24,
+    "@scope": 8,
+    "@animation_id": 0,
+    "@note": "微換金用にしつつフレーバー的な存在として",
+    "@speed": 0,
+    "@id": 140,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】エルクで珍しい装備と換えてもらえる。\\C[0]\r\nツグル渓谷に巣食う怪鳥へスパイアの羽。振ると風を起こすことができる。",
+    "@name": "ヘスパイアの羽",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 336,
+    "@price": 0,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 141,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】エルクで珍しい装備と換えてもらえる。\\C[0]\r\nエルキアの森の主ウォルフェの爪。木々をなぎ倒せるほど鋭く硬い。",
+    "@name": "ウォルフェの爪",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 325,
+    "@price": 0,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 142,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】アザレアで珍しい装備と換えてもらえる。\\C[0]\r\n古代タナルの戦士が用いた剣。長い時を経たもらしくヒビや割れが目立つ。",
+    "@name": "古代タナルの剣",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 391,
+    "@price": 0,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 143,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】アザレアで珍しい装備と換えてもらえる。\\C[0]\r\nカゲツの旧灯台に巣食う妖婦が身に着けていたドレス。返り血を受けてもその白がくすむことはない。",
+    "@name": "貴婦人のドレス",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 441,
+    "@price": 0,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 144,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】ユベスで珍しい装備と換えてもらえる。\\C[0]\r\nレクシ坑道を徘徊していたアンクラーの破片。外から力を加えなくてもカタカタと動く。",
+    "@name": "独りでに動く石",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 350,
+    "@price": 0,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 145,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】ユベスで珍しい装備と換えてもらえる。\\C[0]\r\nツグル河に巣食うジャゲイラの鱗。透けるような鱗が何重にも重なっている。",
+    "@name": "ジャゲイラの鱗",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 362,
+    "@price": 0,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 146,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】エルクで珍しい装備と換えてもらえる。\\C[0]\r\nユベシアの雪原の主イエネテスの角。力強くねじ曲がっている。",
+    "@name": "イエネテスの角",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 335,
+    "@price": 0,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 147,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 2,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】エルクで珍しい装備と換えてもらえる。\\C[0]\r\nエルキアの森に棲む甲虫の殻。見た目よりさらに硬質。",
+    "@name": "甲虫の殻",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 334,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 148,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】エルクで珍しい装備と換えてもらえる。\\C[0]\r\nエルキアの森に棲むネズミの尻尾。先の方でくるんとカールしている。",
+    "@name": "野ねずみの尻尾",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 326,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 149,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】エルクで珍しい装備と換えてもらえる。\\C[0]\r\nエルキアの森に棲む鳥の嘴。つっつく方向へは凄まじく強いが横からの力には弱い。",
+    "@name": "エルキア鳥の嘴",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 325,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 150,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】エルクで珍しい装備と換えてもらえる。\\C[0]\r\nエルキアの森に棲む野獣の毛皮。頑丈だがとても獣臭い。",
+    "@name": "野獣の毛皮",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 333,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 151,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】エルクで珍しい装備と換えてもらえる。\\C[0]\r\nエルキアの森に棲む蜂の針。刺さるとヒリヒリ痺れて痛い。",
+    "@name": "ヒリヒリ蜂の針",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 326,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 152,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】エルクで珍しい装備と換えてもらえる。\\C[0]\r\n緑色に光る宝石。森の精が好んで集めるという。",
+    "@name": "グリーンリーフ",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 189,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 153,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】テナンで珍しい装備と換えてもらえる。\\C[0]\r\nエルキアの森に棲むおどろおどろしい鳥の嘴。不吉な出来事を予感させる。",
+    "@name": "禍々しい嘴",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 325,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 154,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】テナンで珍しい装備と換えてもらえる。\\C[0]\r\nエルキアの森に棲む毒々しい色をした蜂の針。毒があるので間違えて刺してしまうと大変。",
+    "@name": "毒々しい針",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 326,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 155,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】テナンで珍しい装備と換えてもらえる。\\C[0]\r\nタナル砂漠に棲むネズミの尻尾。砂を払いやすいようにか少し長い。",
+    "@name": "砂ねずみの尻尾",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 326,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 156,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】テナンで珍しい装備と換えてもらえる。\\C[0]\r\nタナル砂漠に棲む蛇の牙。サンドスネークは通称タナル蛇とも呼ばれ、その牙には毒腺がある。",
+    "@name": "サンドスネークの牙",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 325,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\nテナンのクエストで使用するためドロップ率を高くするが出すぎると困るのでamountを設定する",
+    "@speed": 0,
+    "@id": 157,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】テナンで珍しい装備と換えてもらえる。\\C[0]\r\nタナル砂漠に棲む蜘蛛の瞳。まるで宝石のように赤く輝いている。",
+    "@name": "ジェムスパイダーの瞳",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 358,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 158,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】テナンで珍しい装備と換えてもらえる。\\C[0]\r\n古代タナル文明に特有の装飾が施された小箱。ボロボロで実用には堪えない。",
+    "@name": "古代タナル様式の小箱",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 270,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 159,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】アザレアで珍しい装備と換えてもらえる。\\C[0]\r\nタナル砂漠でときどき拾うことのできる衣。太陽にかざしてもなぜか影ができない。",
+    "@name": "影のない衣",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 448,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 160,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】テナンで珍しい装備と換えてもらえる。\\C[0]\r\n黄色く光る宝石。砂の精が好んで集めるという。",
+    "@name": "イエローサンド",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 190,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 161,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】テナンで珍しい装備と換えてもらえる。\\C[0]\r\nタナル砂漠に棲むサソリの鋏。刃がギザギザで、切られると傷口が治りづらい。",
+    "@name": "スコルピオの鋏",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 399,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 162,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】テナンで珍しい装備と換えてもらえる。\\C[0]\r\n古代タナル文明に特有の細工が施された箱。傷みがひどく実用には堪えない。",
+    "@name": "古代タナル様式の箱",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 270,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 163,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】アザレアで珍しい装備と換えてもらえる。\\C[0]\r\nアザレア沿岸に棲むネズミの尻尾。泳ぐためにか先がヒレのようになっている。",
+    "@name": "海ねずみの尻尾",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 326,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 164,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】アザレアで珍しい装備と換えてもらえる。\\C[0]\r\nアザレアの海に棲むクラゲの干からびたもの。ぺらんぺらんの皮だけ。",
+    "@name": "くらげの干からび",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 333,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 165,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】アザレアで珍しい装備と換えてもらえる。\\C[0]\r\nカゲツの旧灯台に棲む粘性生物の一部。ぬちゃっとして気持ち悪い。",
+    "@name": "べとべとの何か",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 2,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 166,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】アザレアで珍しい装備と換えてもらえる。\\C[0]\r\nカゲツの旧灯台に巣食う魚人のヒレ。先端が針のように尖っている。",
+    "@name": "海底人の尾ヒレ",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 237,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 167,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】アザレアで珍しい装備と換えてもらえる。\\C[0]\r\nカゲツの旧灯台に巣食う怪鳥の卵。ときどき中で何かが動く。",
+    "@name": "海鳥の卵",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 300,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 168,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】アザレアで珍しい装備と換えてもらえる。\\C[0]\r\nカゲツの旧灯台を徘徊する死体の内臓。もちろん腐っている。",
+    "@name": "モツ",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 304,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 169,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】アザレアで珍しい装備と換えてもらえる。\\C[0]\r\n青色に光る宝石。海の精が好んで集めるという。",
+    "@name": "ブルーウォーター",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 188,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 170,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】アザレアで珍しい装備と換えてもらえる。\\C[0]\r\nレクシ坑道に棲むネズミの尻尾。土を掘るためにか先がドリルのように硬く捻じれている。",
+    "@name": "土ねずみの尻尾",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 326,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 171,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】アザレアで珍しい装備と換えてもらえる。\\C[0]\r\nレクシ坑道に棲むこうもりの翼。翼の先には小さな手がついている。",
+    "@name": "煤色こうもりの翼",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 327,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 172,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】アザレアで珍しい装備と換えてもらえる。\\C[0]\r\nレクシ坑道に巣食う食人植物の花弁。不気味な色合いで見るだけでめまいがする。",
+    "@name": "まだらの花弁",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 318,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 173,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】アザレアで珍しい装備と換えてもらえる。\\C[0]\r\nレクシ坑道に巣食う目玉の化け物の眼球。ときどきこちらをギョロリと見るような気がする。",
+    "@name": "巨大な眼球",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 359,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 174,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】アザレアで珍しい装備と換えてもらえる。\\C[0]\r\nレクシ坑道に巣食うスケルトンの腕が折れたもの。握った剣を離そうとしない。",
+    "@name": "折れた右腕骨",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 491,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 175,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】アザレアで珍しい装備と換えてもらえる。\\C[0]\r\nレクシ坑道に巣食うひとりでに動く泥人形。ときどきケタケタと笑いだす。持っているだけで不幸になりそうだ。",
+    "@name": "マッドパペット",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 121,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 176,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】アザレアで珍しい装備と換えてもらえる。\\C[0]\r\n黒色に光る宝石。土の精が好んで集めるという。",
+    "@name": "ブラックダイヤ",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 185,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 177,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】ユベスで珍しい装備と換えてもらえる。\\C[0]\r\nユベシアに棲むネズミの尻尾。雪に埋もれないようにするためにかピンと高く立っている。",
+    "@name": "雪ねずみの尻尾",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 326,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 178,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】ユベスで珍しい装備と換えてもらえる。\\C[0]\r\nユベシアの雪原に巣食う三つ首の獣の尻尾。恐ろしく逆立っている。",
+    "@name": "三叉の逆尾",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 323,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 179,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】ユベスで珍しい装備と換えてもらえる。\\C[0]\r\nユベシアの雪影に紛れて現れるあやかしの耳。するどく尖っている。",
+    "@name": "悪魔の耳",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 327,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 180,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】ユベスで珍しい装備と換えてもらえる。\\C[0]\r\nユベシアでときどき拾える種火。なぜかいつまでたっても消えずに揺らめき続ける。",
+    "@name": "消えない種火",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 96,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 181,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】ユベスで珍しい装備と換えてもらえる。\\C[0]\r\n白く光る宝石。雪の精が好んで集めるという。",
+    "@name": "ホワイトスノウ",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 184,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 182,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】ユベスで珍しい装備と換えてもらえる。\\C[0]\r\n非常に軽やかで風にかざすと天に舞ってゆく。",
+    "@name": "天女の羽衣",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 448,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 183,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】ユベスで珍しい装備と換えてもらえる。\\C[0]\r\nユベシアに棲む鳥の嘴。不安を感じさせるような割れ方をしている。",
+    "@name": "不吉に割れた嘴",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 325,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 184,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "ハルナの熔岩洞窟に棲むネズミの尻尾。先端を火に近づけるとマッチのように燃える。",
+    "@name": "熔岩ねずみの尻尾",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 326,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 185,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "ハルナの熔岩洞窟に巣食う火の化身の髪。燃える炎よりも赤々としている。",
+    "@name": "真っ赤な髪",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 96,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 186,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】どこかで珍しい装備と換えてもらえる。\\C[0]\r\n赤く光る宝石。火の精が好んで集めるという。",
+    "@name": "レッドブラッド",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 187,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 187,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "なし",
+    "@name": "（引ったくり用）",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 0,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 188,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "なし",
+    "@name": "（追い剥ぎ）",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 0,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 189,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "\\C[5]【交換】ユベスで珍しい装備と換えてもらえる。\\C[0]\r\nとても小さなネズミの尻尾。体より大きなものでさえこの尻尾で掴んで運んでいく。",
+    "@name": "ちりとりネズミの尻尾",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 326,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 190,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 191,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 192,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "赤く光る宝石。火の精が好んで集めるという。",
+    "@name": "（没）精霊D交換アイテム",
+    "@consumable": false,
+    "@occasion": 3,
+    "@icon_index": 187,
+    "@price": 10,
+    "@scope": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 193,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 194,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 195,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 196,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 197,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 198,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 199,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  },
+  {
+    "rgss3_klass": "RPG::Item",
+    "@description": "",
+    "@name": "",
+    "@consumable": true,
+    "@occasion": 0,
+    "@icon_index": 0,
+    "@price": 0,
+    "@scope": 7,
+    "@animation_id": 0,
+    "@note": "",
+    "@speed": 0,
+    "@id": 200,
+    "@features": [
+
+    ],
+    "@effects": [
+
+    ],
+    "@damage": {
+      "rgss3_klass": "RPG::UsableItem::Damage",
+      "@type": 0,
+      "@element_id": 0,
+      "@formula": "0",
+      "@variance": 20,
+      "@critical": false
+    },
+    "@success_rate": 100,
+    "@hit_type": 0,
+    "@itype_id": 1,
+    "@repeats": 1,
+    "@tp_gain": 0
+  }
+]

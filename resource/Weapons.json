@@ -1,0 +1,3458 @@
+[
+  null,
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "【斬撃】【火】精霊の力を宿した剣。",
+    "@name": "ヴェイングラド",
+    "@icon_index": 396,
+    "@price": 0,
+    "@animation_id": 8,
+    "@note": "",
+    "@id": 1,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 4,
+        "@value": 1.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      10,
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 1
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "【斬撃】取り回しに優れた剣。",
+    "@name": "ソード",
+    "@icon_index": 147,
+    "@price": 100,
+    "@animation_id": 7,
+    "@note": ":important",
+    "@id": 2,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0.0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 1
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "【刺突】相手を貫く鋭い槍。",
+    "@name": "ランス",
+    "@icon_index": 146,
+    "@price": 100,
+    "@animation_id": 13,
+    "@note": ":important",
+    "@id": 3,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 2,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0.0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 2
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "【殴打】うまく使えば岩をも砕く鉄鎚。",
+    "@name": "ハンマー",
+    "@icon_index": 412,
+    "@price": 100,
+    "@animation_id": 19,
+    "@note": ":important",
+    "@id": 4,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 3,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0.0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 3
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "【斬撃】布を裁つための鋏。切られるととても痛い。",
+    "@name": "裁ち鋏",
+    "@icon_index": 399,
+    "@price": 100,
+    "@animation_id": 7,
+    "@note": ":important\r\nニエの武器よりとりあえず1下げる。",
+    "@id": 5,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0.0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      3,
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 4
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "【刺突】縫い物をするための針。刺されると泣くほど痛い。",
+    "@name": "縫い針",
+    "@icon_index": 415,
+    "@price": 100,
+    "@animation_id": 13,
+    "@note": ":important",
+    "@id": 6,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 2,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0.0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      3,
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 5
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "【殴打】糸を紡ぐのに使う錘。当たると思ったより痛い。",
+    "@name": "紡ぎ錘",
+    "@icon_index": 321,
+    "@price": 100,
+    "@animation_id": 19,
+    "@note": ":important",
+    "@id": 7,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 3,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      3,
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 6
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "【斬撃】懐にしまえる小刀。剥いたり削ったり便利に使える。",
+    "@name": "懐刀",
+    "@icon_index": 385,
+    "@price": 100,
+    "@animation_id": 7,
+    "@note": ":important",
+    "@id": 8,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      1,
+      0,
+      6,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 7
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "【殴打】聖なる人のもつ杖。おごそかな儀式に用いられる。",
+    "@name": "錫杖",
+    "@icon_index": 414,
+    "@price": 100,
+    "@animation_id": 19,
+    "@note": ":important",
+    "@id": 9,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 3,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      1,
+      0,
+      6,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 8
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "【刺突】袖に隠れる刺針。日用品のような装飾が施されている。",
+    "@name": "寸鉄",
+    "@icon_index": 167,
+    "@price": 100,
+    "@animation_id": 13,
+    "@note": ":important",
+    "@id": 10,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 2,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0.0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      1,
+      0,
+      6,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 9
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで追加能力を得る。\r\n\\C[5]【強化】攻撃 +1 / 行動 +1\\C[0]",
+    "@name": "戦士の輝石",
+    "@icon_index": 131,
+    "@price": 223,
+    "@animation_id": 0,
+    "@note": ":material=19\r\n:amount=1\r\n:important",
+    "@id": 11,
+    "@features": [
+
+    ],
+    "@params": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで追加能力を得る。\r\n\\C[5]【強化】攻撃 +1 / 命中 +1 / 幸運(会心) +1\\C[0]",
+    "@name": "射手の輝石",
+    "@icon_index": 133,
+    "@price": 223,
+    "@animation_id": 0,
+    "@note": ":material=19\r\n:amount=1\r\n:important",
+    "@id": 12,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 2,
+        "@value": 0.01
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで追加能力を得る。\r\n\\C[5]【強化】攻撃 +1 / 回避 +3\\C[0]",
+    "@name": "武人の輝石",
+    "@icon_index": 129,
+    "@price": 223,
+    "@animation_id": 0,
+    "@note": ":material=19\r\n:amount=1\r\n:important",
+    "@id": 13,
+    "@features": [
+
+    ],
+    "@params": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      3
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで追加能力を得る。\r\n\\C[5]【強化】守備 +1 / 行動 +1\\C[0]",
+    "@name": "衛士の輝石",
+    "@icon_index": 128,
+    "@price": 223,
+    "@animation_id": 0,
+    "@note": ":material=19\r\n:amount=1\r\n:important",
+    "@id": 14,
+    "@features": [
+
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで追加能力を得る。\r\n\\C[5]【強化】守備 +1 / 命中 +1 / 幸運(会心) +1\\C[0]",
+    "@name": "捕手の輝石",
+    "@icon_index": 130,
+    "@price": 223,
+    "@animation_id": 0,
+    "@note": ":material=19\r\n:amount=1\r\n:important",
+    "@id": 15,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 2,
+        "@value": 0.01
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで追加能力を得る。\r\n\\C[5]【強化】守備 +1 / 回避 +3\\C[0]",
+    "@name": "防人の輝石",
+    "@icon_index": 139,
+    "@price": 223,
+    "@animation_id": 0,
+    "@note": ":material=19\r\n:amount=1\r\n:important",
+    "@id": 16,
+    "@features": [
+
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      3
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで追加能力を得る。\r\n\\C[5]【強化】術式 +1 / 行動 +1\\C[0]",
+    "@name": "月読の輝石",
+    "@icon_index": 353,
+    "@price": 223,
+    "@animation_id": 0,
+    "@note": ":material=19\r\n:amount=1\r\n:important",
+    "@id": 17,
+    "@features": [
+
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで追加能力を得る。\r\n\\C[5]【強化】術式 +1 / 命中 +1 / 幸運(会心) +1\\C[0]",
+    "@name": "星学の輝石",
+    "@icon_index": 355,
+    "@price": 223,
+    "@animation_id": 0,
+    "@note": ":material=19\r\n:amount=1\r\n:important\r\n術式に命中も会心も関係ないからどうだろうな。\r\n命中や会心が影響する術式を用意する？\r\n通常は使いづらいけどこれを伸ばしてたら実は強い系のものを",
+    "@id": 18,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 2,
+        "@value": 0.01
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで追加能力を得る。\r\n\\C[5]【強化】術式 +1 / 回避 +3\\C[0]",
+    "@name": "日選の輝石",
+    "@icon_index": 352,
+    "@price": 223,
+    "@animation_id": 0,
+    "@note": ":material=19\r\n:amount=1\r\n:important",
+    "@id": 19,
+    "@features": [
+
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      3
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで追加能力を得る。\r\n\\C[5]【強化】回避 +3 / 行動 +1\\C[0]",
+    "@name": "異雀の輝石",
+    "@icon_index": 336,
+    "@price": 223,
+    "@animation_id": 0,
+    "@note": ":material=19\r\n:amount=1\r\n:important",
+    "@id": 20,
+    "@features": [
+
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      3
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで追加能力を得る。\r\n\\C[5]【強化】行動 +1 / 命中 +2 / 幸運(会心) +1\\C[0]",
+    "@name": "騰蛇の輝石",
+    "@icon_index": 326,
+    "@price": 223,
+    "@animation_id": 0,
+    "@note": ":material=19\r\n:amount=1\r\n:important",
+    "@id": 21,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 2,
+        "@value": 0.01
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      1,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで追加能力を得る。\r\n\\C[5]【強化】命中 +2 / 回避 +3 / 幸運(会心) +1\\C[0]",
+    "@name": "天狼の輝石",
+    "@icon_index": 323,
+    "@price": 223,
+    "@animation_id": 0,
+    "@note": ":material=19\r\n:amount=1\r\n:important",
+    "@id": 22,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 2,
+        "@value": 0.01
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      3
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで追加能力を得る。\r\n\\C[5]【強化】幸運(会心) +2\\C[0]",
+    "@name": "調和の輝石",
+    "@icon_index": 202,
+    "@price": 223,
+    "@animation_id": 0,
+    "@note": ":material=19\r\n:amount=1\r\n:important\r\n\r\n運＝会心を伝えるべきなのか否か…",
+    "@id": 23,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 2,
+        "@value": 0.02
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで属性ダメージを軽減する。\r\n\\C[5]【強化】火 -3\\C[0]",
+    "@name": "赤色の陰石",
+    "@icon_index": 104,
+    "@price": 300,
+    "@animation_id": 0,
+    "@note": ":material=20\r\n:amount=1\r\n:important\r\n:sort=31\r\n\r\n耐性を軽減効果と表記した方が良い",
+    "@id": 24,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 4,
+        "@value": 3.0e-05
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで攻撃属性を強める。\r\n\\C[5]【強化】火 +3\\C[0]",
+    "@name": "赤色の陽石",
+    "@icon_index": 96,
+    "@price": 300,
+    "@animation_id": 0,
+    "@note": ":material=20\r\n:amount=1\r\n:important\r\n:sort=24\r\n\r\n攻撃属性を、該当属性の耐性貫通等の表記が良い。\r\n\r\n攻撃自属性一回で耐性-1とのことなので\r\n3回かける、これ数重なった時に処理大丈夫なのか…。",
+    "@id": 25,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 4,
+        "@value": 1.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 4,
+        "@value": 1.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 4,
+        "@value": 1.0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで属性ダメージを軽減する。\r\n\\C[5]【強化】水 -3\\C[0]",
+    "@name": "青色の陰石",
+    "@icon_index": 107,
+    "@price": 300,
+    "@animation_id": 0,
+    "@note": ":material=20\r\n:amount=1\r\n:important\r\n:sort=32",
+    "@id": 26,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 5,
+        "@value": 3.0e-05
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで攻撃属性を強める。\r\n\\C[5]【強化】水 +3\\C[0]\\C[0]",
+    "@name": "青色の陽石",
+    "@icon_index": 99,
+    "@price": 300,
+    "@animation_id": 0,
+    "@note": ":material=20\r\n:amount=1\r\n:important\r\n:sort=25\r\n",
+    "@id": 27,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 5,
+        "@value": 1.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 5,
+        "@value": 1.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 5,
+        "@value": 1.0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで属性ダメージを軽減する。\r\n\\C[5]【強化】風 -3\\C[0]",
+    "@name": "緑色の陰石",
+    "@icon_index": 109,
+    "@price": 300,
+    "@animation_id": 0,
+    "@note": ":material=20\r\n:amount=1\r\n:important\r\n:sort=33\r\n\r\n→実戦用に0.003\r\nテスト用に数値強化\r\n精霊ボス用 0.045\r\n精霊D要 0.03\r\n101→120　これだと20%軽減になるか\r\n",
+    "@id": 28,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 6,
+        "@value": 3.0e-05
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで攻撃属性を強める。\r\n\\C[5]【強化】風 +3\\C[0]",
+    "@name": "緑色の陽石",
+    "@icon_index": 101,
+    "@price": 300,
+    "@animation_id": 0,
+    "@note": ":material=20\r\n:amount=1\r\n:important\r\n:sort=26\r\n",
+    "@id": 29,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 6,
+        "@value": 1.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 6,
+        "@value": 1.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 6,
+        "@value": 1.0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで属性ダメージを軽減する。\r\n\\C[5]【強化】土 -3\\C[0]",
+    "@name": "茶色の陰石",
+    "@icon_index": 108,
+    "@price": 300,
+    "@animation_id": 0,
+    "@note": ":material=20\r\n:amount=1\r\n:important\r\n:sort=34\r\n",
+    "@id": 30,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 7,
+        "@value": 3.0e-05
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで攻撃属性を強める。\r\n\\C[5]【強化】土 +3\\C[0]",
+    "@name": "茶色の陽石",
+    "@icon_index": 100,
+    "@price": 300,
+    "@animation_id": 0,
+    "@note": ":material=20\r\n:amount=1\r\n:important\r\n:sort=27\r\n",
+    "@id": 31,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 7,
+        "@value": 1.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 7,
+        "@value": 1.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 7,
+        "@value": 1.0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで属性ダメージを軽減する。\r\n\\C[5]【強化】氷 -3\\C[0]",
+    "@name": "銀色の陰石",
+    "@icon_index": 105,
+    "@price": 300,
+    "@animation_id": 0,
+    "@note": ":material=20\r\n:amount=1\r\n:important\r\n:sort=35\r\n",
+    "@id": 32,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 8,
+        "@value": 3.0e-05
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで攻撃属性を強める。\r\n\\C[5]【強化】氷 +3\\C[0]",
+    "@name": "銀色の陽石",
+    "@icon_index": 97,
+    "@price": 300,
+    "@animation_id": 0,
+    "@note": ":material=20\r\n:amount=1\r\n:important\r\n:sort=28\r\n",
+    "@id": 33,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 8,
+        "@value": 1.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 8,
+        "@value": 1.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 8,
+        "@value": 1.0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで属性ダメージを軽減する。\r\n\\C[5]【強化】雷 -3\\C[0]",
+    "@name": "金色の陰石",
+    "@icon_index": 106,
+    "@price": 300,
+    "@animation_id": 0,
+    "@note": ":material=20\r\n:amount=1\r\n:important\r\n:sort=36\r\n",
+    "@id": 34,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 9,
+        "@value": 3.0e-05
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで攻撃属性を強める。\r\n\\C[5]【強化】雷 +3\\C[0]",
+    "@name": "金色の陽石",
+    "@icon_index": 98,
+    "@price": 300,
+    "@animation_id": 0,
+    "@note": ":material=20\r\n:amount=1\r\n:important\r\n:sort=29",
+    "@id": 35,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 9,
+        "@value": 1.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 9,
+        "@value": 1.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 9,
+        "@value": 1.0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで属性ダメージを軽減する。\r\n\\C[5]【強化】霊 -3\\C[0]",
+    "@name": "無色の陰石",
+    "@icon_index": 111,
+    "@price": 300,
+    "@animation_id": 0,
+    "@note": ":material=20\r\n:amount=1\r\n:important\r\n:sort=37\r\n",
+    "@id": 36,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 10,
+        "@value": 3.0e-05
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで攻撃属性を強める。\r\n\\C[5]【強化】霊 +3\\C[0]",
+    "@name": "無色の陽石",
+    "@icon_index": 103,
+    "@price": 300,
+    "@animation_id": 0,
+    "@note": ":material=20\r\n:amount=1\r\n:important\r\n:sort=30",
+    "@id": 37,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 10,
+        "@value": 1.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 10,
+        "@value": 1.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 10,
+        "@value": 1.0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで状態異常にする確率を上げる。\r\n\\C[5]【強化】傷病 +1\\C[0]",
+    "@name": "＿紫色の媒石",
+    "@icon_index": 2,
+    "@price": 2000,
+    "@animation_id": 0,
+    "@note": ":material=21\r\n:amount=1\r\n:important",
+    "@id": 38,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 32,
+        "@data_id": 10,
+        "@value": 0.01
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで状態異常にする確率を上げる。\r\n\\C[5]【強化】行動不能 +1\\C[0]",
+    "@name": "＿橙色の媒石",
+    "@icon_index": 6,
+    "@price": 2000,
+    "@animation_id": 0,
+    "@note": ":material=21\r\n:amount=1\r\n:important",
+    "@id": 39,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 32,
+        "@data_id": 20,
+        "@value": 0.01
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで耐性を得る。\r\n\\C[5]【装備強化】傷病 -1\\C[0]",
+    "@name": "＿紫色の抗石",
+    "@icon_index": 18,
+    "@price": 2000,
+    "@animation_id": 0,
+    "@note": ":material=21\r\n:amount=1\r\n:important",
+    "@id": 40,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 13,
+        "@data_id": 10,
+        "@value": 1.01
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで耐性を得る。\r\n\\C[5]【装備強化】行動不能 -1\\C[0]",
+    "@name": "＿橙色の抗石",
+    "@icon_index": 22,
+    "@price": 2000,
+    "@animation_id": 0,
+    "@note": ":material=21\r\n:amount=1\r\n:important",
+    "@id": 41,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 13,
+        "@data_id": 20,
+        "@value": 1.01
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで耐性を得る。\r\n\\C[5]【装備強化】能力弱体 -1\\C[0]",
+    "@name": "＿虹色の抗石",
+    "@icon_index": 110,
+    "@price": 2000,
+    "@animation_id": 0,
+    "@note": ":material=21\r\n:amount=1\r\n:important",
+    "@id": 42,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 12,
+        "@data_id": 0,
+        "@value": 1.01
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 12,
+        "@data_id": 1,
+        "@value": 1.01
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 12,
+        "@data_id": 2,
+        "@value": 1.01
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 12,
+        "@data_id": 3,
+        "@value": 1.01
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 12,
+        "@data_id": 4,
+        "@value": 1.01
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 12,
+        "@data_id": 5,
+        "@value": 1.01
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 12,
+        "@data_id": 6,
+        "@value": 1.01
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 12,
+        "@data_id": 7,
+        "@value": 1.01
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで追加能力を得る。\r\n\\C[5]【強化】最大HP +3\\C[0]",
+    "@name": "生命の輝石",
+    "@icon_index": 112,
+    "@price": 445,
+    "@animation_id": 0,
+    "@note": ":material=21\r\n:amount=1\r\n:important\r\n\r\nHP+1　→ HP+3  本編だと+30～+45\r\n50個積めるなら+150 100で+300",
+    "@id": 43,
+    "@features": [
+
+    ],
+    "@params": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで追加能力を得る。\r\n\\C[5]【強化】最大MP +2\\C[0]",
+    "@name": "精神の輝石",
+    "@icon_index": 114,
+    "@price": 445,
+    "@animation_id": 0,
+    "@note": ":material=21\r\n:amount=1\r\n:important\r\n\r\nMP+1→+2\r\n利用されるかどうかは難しいけど\r\nMP積みまくってのエレメンタルリールでアメリアワンパンとかできたらいいかな\r\n計算式そうなってるか分からないけど",
+    "@id": 44,
+    "@features": [
+
+    ],
+    "@params": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで耐性を得る。\r\n\\C[5]【強化】風 -1\\C[0]",
+    "@name": "＿緑色の陰石_防具のみ",
+    "@icon_index": 109,
+    "@price": 2000,
+    "@animation_id": 0,
+    "@note": ":material=20\r\n:amount=1\r\n:important\r\n\r\nテスト用に数値強化\r\n精霊ボス用 0.045\r\n精霊D要 0.03\r\n101→120　これだと20%軽減になるか\r\n",
+    "@id": 45,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 6,
+        "@value": 1.5
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "武器に装着することで耐性を得る。\r\n\\C[5]【強化】風 -1\\C[0]",
+    "@name": "＿緑色の陰石_完璧",
+    "@icon_index": 109,
+    "@price": 2000,
+    "@animation_id": 0,
+    "@note": ":material=20\r\n:amount=1\r\n:important\r\n\r\nテスト用に数値強化\r\n精霊ボス用 0.045\r\n精霊D要 0.03\r\n101→120　これだと20%軽減になるか\r\n",
+    "@id": 46,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 6,
+        "@value": 0.0003
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 6,
+        "@value": 1.5
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "全属性の陽石をまとめて入手する。\r\n\\C[5]【強化】武器に装着することで攻撃属性を強める。\\C[0]",
+    "@name": "彩りの陽石",
+    "@icon_index": 102,
+    "@price": 2000,
+    "@animation_id": 0,
+    "@note": ":material=20\r\n:amount=1\r\n:important\r\n:hidden\r\nセット販売用アイテム\r\n骨董商で入手時に各種陽石に交換する",
+    "@id": 47,
+    "@features": [
+
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "全属性の陰石をまとめて入手する。\r\n\\C[5]【強化】武器に装着することで属性ダメージを軽減する。\\C[0]",
+    "@name": "彩りの陰石",
+    "@icon_index": 110,
+    "@price": 2000,
+    "@animation_id": 0,
+    "@note": ":material=20\r\n:amount=1\r\n:important\r\n:hidden\r\nセット販売用アイテム\r\n骨董商で入手時に各種陰石に交換する",
+    "@id": 48,
+    "@features": [
+
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 10
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "",
+    "@name": "",
+    "@icon_index": 0,
+    "@price": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@id": 49,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 0
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "",
+    "@name": "",
+    "@icon_index": 0,
+    "@price": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@id": 50,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 0
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "特技を習得する。\\C[5]《MP:\\C[18]\\m[24]\\C[5]》\r\n\\C[5]\\ds[24]\\C[0]",
+    "@name": "一閃",
+    "@icon_index": 115,
+    "@price": 10000,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n:hidden\r\n習得イベント用のダミー",
+    "@id": 51,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 1
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "特技を習得する。\\C[5]《MP:\\C[18]\\m[21]\\C[5]》\r\n\\C[5]\\ds[21]\\C[0]",
+    "@name": "しぐれ",
+    "@icon_index": 113,
+    "@price": 10000,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n:hidden\r\n習得イベント用のダミー",
+    "@id": 52,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 1
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "特技を習得する。\\C[5]《MP:\\C[18]\\m[22]\\C[5]》\r\n\\C[5]\\ds[22]\\C[0]",
+    "@name": "さみだれ",
+    "@icon_index": 114,
+    "@price": 10000,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n:hidden\r\n習得イベント用のダミー",
+    "@id": 53,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 1
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "特技を習得する。\\C[5]《MP:\\C[18]\\m[28]\\C[5]》\r\n\\C[5]\\ds[28]\\C[0]",
+    "@name": "神立ち",
+    "@icon_index": 14,
+    "@price": 10000,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n:hidden\r\n習得イベント用のダミー",
+    "@id": 54,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 1
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "特技を習得する。\\C[5]《MP:\\C[18]\\m[10]\\C[5]》\r\n\\C[5]\\ds[10]\\C[0]",
+    "@name": "こといみ",
+    "@icon_index": 112,
+    "@price": 10000,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n:hidden\r\n習得イベント用のダミー",
+    "@id": 55,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 8
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "特技を習得する。\\C[5]《MP:\\C[18]\\m[11]\\C[5]》\r\n\\C[5]\\ds[11]\\C[0]",
+    "@name": "ことむけ",
+    "@icon_index": 12,
+    "@price": 10000,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n:hidden\r\n習得イベント用のダミー",
+    "@id": 56,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 8
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "特技を習得する。\\C[5]《MP:\\C[18]\\m[23]\\C[5]》\r\n\\C[5]\\ds[23]\\C[0]",
+    "@name": "ことむすび",
+    "@icon_index": 15,
+    "@price": 10000,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n:hidden\r\n習得イベント用のダミー",
+    "@id": 57,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 8
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "特技を習得する。\\C[5]《MP:\\C[18]\\m[12]\\C[5]》\r\n\\C[5]\\ds[12]\\C[0]",
+    "@name": "あめつちのことば",
+    "@icon_index": 26,
+    "@price": 10000,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n:hidden\r\n習得イベント用のダミー",
+    "@id": 58,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 8
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "特技を習得する。\\C[5]《MP:\\C[18]\\m[13]\\C[5]》\r\n\\C[5]\\ds[13]\\C[0]",
+    "@name": "はらへのことば",
+    "@icon_index": 119,
+    "@price": 10000,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n:hidden\r\n習得イベント用のダミー",
+    "@id": 59,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 8
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "特技を習得する。\\C[5]《MP:\\C[18]\\m[15]\\C[5]》\r\n\\C[5]\\ds[15]\\C[0]",
+    "@name": "かくれる",
+    "@icon_index": 12,
+    "@price": 10000,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n:hidden\r\n習得イベント用のダミー",
+    "@id": 60,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 4
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "特技を習得する。\\C[5]《MP:\\C[18]\\m[16]\\C[5]》\r\n\\C[5]\\ds[16]\\C[0]",
+    "@name": "からかう",
+    "@icon_index": 9,
+    "@price": 10000,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n:hidden\r\n習得イベント用のダミー\r\n\r\n元からかう",
+    "@id": 61,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 4
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "",
+    "@name": "",
+    "@icon_index": 0,
+    "@price": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@id": 62,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 0
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "",
+    "@name": "",
+    "@icon_index": 0,
+    "@price": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@id": 63,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 0
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "エルクの村の勇者が持つ剣。",
+    "@name": "勇者の剣",
+    "@icon_index": 147,
+    "@price": 100,
+    "@animation_id": 7,
+    "@note": "ガド用の装備",
+    "@id": 64,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0.0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      30,
+      0,
+      0,
+      0,
+      -50,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 1
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "取り回しに優れた剣。",
+    "@name": "ソード(Debug)",
+    "@icon_index": 147,
+    "@price": 100,
+    "@animation_id": 7,
+    "@note": "バトルテスト用",
+    "@id": 65,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0.0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 1
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "相手を貫く鋭い槍。",
+    "@name": "ランス(Debug)",
+    "@icon_index": 146,
+    "@price": 100,
+    "@animation_id": 13,
+    "@note": "バトルテスト用",
+    "@id": 66,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 2,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0.0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 2
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "うまく使えば岩をも砕く鉄鎚。",
+    "@name": "ハンマー(Debug)",
+    "@icon_index": 412,
+    "@price": 100,
+    "@animation_id": 19,
+    "@note": "バトルテスト用",
+    "@id": 67,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 3,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0.0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 3
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "布を裁つための鋏。切られるととても痛い。",
+    "@name": "裁ち鋏(Debug)",
+    "@icon_index": 399,
+    "@price": 100,
+    "@animation_id": 7,
+    "@note": "バトルテスト用",
+    "@id": 68,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0.0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 4
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "縫い物をするための針。刺されると泣くほど痛い。",
+    "@name": "縫い針(Debug)",
+    "@icon_index": 415,
+    "@price": 100,
+    "@animation_id": 13,
+    "@note": "バトルテスト用",
+    "@id": 69,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 2,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0.0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 5
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "糸を紡ぐのに使う錘。当たると思ったより痛い。",
+    "@name": "紡ぎ錘(Debug)",
+    "@icon_index": 321,
+    "@price": 100,
+    "@animation_id": 19,
+    "@note": "バトルテスト用",
+    "@id": 70,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 3,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 6
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "懐にしまえる小刀。剥いたり削ったり便利に使える。",
+    "@name": "懐刀(Debug)",
+    "@icon_index": 385,
+    "@price": 100,
+    "@animation_id": 7,
+    "@note": "バトルテスト用",
+    "@id": 71,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 7
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "聖なる人のもつ杖。おごそかな儀式に用いられる。",
+    "@name": "錫杖(Debug)",
+    "@icon_index": 414,
+    "@price": 100,
+    "@animation_id": 19,
+    "@note": "バトルテスト用",
+    "@id": 72,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 8
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "袖に隠れる刺針。日用品のような装飾が施されている。",
+    "@name": "寸鉄(Debug)",
+    "@icon_index": 167,
+    "@price": 100,
+    "@animation_id": 13,
+    "@note": "バトルテスト用",
+    "@id": 73,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 3,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0.0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 9
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "",
+    "@name": "",
+    "@icon_index": 0,
+    "@price": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@id": 74,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 0
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "",
+    "@name": "",
+    "@icon_index": 0,
+    "@price": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@id": 75,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 0
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "",
+    "@name": "-追加修得用-",
+    "@icon_index": 0,
+    "@price": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@id": 76,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 0
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "特技を習得する。\\C[5]《MP:\\C[18]\\m[103]\\C[5]》\r\n\\C[5]\\ds[103]\\C[0]",
+    "@name": "デスパレイション",
+    "@icon_index": 30,
+    "@price": 10000,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n:hidden\r\n習得イベント用のダミー",
+    "@id": 77,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 1
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "特技を習得する。\\C[5]《MP:\\C[18]\\m[104]\\C[5]》\r\n\\C[5]\\ds[104]\\C[0]",
+    "@name": "プロテクション",
+    "@icon_index": 29,
+    "@price": 10000,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n:hidden\r\n習得イベント用のダミー",
+    "@id": 78,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 1
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "",
+    "@name": "",
+    "@icon_index": 0,
+    "@price": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@id": 79,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 0
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "特技を習得する。\\C[5]《MP:\\C[18]\\m[107]\\C[5]》\r\n\\C[5]\\ds[107]\\C[0]",
+    "@name": "たゐにのうた",
+    "@icon_index": 26,
+    "@price": 10000,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n:hidden\r\n習得イベント用のダミー",
+    "@id": 80,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 8
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "特技を習得する。\\C[5]《MP:\\C[18]\\m[108]\\C[5]》\r\n\\C[5]\\ds[108]\\C[0]",
+    "@name": "やまびこのこゑ",
+    "@icon_index": 118,
+    "@price": 10000,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n:hidden\r\n習得イベント用のダミー",
+    "@id": 81,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 8
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "特技を習得する。\\C[5]《MP:\\C[18]\\m[109]\\C[5]》\r\n\\C[5]\\ds[109]\\C[0]",
+    "@name": "いみことば",
+    "@icon_index": 7,
+    "@price": 10000,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n:hidden\r\n習得イベント用のダミー",
+    "@id": 82,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 8
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "",
+    "@name": "",
+    "@icon_index": 0,
+    "@price": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@id": 83,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 0
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "特技を習得する。\\C[5]《MP:\\C[18]\\m[111]\\C[5]》\r\n\\C[5]\\ds[111]\\C[0]",
+    "@name": "びっくり妖精",
+    "@icon_index": 5,
+    "@price": 10000,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n:hidden\r\n習得イベント用のダミー",
+    "@id": 84,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 4
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "特技を習得する。\\C[5]《MP:\\C[18]\\m[112]\\C[5]》\r\n\\C[5]\\ds[112]\\C[0]",
+    "@name": "（未使用）マキシマム妖精",
+    "@icon_index": 30,
+    "@price": 10000,
+    "@animation_id": 0,
+    "@note": "レベルで習得するようにした\r\n\r\n:amount=1\r\n:hidden\r\n習得イベント用のダミー",
+    "@id": 85,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 4
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "特技を習得する。\\C[5]《MP:\\C[18]\\m[113]\\C[5]》\r\n\\C[5]\\ds[113]\\C[0]",
+    "@name": "トリプルマジック",
+    "@icon_index": 136,
+    "@price": 10000,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n:hidden\r\n習得イベント用のダミー",
+    "@id": 86,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 4
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "特技を習得する。\\C[5]《MP:\\C[18]\\m[114]\\C[5]》\r\n\\C[5]\\ds[114]\\C[0]",
+    "@name": "いたずら妖精",
+    "@icon_index": 11,
+    "@price": 10000,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n:hidden\r\n習得イベント用のダミー",
+    "@id": 87,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 4
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "特技を習得する。\\C[5]《MP:\\C[18]\\m[115]\\C[5]》\r\n\\C[5]\\ds[115]\\C[0]",
+    "@name": "けしかける",
+    "@icon_index": 12,
+    "@price": 10000,
+    "@animation_id": 0,
+    "@note": ":amount=1\r\n:hidden\r\n習得イベント用のダミー",
+    "@id": 88,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 4
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "",
+    "@name": "",
+    "@icon_index": 0,
+    "@price": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@id": 89,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 0
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "",
+    "@name": "",
+    "@icon_index": 0,
+    "@price": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@id": 90,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 0
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "",
+    "@name": "",
+    "@icon_index": 0,
+    "@price": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@id": 91,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 0
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "",
+    "@name": "",
+    "@icon_index": 0,
+    "@price": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@id": 92,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 0
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "",
+    "@name": "",
+    "@icon_index": 0,
+    "@price": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@id": 93,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 0
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "",
+    "@name": "",
+    "@icon_index": 0,
+    "@price": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@id": 94,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 0
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "",
+    "@name": "",
+    "@icon_index": 0,
+    "@price": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@id": 95,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 0
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "",
+    "@name": "",
+    "@icon_index": 0,
+    "@price": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@id": 96,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 0
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "",
+    "@name": "",
+    "@icon_index": 0,
+    "@price": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@id": 97,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 0
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "",
+    "@name": "",
+    "@icon_index": 0,
+    "@price": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@id": 98,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 0
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "",
+    "@name": "",
+    "@icon_index": 0,
+    "@price": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@id": 99,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 0
+  },
+  {
+    "rgss3_klass": "RPG::Weapon",
+    "@description": "",
+    "@name": "",
+    "@icon_index": 0,
+    "@price": 0,
+    "@animation_id": 0,
+    "@note": "",
+    "@id": 100,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 31,
+        "@data_id": 1,
+        "@value": 0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": 0
+      }
+    ],
+    "@params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "@etype_id": 0,
+    "@wtype_id": 0
+  }
+]

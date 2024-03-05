@@ -1,0 +1,3 @@
+[submodule "code/script/itefu"]
+	path = code/script/itefu
+	url = https://github.com/five-rings/itefu.git

@@ -1,0 +1,7456 @@
+[
+  null,
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "戦闘不能",
+    "@priority": 100,
+    "@icon_index": 17,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 4,
+    "@release_by_damage": false,
+    "@message3": "",
+    "@note": ":label=即死\r\n:detail=戦闘不能\r\n",
+    "@id": 1,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "",
+    "@id": 2,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": false,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "かばう",
+    "@priority": 0,
+    "@icon_index": 29,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=防御",
+    "@id": 3,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 62,
+        "@data_id": 1,
+        "@value": 0.0
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": true,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "防御-1",
+    "@priority": 0,
+    "@icon_index": 29,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=防御",
+    "@id": 4,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 62,
+        "@data_id": 1,
+        "@value": 0.0
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": true,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "不死身",
+    "@priority": 0,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":label=\r\n主にイベント戦で使用する",
+    "@id": 5,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 1,
+        "@value": 0.0
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "挑発",
+    "@priority": 50,
+    "@icon_index": 25,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n",
+    "@id": 6,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 0,
+        "@value": 10.0
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 5,
+    "@max_turns": 5,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "言咎め",
+    "@priority": 50,
+    "@icon_index": 27,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:notable\r\n:label=咎徴",
+    "@id": 7,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 6,
+        "@value": 2.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 7,
+        "@value": 2.0
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": true,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "防御-2",
+    "@priority": 0,
+    "@icon_index": 29,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=防御",
+    "@id": 8,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 62,
+        "@data_id": 1,
+        "@value": 0.0
+      }
+    ],
+    "@auto_removal_timing": 1,
+    "@min_turns": 2,
+    "@max_turns": 2,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": true,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "確実に逃走に成功する",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":label=\r\n",
+    "@id": 9,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 64,
+        "@data_id": 2,
+        "@value": 0.0
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "傷病",
+    "@priority": 65,
+    "@icon_index": 18,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@release_by_damage": false,
+    "@message3": "",
+    "@note": ":basic\r\n:label=傷病《継続ダメージ》\r\n:exclude_key=poison\r\nスリップダメージ系の基準ステート",
+    "@id": 10,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 7,
+        "@value": -0.0001
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "毒",
+    "@priority": 65,
+    "@icon_index": 18,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@release_by_damage": false,
+    "@message3": "",
+    "@note": ":basic\r\n:exclude_key=poison\r\n:label=毒《継続ダメージ》\r\n毒の脅威度を0.01から0.02にとりあえず",
+    "@id": 11,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 7,
+        "@value": -0.0002
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "(スリップ2)",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:exclude_key=poison",
+    "@id": 12,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "(スリップ3)",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:exclude_key=poison",
+    "@id": 13,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "(スリップ4)",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:exclude_key=poison",
+    "@id": 14,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "(スリップ5)",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:exclude_key=poison",
+    "@id": 15,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "(スリップ6)",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:exclude_key=poison",
+    "@id": 16,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "(スリップ7)",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:exclude_key=poison",
+    "@id": 17,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "(スリップ8)",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:exclude_key=poison",
+    "@id": 18,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "(スリップ9)",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:exclude_key=poison",
+    "@id": 19,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "行動不能",
+    "@priority": 70,
+    "@icon_index": 21,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 4,
+    "@release_by_damage": false,
+    "@message3": "身動きが取れない",
+    "@note": ":basic\r\n:notable\r\n行動不能系の基準ステート\r\n:exclude_key=sleep",
+    "@id": 20,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 3,
+    "@max_turns": 5,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "痺れ",
+    "@priority": 70,
+    "@icon_index": 106,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 4,
+    "@release_by_damage": false,
+    "@message3": "痺れて動けない",
+    "@note": ":basic\r\n:notable\r\n:label=痺れ《行動不能》\r\n:exclude_key=sleep",
+    "@id": 21,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 2,
+    "@max_turns": 3,
+    "@chance_by_damage": 50,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": true,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "気絶",
+    "@priority": 50,
+    "@icon_index": 21,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 4,
+    "@message3": "気絶している",
+    "@note": ":basic\r\n:notable\r\n:label=気絶《行動不能》\r\n:exclude_key=sleep",
+    "@id": 22,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 2,
+    "@max_turns": 2,
+    "@chance_by_damage": 50,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "睡眠",
+    "@priority": 50,
+    "@icon_index": 22,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 4,
+    "@message3": "眠っている",
+    "@note": ":basic\r\n:notable\r\n:label=睡眠《行動不能》\r\n:exclude_key=sleep",
+    "@id": 23,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 2,
+    "@max_turns": 3,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": true,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "深い眠り",
+    "@priority": 50,
+    "@icon_index": 22,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 4,
+    "@message3": "眠っている",
+    "@note": ":basic\r\n:notable\r\n:label=深い眠り《行動不能》\r\n:exclude_key=sleep\r\n\r\nダメージで解除されない睡眠\r\n坑道地下の目玉をこちらに",
+    "@id": 24,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 3,
+    "@max_turns": 3,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "(眠り5)",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 4,
+    "@message3": "",
+    "@note": ":basic\r\n:notable\r\n:exclude_key=sleep",
+    "@id": 25,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "(眠り6)",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 4,
+    "@message3": "",
+    "@note": ":basic\r\n:notable\r\n:exclude_key=sleep",
+    "@id": 26,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "(眠り7)",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 4,
+    "@message3": "",
+    "@note": ":basic\r\n:notable\r\n:exclude_key=sleep",
+    "@id": 27,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "(眠り8)",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 4,
+    "@message3": "",
+    "@note": ":basic\r\n:notable\r\n:exclude_key=sleep",
+    "@id": 28,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "(眠り9)",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 4,
+    "@message3": "",
+    "@note": ":basic\r\n:notable\r\n:exclude_key=sleep",
+    "@id": 29,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "竜香",
+    "@priority": 50,
+    "@icon_index": 121,
+    "@message1": "",
+    "@message4": "竜香の効果が切れた。",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":label=\r\n",
+    "@id": 30,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 64,
+        "@data_id": 0,
+        "@value": 0.0
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": true,
+    "@remove_at_battle_end": false,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "言向け",
+    "@priority": 50,
+    "@icon_index": 28,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=狙われDOWN",
+    "@id": 31,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 0,
+        "@value": 0.1
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 5,
+    "@max_turns": 5,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "神立ち",
+    "@priority": 100,
+    "@icon_index": 30,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=能力大幅UP\r\n:attack_scale=1.5\r\n\r\n解除条件行動で継続ターン1だと即解除か…\r\n注意しないと色々強度を誤りそう\r\n守備の増加が…どうなってんだ…\r\n攻撃増加も相変わらず…整理したと思ったけど。\r\n",
+    "@id": 32,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 6,
+        "@value": 0.002
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 7,
+        "@value": 0.002
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 6,
+        "@value": 0.5
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 7,
+        "@value": 0.5
+      }
+    ],
+    "@auto_removal_timing": 1,
+    "@min_turns": 2,
+    "@max_turns": 2,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "言結び",
+    "@priority": 50,
+    "@icon_index": 31,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=守備UP\r\n\r\nとりあえずスケイルと同じ効果に。",
+    "@id": 33,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 1,
+        "@value": 1.5
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 2,
+        "@value": 1.5
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 3,
+        "@value": 1.5
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 8,
+    "@max_turns": 8,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "かくれる",
+    "@priority": 50,
+    "@icon_index": 28,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=狙われDOWN\r\n※絶対に単体攻撃のターゲットにならないように調整。\r\n普通使う人がいないからこそ、使えば強い状態に。\r\n全体攻撃で解除されるかどうかは難しいライン。\r\n",
+    "@id": 34,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 0,
+        "@value": 0.1
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 3,
+    "@max_turns": 5,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "からかう",
+    "@priority": 50,
+    "@icon_index": 25,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=狙われUP\r\n単体攻撃を絶対に吸引するように調整。\r\n絶対まで行かずとも好いかもしれないけど、\r\n使う人がおそらく少ないからこそ強力に。\r\n防御特化タンク、回避タンクなど。",
+    "@id": 35,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 0,
+        "@value": 10.0
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 3,
+    "@max_turns": 5,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "たましづめの歌",
+    "@priority": 50,
+    "@icon_index": 118,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=攻撃・守備UP/状態異常無効\r\n:attack_scale=1.33\r\n:magic_scale=1.33\r\nターンを2-6から8-8に→ターンを8-8から1-1に\r\n耐性+33%がバリバリ悪さするな\r\n→物理、秘術ダメージ75%(-25%)でスケイル、デフレクを更に半減。\r\n言咎めより攻撃増加は弱いが、複合で悪さする\r\n耐性は言忌みコピペ",
+    "@id": 36,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 6,
+        "@value": 0.75
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 7,
+        "@value": 0.75
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 10,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 11,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 12,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 13,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 14,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 15,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 16,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 17,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 18,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 19,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 37,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 101,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 104,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 82,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 121,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 20,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 21,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 22,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 23,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 24,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 25,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 26,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 27,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 28,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 29,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 38,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 39,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 59,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 62,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 63,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 83,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 102,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 103,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 153,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 54,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 67,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 76,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 114,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 147,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 65,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 66,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 71,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 74,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 108,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 111,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 117,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 118,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 119,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 130,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 164,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 53,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 176,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 85,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 64,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 99,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 149,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 150,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 145,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 81,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 78,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 80,
+        "@value": 0.0
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "エンギフト",
+    "@priority": 65,
+    "@icon_index": 18,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@release_by_damage": false,
+    "@message3": "",
+    "@note": ":basic\r\n:label=毒《継続ダメージ》\r\n:exclude_key=poison\r\n敵にかける用\r\n対雑魚であればアホ強くて良いか？\r\nHPが高い相手に凶悪な数値出るけども…。",
+    "@id": 37,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 7,
+        "@value": -0.00033
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 8,
+    "@max_turns": 8,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "エンドルミ",
+    "@priority": 50,
+    "@icon_index": 22,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 4,
+    "@message3": "眠っている",
+    "@note": ":basic\r\n:notable\r\n:label=眠り《行動不能》\r\n:exclude_key=sleep\r\n敵にかける用",
+    "@id": 38,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 2,
+    "@max_turns": 2,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": true,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "エンハルシ",
+    "@priority": 50,
+    "@icon_index": 25,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 2,
+    "@message3": "混乱している",
+    "@note": ":basic\r\n:notable\r\n:label=混乱《制御不能》\r\n敵にかける用",
+    "@id": 39,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 1,
+    "@min_turns": 2,
+    "@max_turns": 2,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": true,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "キュア",
+    "@priority": 50,
+    "@icon_index": 26,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":label=傷病予防/HP自動回復\r\nキュアのおまけの耐性効果\r\n\r\nターン 8→10(無根拠）\r\n\r\n→リジェネ効果15%を付与\r\n赤エキスのリジェネ効果と重複すると強すぎ感\r\nだが1人にずつしかかけられないのでそのくらいでも良いか？\r\ndot系の効果が殆ど実装しなかったので",
+    "@id": 40,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 7,
+        "@value": 0.00015
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 10,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 11,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 13,
+        "@data_id": 12,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 13,
+        "@data_id": 13,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 13,
+        "@data_id": 14,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 13,
+        "@data_id": 15,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 13,
+        "@data_id": 16,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 13,
+        "@data_id": 17,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 13,
+        "@data_id": 18,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 13,
+        "@data_id": 19,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 37,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 101,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 104,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 82,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 121,
+        "@value": 0.0
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 10,
+    "@max_turns": 10,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "トニカ",
+    "@priority": 50,
+    "@icon_index": 28,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":label=自失・弱体予防/行動UP\r\nトニカのおまけの耐性効果\r\n\r\n追加効果として敏捷（行動）を増加。\r\n敏捷1.5倍…はおそらくほぼすべての場面で先行できる状態になるとはおもう。\r\n\r\n窒息（風精霊の空気の檻）は防げない状態\r\n良し悪しは不明",
+    "@id": 41,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 6,
+        "@value": 0.0015
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 20,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 21,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 22,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 23,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 24,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 25,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 26,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 27,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 28,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 29,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 38,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 39,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 59,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 62,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 63,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 83,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 102,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 103,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 54,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 67,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 76,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 114,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 147,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 53,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 176,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 65,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 66,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 71,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 74,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 108,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 111,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 114,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 117,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 118,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 119,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 130,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 153,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 164,
+        "@value": 0.0
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 10,
+    "@max_turns": 10,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "バルクト",
+    "@priority": 50,
+    "@icon_index": 66,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=攻撃UP\r\n\r\n0.195(およそ1.25倍)→0.3(1.5倍）\r\n基本パラと追加の計算が異なる\r\n*0.1=100%(1倍)  *0.2=200%(2倍)\r\n修正願い出した気がするけど現状\r\n基礎にしかかからない（武器も石も計算外)\r\n\r\n*0.4くらいだとおそらく2倍くらいになるか。",
+    "@id": 42,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 2,
+        "@value": 0.00299
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 8,
+    "@max_turns": 8,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "スケイル",
+    "@priority": 50,
+    "@icon_index": 67,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=物理耐性UP\r\n防御力上昇でなく物理耐性をとりあえず。\r\nボスを10ターンとして8ターンで切れると終盤での攻防にアクセントが出る？\r\n→防御力の直接上昇だと…強すぎる気はする。",
+    "@id": 43,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 1,
+        "@value": 1.5
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 2,
+        "@value": 1.5
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 3,
+        "@value": 1.5
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 8,
+    "@max_turns": 8,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "デフレク",
+    "@priority": 50,
+    "@icon_index": 69,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=秘術耐性UP\r\n→魔法ダメージ軽減でなく属性軽減に\r\n　→物理の術式を考えると扱いが微妙ではある。\r\nある程度のラインからはこの使用が前提。\r\n敵の攻撃威力を賑やかにするための材料。\r\n→耐性が足し算になると考えると術式対応が良いか\r\n",
+    "@id": 44,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 7,
+        "@value": 0.5
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 8,
+    "@max_turns": 8,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "言忌み",
+    "@priority": 50,
+    "@icon_index": 31,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=状態異常無効\r\n\r\n全ての状態異常を防ぐのでなく、物理的な作用を伴わないものに限定したい。\r\n…が、どれに効果があるか分かりづらい。\r\n　→t: むしろ全部防ぐ方向でよいのでそのままで\r\n\r\n蝙蝠の出現スタンに合わせるために\r\nターン終了時1ターンから行動基準で2ターンに\r\n対ボスで強すぎるようなら調整。\r\n→動作がおかしいので、とりあえず戻す。",
+    "@id": 45,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 10,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 11,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 12,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 13,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 14,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 15,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 16,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 17,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 18,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 19,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 37,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 101,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 104,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 82,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 121,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 20,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 21,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 22,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 23,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 24,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 25,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 26,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 27,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 28,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 29,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 38,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 39,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 59,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 62,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 63,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 83,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 102,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 103,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 153,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 54,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 67,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 76,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 114,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 147,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 65,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 66,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 71,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 74,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 108,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 111,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 117,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 118,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 119,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 130,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 164,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 53,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 176,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 85,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 64,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 99,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 149,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 150,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 145,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 81,
+        "@value": 0.0
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "",
+    "@id": 46,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": false,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "（未使用）バルクト削除可能",
+    "@priority": 50,
+    "@icon_index": 66,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=攻撃UP\r\n\r\nバルクトは固定値を足したい場合",
+    "@id": 47,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 2,
+        "@value": 0.2
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 8,
+    "@max_turns": 8,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "（未使用）神立ち＿削除可能",
+    "@priority": 100,
+    "@icon_index": 30,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=能力大幅UP\r\n:attack_scale=0.5\r\n\r\n解除条件行動で継続ターン1だと即解除か…\r\n注意しないと色々強度を誤りそう\r\n守備の増加が…どうなってんだ…\r\n攻撃増加も相変わらず…整理したと思ったけど。\r\n",
+    "@id": 48,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 2,
+        "@value": 0.004
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 3,
+        "@value": 0.5
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 6,
+        "@value": 0.002
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 5,
+        "@value": 0.005
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 7,
+        "@value": 0.002
+      }
+    ],
+    "@auto_removal_timing": 1,
+    "@min_turns": 2,
+    "@max_turns": 2,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "（未使用・重複）言咎め",
+    "@priority": 50,
+    "@icon_index": 27,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":label=咎徴",
+    "@id": 49,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 1,
+        "@value": 0.0
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": true,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "",
+    "@id": 50,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": false,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "ため硬直",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 4,
+    "@message3": "",
+    "@note": ":label=\r\n",
+    "@id": 51,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "潜伏ため",
+    "@priority": 50,
+    "@icon_index": 14,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 1,
+    "@message3": "",
+    "@note": "この仕組みだと防御を参照しない。",
+    "@id": 52,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 2,
+        "@value": 0.0015
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 6,
+        "@value": 0.1
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 2,
+    "@max_turns": 2,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "暗闇",
+    "@priority": 70,
+    "@icon_index": 19,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@release_by_damage": false,
+    "@message3": "",
+    "@note": ":basic\r\n:label=暗闇《命中DOWN》\r\n\r\n-60%→-25%",
+    "@id": 53,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": -0.25
+      }
+    ],
+    "@auto_removal_timing": 1,
+    "@min_turns": 3,
+    "@max_turns": 5,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "行動不能(糸)",
+    "@priority": 70,
+    "@icon_index": 22,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 4,
+    "@release_by_damage": false,
+    "@message3": "糸が絡んで動けない",
+    "@note": ":basic\r\n:notable\r\n:label=糸縛り《行動不能》\r\n:exclude_key=sleep",
+    "@id": 54,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 1,
+    "@max_turns": 2,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "神代神楽",
+    "@priority": 50,
+    "@icon_index": 14,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":party\r\n:label=HP・MP自動回復\r\nMP割合回復は困るかもしれないので固定値に\r\n0.01% → 2%",
+    "@id": 55,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 7,
+        "@value": 0.0001
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 8,
+        "@value": 0.02
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "ため状態",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "ウォルフェ、サンデルベ、ヘスパイアの強化モード\r\n",
+    "@id": 56,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 10,
+    "@max_turns": 10,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "リジェネ",
+    "@priority": 50,
+    "@icon_index": 10,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":label=HP自動回復\r\n\r\n赤黄白のエキスから呼ばれている\r\n",
+    "@id": 57,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 7,
+        "@value": 0.0001
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "カウンター",
+    "@priority": 50,
+    "@icon_index": 14,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 4,
+    "@message3": "",
+    "@note": "\r\nスキル169「待ち構える」で付与されるがこのスキルが未使用",
+    "@id": 58,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 6,
+        "@value": 1.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 2,
+        "@value": 1.5
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 3,
+    "@max_turns": 3,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "スタン",
+    "@priority": 70,
+    "@icon_index": 21,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 4,
+    "@release_by_damage": false,
+    "@message3": "気絶している",
+    "@note": ":basic\r\n:notable\r\n:label=スタン《行動不能》\r\n:exclude_key=sleep",
+    "@id": 59,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 2,
+    "@max_turns": 2,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "物理耐性UP",
+    "@priority": 50,
+    "@icon_index": 67,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=守備UP",
+    "@id": 60,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 3,
+        "@value": 0.0012
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 1,
+        "@value": 1.5
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 2,
+        "@value": 1.5
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 3,
+        "@value": 1.5
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 99,
+    "@max_turns": 99,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "回避UP",
+    "@priority": 50,
+    "@icon_index": 70,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=回避UP",
+    "@id": 61,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 1,
+        "@value": 0.33
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 99,
+    "@max_turns": 99,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "混乱",
+    "@priority": 70,
+    "@icon_index": 25,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 2,
+    "@release_by_damage": false,
+    "@message3": "混乱している",
+    "@note": ":basic\r\n:notable\r\n:label=混乱《制御不能》\r\n今の計算式で味方攻撃したときにどうなるか…",
+    "@id": 62,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 1,
+    "@min_turns": 2,
+    "@max_turns": 3,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": true,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "短スタン",
+    "@priority": 70,
+    "@icon_index": 21,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 4,
+    "@release_by_damage": false,
+    "@message3": "気絶している",
+    "@note": ":basic\r\n:notable\r\n:label=短スタン《行動不能》\r\n:exclude_key=sleep",
+    "@id": 63,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "呪い",
+    "@priority": 65,
+    "@icon_index": 111,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:notable\r\n:label=呪い《被ダメージ2倍》\r\n\r\n狙われ増加も付与、アナウンスするかは不明\r\n呪いの効果を3ターンに固定\r\n（ブレを味わえるほど戦闘しないので）",
+    "@id": 64,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 6,
+        "@value": 2.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 7,
+        "@value": 2.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 0,
+        "@value": 10.0
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 3,
+    "@max_turns": 3,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "フルール",
+    "@priority": 50,
+    "@icon_index": 82,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=物理攻撃力DOWN\r\n\r\n0.075→0.088",
+    "@id": 65,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 2,
+        "@value": 0.00088
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 8,
+    "@max_turns": 8,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "凍傷",
+    "@priority": 70,
+    "@icon_index": 86,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@release_by_damage": false,
+    "@message3": "",
+    "@note": ":basic\r\n:label=凍傷《行動DOWN》\r\n\r\n次のターンのみ低下\r\n行動が80%に、40付近が32になってほぼ競り負ける。\r\n",
+    "@id": 66,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 6,
+        "@value": 0.0008
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 2,
+    "@max_turns": 2,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "氷結",
+    "@priority": 70,
+    "@icon_index": 105,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 4,
+    "@release_by_damage": false,
+    "@message3": "氷漬けで動けない",
+    "@note": ":basic\r\n:notable\r\n:label=氷結《行動不能》\r\n:exclude_key=sleep\r\n※燃やすと回復みたいなギミックを入れても\r\n　活用するメリットはない。\r\n　永久氷結のような要素の前座ならアリか。",
+    "@id": 67,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 2,
+    "@max_turns": 3,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "温まった体",
+    "@priority": 50,
+    "@icon_index": 10,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":label=HP自動回復/氷耐性\r\nスピリトゥスの補助効果\r\n即時回復がない代わりに緩やかな回復\r\nやや攻撃力上昇、氷系デバフの無効化。",
+    "@id": 68,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 7,
+        "@value": 0.0001
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 8,
+        "@value": 1.2
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 66,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 67,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 76,
+        "@value": 0.0
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "ため状態",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "アンクラーの強化モード\r\n\r\n※ベースの攻撃力を51→76にした結果\r\n　1.5倍では相対的にダメージ増加量が減少。\r\n　このあたりは自動計算したいけど手動で対応。\r\n　ため時に+52したいので1.7倍に。",
+    "@id": 69,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 2,
+        "@value": 0.0017
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 2,
+    "@max_turns": 2,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "通常状態",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":label=\r\nヴェイングラドで使用\r\n",
+    "@id": 70,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "フラジエ",
+    "@priority": 50,
+    "@icon_index": 83,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=物理防御DOWN\r\n\r\n耐性-30%なので数値は*70\r\n※明確に物理に弱くするために耐性で調整\r\n　今回の防御の仕様的に、特別固い奴を除いて\r\n　数値を下げてこちらが有利になりづらい。\r\n",
+    "@id": 71,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 1,
+        "@value": 0.7
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 2,
+        "@value": 0.7
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 3,
+        "@value": 0.7
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 8,
+    "@max_turns": 8,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "憤怒",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "",
+    "@id": 72,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 4,
+    "@max_turns": 4,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "攻撃力UP",
+    "@priority": 50,
+    "@icon_index": 66,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":label=攻撃UP",
+    "@id": 73,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 4,
+    "@max_turns": 4,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "命中率DOWN",
+    "@priority": 50,
+    "@icon_index": 84,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":label=命中DOWN",
+    "@id": 74,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": -0.25
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 4,
+    "@max_turns": 4,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "冷静",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":label=",
+    "@id": 75,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 2,
+    "@max_turns": 2,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "氷結（イエネテス）",
+    "@priority": 70,
+    "@icon_index": 105,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 4,
+    "@release_by_damage": false,
+    "@message3": "氷漬けで動けない",
+    "@note": ":basic\r\n:notable\r\n:label=氷結《行動不能》\r\n:exclude_key=sleep\r\nイエネテス用、狙われ度が激増し防御不能の状態で突進を受ける形を演出。",
+    "@id": 76,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 0,
+        "@value": 10.0
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 2,
+    "@max_turns": 3,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": true,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "大気の壁",
+    "@priority": 50,
+    "@icon_index": 67,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=大気の壁《耐性上昇》\r\n\r\nとりあえず霊だけは耐性を与えない\r\n風の相克になるような存在はダメージが通るように",
+    "@id": 77,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 3,
+        "@value": 0.0012
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 1,
+        "@value": 1.7
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 2,
+        "@value": 1.7
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 3,
+        "@value": 1.7
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 4,
+        "@value": 1.7
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 5,
+        "@value": 1.7
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 6,
+        "@value": 1.7
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 7,
+        "@value": 1.7
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 8,
+        "@value": 1.7
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 9,
+        "@value": 1.7
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "窒息 行動不能",
+    "@priority": 70,
+    "@icon_index": 17,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 4,
+    "@release_by_damage": false,
+    "@message3": "息が詰まって動けない",
+    "@note": ":basic\r\n:notable\r\n:label=窒息《行動不能【環境】》\r\n:exclude_key=sleep\r\n風耐性最大にして全体攻撃を受けないように。\r\n解除がＨＰ再生計算より先っぽいから2ターンで死ぬけど3ターン持続。\r\n→ヒール通るな…。中に干渉できない…。\r\n　認知と対応を考えると2ターン死亡は初見だと何もできない。\r\n→3ターンで死亡に変更。\r\n　回復無効にせず回復挟めば死なない状態に？\r\n→ヤスペンの単体攻撃対象にならないようにしたい。",
+    "@id": 78,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 0,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 0,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 0,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 0,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 0,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 0,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 0,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 0,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 6,
+        "@value": 2.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 7,
+        "@value": -0.00034
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 3,
+    "@max_turns": 3,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "リジェネ",
+    "@priority": 50,
+    "@icon_index": 10,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "未使用\r\n\r\nHP再生0.01%→5\r\n超必殺加護も含めて10%回復が重複すると強すぎるので\r\n貴重品である序盤に若干強い程度にするため\r\n固定値5回復で。\r\n終盤でも回復量+αにはなるので損はしない。",
+    "@id": 79,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 7,
+        "@value": 0.05
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "溺水",
+    "@priority": 70,
+    "@icon_index": 18,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@release_by_damage": false,
+    "@message3": "",
+    "@note": ":basic\r\n:label=溺水《継続ダメージ【環境】》\r\n\r\n特定のアイテムやスキルでないと解除不能な特異攻撃。\r\nとりあえずダメージのみでペナルティはつけない。\r\n※攻撃低下とかつけるとシンプルにだるい",
+    "@id": 80,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 7,
+        "@value": -0.0001
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 3,
+    "@max_turns": 3,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "切断 HP低下＋特技封印",
+    "@priority": 70,
+    "@icon_index": 285,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@release_by_damage": false,
+    "@message3": "",
+    "@note": ":basic\r\n:label=切断《HP低下/特技封印【難治】》\r\n:mhp_scale=0.75\r\n\r\n特定のアイテムやスキルでないと解除不能な特異攻撃。\r\nとりあえずダメージのみでペナルティはつけない。\r\nHPはとりあえず-25%、強すぎたら修正。\r\n※攻撃低下とかつけるとシンプルにだるい\r\n種類を作って軽症から重症まで？\r\n",
+    "@id": 81,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 42,
+        "@data_id": 1,
+        "@value": 0.0
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 3,
+    "@max_turns": 3,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "出血",
+    "@priority": 70,
+    "@icon_index": 124,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@release_by_damage": false,
+    "@message3": "",
+    "@note": ":basic\r\n:label=出血《継続ダメージ》\r\n\r\n溺水と重なると厳しいdotになる。\r\n回復魔法と同時に治るが、リジェネでは治らない。\r\nダメージが大きいとプレイヤーには回復しか選択肢がなくなる。\r\n適度に弱い方が良いか？\r\n→行動を強制するほうが強度的に良さげか。",
+    "@id": 82,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 7,
+        "@value": -0.0002
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 3,
+    "@max_turns": 3,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "中スタン",
+    "@priority": 70,
+    "@icon_index": 21,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 4,
+    "@release_by_damage": false,
+    "@message3": "気絶している",
+    "@note": ":basic\r\n:notable\r\n:label=中スタン《行動不能》\r\n:exclude_key=sleep",
+    "@id": 83,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 1,
+        "@value": -1.0
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 2,
+    "@max_turns": 3,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "葉っぱガード",
+    "@priority": 50,
+    "@icon_index": 67,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=耐性上昇\r\n\r\n3ターンだと長すぎるので2ターン\r\n1ターンにしてお助け行動にしてしまうのも可。\r\n→後半を二回行動するタイプにする？\r\n　その場合はこの半減も1ターンで機能する。",
+    "@id": 84,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 3,
+        "@value": 0.0012
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 1,
+        "@value": 1.5
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 2,
+        "@value": 1.5
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 3,
+        "@value": 1.5
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 4,
+        "@value": 1.5
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 5,
+        "@value": 1.5
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 6,
+        "@value": 1.5
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 7,
+        "@value": 1.5
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 8,
+        "@value": 1.5
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 9,
+        "@value": 1.5
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 2,
+    "@max_turns": 2,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "沈黙",
+    "@priority": 50,
+    "@icon_index": 20,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=沈黙《スキル封印》",
+    "@id": 85,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 42,
+        "@data_id": 1,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 42,
+        "@data_id": 2,
+        "@value": 0.0
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 2,
+    "@max_turns": 3,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "強靭の果実",
+    "@priority": 50,
+    "@icon_index": 297,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":party\r\n:label=HP上昇\r\n巨人の薬\r\nスケールではないので装備や生命石で増加した分はかからない",
+    "@id": 86,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 0,
+        "@value": 0.0015
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 2,
+    "@max_turns": 3,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "再生の果実",
+    "@priority": 50,
+    "@icon_index": 302,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":party\r\n:label=MP上昇/MP自動回復\r\n\r\n禁断のエーテル\r\n最大MPが増加しMPが毎ターン2回復",
+    "@id": 87,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 1,
+        "@value": 0.0015
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 8,
+        "@value": 0.02
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 2,
+    "@max_turns": 3,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "嗜虐の果実",
+    "@priority": 50,
+    "@icon_index": 317,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":party\r\n:label=HPドレイン\r\n:drain_hp=0.1\r\n\r\n吸血鬼の薬\r\n\r\n吸収は10%、強すぎるかどうかは不鮮明\r\n生半可な与ダメージでは満足に回復はしない\r\n\r\n効果不十分ならさらに強化\r\n→ペナとして日光に弱くなる。日光？",
+    "@id": 88,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 2,
+    "@max_turns": 3,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "被虐の果実",
+    "@priority": 50,
+    "@icon_index": 316,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":party\r\n:label=MP吸収\r\n:absorb_mp=1/40\r\n\r\n被ダメージの2.5%分のmpを回復\r\n100で2.5、200で5\r\n最低1保障の計算にしてもらってゲームプレイ中はそれが基本",
+    "@id": 89,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 2,
+    "@max_turns": 3,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "プロテクション",
+    "@priority": 50,
+    "@icon_index": 29,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":party\r\n:label=物理・属性耐性UP\r\n+10%→+5%\r\n\r\n習得後はいつでも使えるけどラスボス用に仮耐性\r\n\r\n",
+    "@id": 90,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 1,
+        "@value": 1.05
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 2,
+        "@value": 1.05
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 3,
+        "@value": 1.05
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 4,
+        "@value": 1.05
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 5,
+        "@value": 1.05
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 6,
+        "@value": 1.05
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 7,
+        "@value": 1.05
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 8,
+        "@value": 1.05
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 9,
+        "@value": 1.05
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 10,
+        "@value": 1.05
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "大為爾の歌",
+    "@priority": 50,
+    "@icon_index": 118,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":party\r\n:label=MP自動回復\r\n自然回復\r\nターンを永続に\r\n効果を自然回復量倍（か1.5倍）に。",
+    "@id": 91,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 8,
+        "@value": 0.04
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 99,
+    "@max_turns": 99,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "山彦の声",
+    "@priority": 50,
+    "@icon_index": 118,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=スキル反響\r\n:echo\r\n\r\n特殊仕様のバフ。\r\nとりあえずはmat増加で代用。\r\n強力というか独特なので永続でなく12ターンに。",
+    "@id": 92,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 12,
+    "@max_turns": 12,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "デスパレイション",
+    "@priority": 50,
+    "@icon_index": 25,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=捨て身\r\n:attack_scale=1.2\r\n\r\nベース攻撃力+20%から最終値+20%に変更\r\n攻撃力アップ、毎ターンＨＰ減少\r\n戦闘中持続に",
+    "@id": 93,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 7,
+        "@value": -0.0002
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 12,
+    "@max_turns": 12,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "忌み詞",
+    "@priority": 50,
+    "@icon_index": 85,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=全属性耐性DOWN\r\n\r\n8ターン→12ターン\r\n\r\nフラジエがあるので属性のみで",
+    "@id": 94,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 4,
+        "@value": 0.5
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 5,
+        "@value": 0.5
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 6,
+        "@value": 0.5
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 7,
+        "@value": 0.5
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 8,
+        "@value": 0.5
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 9,
+        "@value": 0.5
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 10,
+        "@value": 0.5
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 12,
+    "@max_turns": 12,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "妖精王の秘法",
+    "@priority": 50,
+    "@icon_index": 14,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=マッチョ化\r\n:detail=妖精王の秘法\r\n:mhp_scale=1.3\r\n:mmp_scale=0.5\r\n:attack_scale=1.3\r\n:magic_scale=0.5\r\n\r\nHP1.5倍…は最終局面でも強すぎるか 1.3\r\n",
+    "@id": 95,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 12,
+    "@max_turns": 12,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "トリプルマジック",
+    "@priority": 50,
+    "@icon_index": 119,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=術式3倍\r\n:magic_scale=3\r\nためるの魔法・上位版\r\nmatの計算式…がおそらく異なるので\r\nattackscaleの魔法版を設定する必要がある。",
+    "@id": 96,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 2,
+    "@max_turns": 2,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "いたずら妖精",
+    "@priority": 65,
+    "@icon_index": 18,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@release_by_damage": false,
+    "@message3": "",
+    "@note": ":basic\r\n:label=いたずら妖精《継続ダメージ》\r\n解除不可能なdotダメージ\r\n50dmg x 20ターンで1000dmg",
+    "@id": 97,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 7,
+        "@value": -0.5
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "炎の盾",
+    "@priority": 50,
+    "@icon_index": 104,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=水・氷耐性\r\n\r\n3ターンだと長すぎるので2ターン\r\n1ターンにしてお助け行動にしてしまうのも可。\r\n→後半を二回行動するタイプにする？\r\n　その場合はこの半減も1ターンで機能する。\r\n\r\n→耐性全部だとただの遅延行動なので\r\n　弱点である水氷の実をガードするスキルに",
+    "@id": 98,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 8,
+        "@value": 2.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 5,
+        "@value": 2.0
+      }
+    ],
+    "@auto_removal_timing": 1,
+    "@min_turns": 2,
+    "@max_turns": 2,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "魔力漏出",
+    "@priority": 70,
+    "@icon_index": 120,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@release_by_damage": false,
+    "@message3": "",
+    "@note": ":basic\r\n:label=MP漏出\r\nＭＰを失っていくデバフ",
+    "@id": 99,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 8,
+        "@value": -0.0002
+      }
+    ],
+    "@auto_removal_timing": 1,
+    "@min_turns": 5,
+    "@max_turns": 5,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "水爆弾",
+    "@priority": 50,
+    "@icon_index": 99,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:notable\r\n:chain=450\r\nテストでそのターンの最後に発動。\r\n\r\n※身体の外にくっついているだけなので言忌みでは防げない。このあたりルールが明確ならいいのだけど。\r\n対策方法が複数ある、という意味で防げても良い気はする。",
+    "@id": 100,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 2,
+    "@max_turns": 2,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "＿エンギフト",
+    "@priority": 65,
+    "@icon_index": 18,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@release_by_damage": false,
+    "@message3": "",
+    "@note": ":basic\r\n:label=毒《継続ダメージ》\r\n:exclude_key=poison\r\nキルケア用",
+    "@id": 101,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 7,
+        "@value": -0.00024
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 8,
+    "@max_turns": 8,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "＿エンドルミ",
+    "@priority": 50,
+    "@icon_index": 22,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 4,
+    "@message3": "眠っている",
+    "@note": ":basic\r\n:notable\r\n:label=眠り《行動不能》\r\n:exclude_key=sleep\r\nキルケア用",
+    "@id": 102,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 2,
+    "@max_turns": 2,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": true,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "＿エンハルシ",
+    "@priority": 50,
+    "@icon_index": 25,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 3,
+    "@message3": "混乱している",
+    "@note": ":basic\r\n:notable\r\n:label=混乱《制御不能》\r\nキルケア用\r\n",
+    "@id": 103,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 2,
+    "@max_turns": 2,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": true,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "猛毒",
+    "@priority": 65,
+    "@icon_index": 18,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@release_by_damage": false,
+    "@message3": "",
+    "@note": ":basic\r\n:label=猛毒《継続ダメージ》\r\n:exclude_key=poison\r\n通常毒が20%（これも十分強いので固定値＋割合値にしたいが）\r\n食らったら2ターン目で殺す勢い…と考えると50%か\r\n",
+    "@id": 104,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 7,
+        "@value": -0.0007
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "エンギフト_対ボス",
+    "@priority": 65,
+    "@icon_index": 18,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@release_by_damage": false,
+    "@message3": "",
+    "@note": "未使用\r\n\r\n:basic\r\n:label=毒\r\n:exclude_key=poison\r\nボスはこちらの耐性を持たない\r\nカテゴリ管理がそのままなので雑魚に重複はしない？",
+    "@id": 105,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 7,
+        "@value": -2.0e-05
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 3,
+    "@max_turns": 6,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "エンギフト_対ボス",
+    "@priority": 65,
+    "@icon_index": 18,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@release_by_damage": false,
+    "@message3": "",
+    "@note": "未使用\r\n\r\n:basic\r\n:label=毒\r\n:exclude_key=poison\r\nボスはこちらの耐性を持たない\r\nカテゴリ管理がそのままなので雑魚に重複はしない？",
+    "@id": 106,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 7,
+        "@value": -2.0e-05
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 3,
+    "@max_turns": 6,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "エンギフト_対ボス",
+    "@priority": 65,
+    "@icon_index": 18,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@release_by_damage": false,
+    "@message3": "",
+    "@note": "未使用\r\n\r\n:basic\r\n:label=毒\r\n:exclude_key=poison\r\nボスはこちらの耐性を持たない\r\nカテゴリ管理がそのままなので雑魚に重複はしない？",
+    "@id": 107,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 7,
+        "@value": -2.0e-05
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 3,
+    "@max_turns": 6,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "鉱夫病",
+    "@priority": 50,
+    "@icon_index": 120,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=汚染《ステータスDOWN》\r\n\r\n致命的な効果はないが\r\nじんわり主要パラメータを下げる。\r\n毒と異なり自然回復せず、任意の回復が必要。\r\nアザレアに薬が売ってある？",
+    "@id": 108,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 2,
+        "@value": 0.0009
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 3,
+        "@value": 0.0009
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 0,
+        "@value": 0.0009
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 1,
+        "@value": 0.0009
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 5,
+        "@value": 0.0009
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 6,
+        "@value": 0.0009
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 7,
+        "@value": 0.0009
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 2,
+    "@max_turns": 2,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": false,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "腕が砕ける",
+    "@priority": 50,
+    "@icon_index": 82,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=腕が砕ける《攻撃DOWN》",
+    "@id": 109,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 2,
+        "@value": 0.0008
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 44,
+        "@data_id": 172,
+        "@value": 0.0
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "シールドスタンス",
+    "@priority": 50,
+    "@icon_index": 13,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\nシールドで防ぐのを盾で表現、して伝わるか。",
+    "@id": 110,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 7,
+        "@value": 0.002
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 12,
+    "@max_turns": 12,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "フリーズ",
+    "@priority": 50,
+    "@icon_index": 86,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=回避・行動DOWN\r\n\r\nプレイヤーが使う場合用\r\nモンスターが同様のものを使う場合は別枠",
+    "@id": 111,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 6,
+        "@value": 0.0005
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 7,
+        "@value": 0.0005
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 12,
+    "@max_turns": 12,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "憑依強化",
+    "@priority": 50,
+    "@icon_index": 14,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=憑依《能力強化》\r\n\r\nとりあえず雑に全部2倍。\r\nおそらくは強すぎる。\r\nHP強化ができないなら全耐性強化で。",
+    "@id": 112,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 0,
+        "@value": 0.0015
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 1,
+        "@value": 0.0013
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 2,
+        "@value": 0.0013
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 4,
+        "@value": 0.0013
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 5,
+        "@value": 0.0015
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 6,
+        "@value": 0.0011
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 7,
+        "@value": 0.0015
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 12,
+    "@max_turns": 12,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "風の盾",
+    "@priority": 50,
+    "@icon_index": 13,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=風の盾《ダメージ軽減》\r\n",
+    "@id": 113,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 6,
+        "@value": 0.75
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 7,
+        "@value": 0.75
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 3,
+    "@max_turns": 3,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "水牢",
+    "@priority": 70,
+    "@icon_index": 21,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 4,
+    "@release_by_damage": false,
+    "@message3": "身動きが取れない",
+    "@note": ":basic\r\n:notable\r\n:label=水牢《行動不能【環境】》\r\n:exclude_key=sleep\r\n\r\n対策不能でこれは重すぎたので2-3に戻す",
+    "@id": 114,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 1,
+        "@value": -1.0
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 2,
+    "@max_turns": 3,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "水の祝福(加速+リジェネ)",
+    "@priority": 50,
+    "@icon_index": 10,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=水の祝福《HP自動回復》\r\n",
+    "@id": 115,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 7,
+        "@value": 2.0e-05
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "水爆弾",
+    "@priority": 50,
+    "@icon_index": 99,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:notable\r\n:chain=487\r\nテストでそのターンの最後に発動。\r\n\r\n水爆弾の精霊D番、威力が変わるので別スキル",
+    "@id": 116,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 2,
+    "@max_turns": 2,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "行動低下",
+    "@priority": 70,
+    "@icon_index": 86,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@release_by_damage": false,
+    "@message3": "",
+    "@note": ":basic\r\n:label=行動DOWN\r\n",
+    "@id": 117,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 6,
+        "@value": 0.0008
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 2,
+    "@max_turns": 3,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "攻撃低下",
+    "@priority": 70,
+    "@icon_index": 82,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@release_by_damage": false,
+    "@message3": "",
+    "@note": ":basic\r\n:label=攻撃DOWN",
+    "@id": 118,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 2,
+        "@value": 0.0008
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 2,
+    "@max_turns": 3,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "防御低下",
+    "@priority": 70,
+    "@icon_index": 83,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@release_by_damage": false,
+    "@message3": "",
+    "@note": ":basic\r\n:label=守備DOWN\r\n",
+    "@id": 119,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 3,
+        "@value": 0.0008
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 2,
+    "@max_turns": 3,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "毒予防",
+    "@priority": 50,
+    "@icon_index": 112,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":label=毒予防\r\n\r\nとりあえず8ターン\r\n専用予防なら完全防御でも良い気はする。",
+    "@id": 120,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 10,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 11,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 104,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 37,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 101,
+        "@value": 0.0
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 8,
+    "@max_turns": 8,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "くすぶる炎",
+    "@priority": 65,
+    "@icon_index": 96,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@release_by_damage": false,
+    "@message3": "",
+    "@note": ":basic\r\n:label=くすぶる炎《継続ダメージ》\r\n\r\n妖精でないと消えない炎\r\n →キュアが戦闘時のみだがこれがあるとなぜニエやリルはキュアをしてくれないのかというのが気になるので戦闘終了時に消えるように。\r\n（キュアやトニカをメニューで使用可能にすると、ボーナス効果が戦闘前に付与できて、義務化してしまう恐れがあるため、バトルのみのままにする）",
+    "@id": 121,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 7,
+        "@value": -0.0002
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "",
+    "@id": 122,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": false,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "狩人の仮面",
+    "@priority": 50,
+    "@icon_index": 465,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=命中UP\r\n:detail=狩人の仮面《命中UP》",
+    "@id": 123,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 5,
+        "@value": 1.0
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "鉄壁",
+    "@priority": 0,
+    "@icon_index": 29,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=鉄壁",
+    "@id": 124,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 6,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 6,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 6,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 7,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 7,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 7,
+        "@value": 0.0
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": true,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "狩人の追行",
+    "@priority": 50,
+    "@icon_index": 14,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=全能力UP\r\n:detail=狩人の追行《能力UP》\r\n:mhp_scale=1.1\r\n:mmp_scale=1.1\r\n:attack_scale=1.1\r\n:defence_scale=1.1\r\n:footwork_scale=1.1\r\n:accuracy_scale=1.1\r\n:evasion_scale=1.1\r\n:magic_scale=1.1\r\n:luck_scale=1.1\r\nHPMP以外はステータス画面で反映されないけど\r\n機能はしている。割と強い。",
+    "@id": 125,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 10,
+    "@max_turns": 10,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": false,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "狩人の蓑",
+    "@priority": 50,
+    "@icon_index": 452,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=HP自動回復\r\n:detail=狩人の蓑《HP自動回復》\r\n\r\n※殴られると解除されるリジェネ\r\n10%→5%\r\n",
+    "@id": 126,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 7,
+        "@value": 5.0e-05
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": true,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "無敵",
+    "@priority": 50,
+    "@icon_index": 10,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 4,
+    "@message3": "",
+    "@note": "未使用",
+    "@id": 127,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 7,
+        "@value": 0.0001
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "かくれる回避",
+    "@priority": 50,
+    "@icon_index": 12,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":label=",
+    "@id": 128,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 7,
+        "@value": 1.0
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "通常状態",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":label=\r\n\r\nサンデルベが「ため状態」以外で使うスキルにも設定されているので「ため状態 解除」のようなラベルは出さないことにする",
+    "@id": 129,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 10,
+    "@max_turns": 10,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "フレンテ",
+    "@priority": 70,
+    "@icon_index": 84,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@release_by_damage": false,
+    "@message3": "",
+    "@note": ":basic\r\n:label=命中DOWN\r\n\r\n命中率-25%(サンデルベで命中-35%)",
+    "@id": 130,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": -0.25
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 8,
+    "@max_turns": 8,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "蘇生後保護",
+    "@priority": 50,
+    "@icon_index": 121,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=保護《守備UP》\r\n:detail=蘇生後保護《守備UP》\r\n\r\n蘇生されたターン（はほぼ最遅として）\r\nその次のターンも、全てのダメージを無効化…は強すぎなので25%まで低減（回復せずに食らうと死ぬが回復しつつﾊﾞﾌかけなおすのは間に合うように）\r\n→ダメージ25%だと回復魔法まで軽減してしまう　耐性75%…で機能するか？",
+    "@id": 131,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 6,
+        "@value": 0.25
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 4,
+        "@value": 1.75
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 5,
+        "@value": 1.75
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 6,
+        "@value": 1.75
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 7,
+        "@value": 1.75
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 8,
+        "@value": 1.75
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 9,
+        "@value": 1.75
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 10,
+        "@value": 1.75
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 2,
+    "@max_turns": 2,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "",
+    "@id": 132,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": false,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "行動不能植物",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "\r\nデギナンホマスローテで付与\r\n→実際は非表示ステート",
+    "@id": 133,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 99,
+    "@max_turns": 99,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "行動阻害植物",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "\r\nデギナンホマスローテで付与\r\n→実際は非表示ステート",
+    "@id": 134,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 99,
+    "@max_turns": 99,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "毒死植物",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "\r\nデギナンホマスローテで付与\r\n→実際は非表示ステート",
+    "@id": 135,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 99,
+    "@max_turns": 99,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "ダメージ植物",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "未使用\r\n\r\n→実際は非表示ステート",
+    "@id": 136,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 99,
+    "@max_turns": 99,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "回復植物",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "未使用\r\n\r\n→実際は非表示ステート",
+    "@id": 137,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 99,
+    "@max_turns": 99,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "",
+    "@id": 138,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": false,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "ヤスペンカイト",
+    "@priority": 50,
+    "@icon_index": 109,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "未使用\r\n\r\nヤスペンカイトはバフではない\r\n\r\n",
+    "@id": 139,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 1,
+        "@value": 1.1
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 2,
+        "@value": 1.1
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 3,
+        "@value": 1.1
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 4,
+        "@value": 1.1
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "シーナイレシア",
+    "@priority": 50,
+    "@icon_index": 107,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":party\r\n:label=精霊《自動回復/火・殴耐性》\r\n\r\nHP10%回復（犠牲効果で20%)\r\nMP2回復（犠牲効果で4回復）\r\n耐性+5%（影響大）\r\nシーナイレシア使用\r\n\r\n全員にリジェネと耐性を与える。\r\n他バフや薬と併せてモリモリ回復。\r\n時間制限の不死モードのような具合に。",
+    "@id": 140,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 7,
+        "@value": 0.0001
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 8,
+        "@value": 0.02
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 4,
+        "@value": 1.05
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 11,
+        "@data_id": 3,
+        "@value": 1.05
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "デギナンホマス",
+    "@priority": 65,
+    "@icon_index": 108,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=精霊《ダメージ1.5倍》\r\n\r\n被ダメ1.5倍\r\nが適切に計算されるかどうか…。\r\n植物の力で敵の弱点をさらけ出す的な…。",
+    "@id": 141,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 6,
+        "@value": 1.5
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 7,
+        "@value": 1.5
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 8,
+    "@max_turns": 8,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "",
+    "@id": 142,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": false,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "炎纏",
+    "@priority": 50,
+    "@icon_index": 104,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":label=炎を纏った\r\n※ベースの攻撃力を51→76にした結果\r\n　1.5倍では相対的にダメージ増加量が減少。\r\n　このあたりは自動計算したいけど手動で対応。\r\n　ため時に+52したいので1.7倍に。",
+    "@id": 143,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 2,
+    "@max_turns": 2,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "",
+    "@id": 144,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": false,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "乾燥",
+    "@priority": 50,
+    "@icon_index": 20,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=乾燥《スキル封印/能力DOWN【難治】》\r\n:mhp_scale=0.9\r\n:mmp_scale=0.9\r\n:attack_scale=0.9\r\n:defence_scale=0.9\r\n:footwork_scale=0.9\r\n:accuracy_scale=0.9\r\n:evasion_scale=0.9\r\n:magic_scale=0.9\r\n:luck_scale=0.9\r\n\r\n能力低下と沈黙。液体アイテムで回復できる。\r\n能力低下は盾武器で防げるように\r\n水球の兜で防げる。\r\n\r\n水系の精霊防具でも防げて良いか",
+    "@id": 145,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 42,
+        "@data_id": 1,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 42,
+        "@data_id": 2,
+        "@value": 0.0
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 0,
+    "@max_turns": 0,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "向かい風",
+    "@priority": 50,
+    "@icon_index": 109,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=向かい風《秘術無効》\r\n\r\n遠距離攻撃を全て跳ね返すイメージで秘術無効",
+    "@id": 146,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 7,
+        "@value": 0.0
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 2,
+    "@max_turns": 3,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "土棺",
+    "@priority": 50,
+    "@icon_index": 21,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 4,
+    "@message3": "土棺に閉じ込められている",
+    "@note": ":basic\r\n:notable\r\n:label=土棺《行動不能【環境】》\r\n\r\nアメリアから特定の攻撃を受けるまで行動不能\r\n代わりにダメージを受けなくなる。",
+    "@id": 147,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 7,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 6,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 7,
+        "@value": -0.0001
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 2,
+    "@max_turns": 3,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "",
+    "@id": 148,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": false,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "感電-狙われUP",
+    "@priority": 50,
+    "@icon_index": 106,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=\r\n:detail=感電《狙われUP【難治】》\r\n",
+    "@id": 149,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 0,
+        "@value": 5.0
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 2,
+    "@max_turns": 2,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "埋没-回避DOWN",
+    "@priority": 50,
+    "@icon_index": 108,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=埋没《回避DOWN【難治】》\r\n",
+    "@id": 150,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 1,
+        "@value": -1.0
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 3,
+    "@max_turns": 3,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "",
+    "@id": 151,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": false,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "",
+    "@id": 152,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": false,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "巻きつかれ",
+    "@priority": 50,
+    "@icon_index": 82,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=腕麻痺《攻撃DOWN【環境】》",
+    "@id": 153,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 2,
+        "@value": 0.0008
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "",
+    "@id": 154,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": false,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "不動",
+    "@priority": 0,
+    "@icon_index": 121,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=スタン無効/行動DOWN\r\n",
+    "@id": 155,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 6,
+        "@value": 0.0007
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 59,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 63,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 83,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 20,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 22,
+        "@value": 0.0
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": true,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "踏ん張り",
+    "@priority": 50,
+    "@icon_index": 121,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "未使用\r\n\r\n:basic\r\n:release=hp1\r\n\r\n普通に死んだな…。",
+    "@id": 156,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 1,
+        "@value": 0.0
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "無敵",
+    "@priority": 50,
+    "@icon_index": 10,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 4,
+    "@message3": "",
+    "@note": "未使用",
+    "@id": 157,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 7,
+        "@value": 0.0001
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "狂化",
+    "@priority": 50,
+    "@icon_index": 25,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:notable\r\n:detail=狂化《操作不能》",
+    "@id": 158,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 62,
+        "@data_id": 0,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 42,
+        "@data_id": 1,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 42,
+        "@data_id": 2,
+        "@value": 0.0
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 10,
+    "@max_turns": 10,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "女神の警笛",
+    "@priority": 50,
+    "@icon_index": 252,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=行動UP\r\n;label=女神の警笛《行動UP》\r\n行動倍、基本的に先行できる",
+    "@id": 159,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 6,
+        "@value": 1.0
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "倒すとMP回復",
+    "@priority": 50,
+    "@icon_index": 409,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":gain_mp=5\r\n:detail=知恵の女神《撃破時MP回復》\r\n\r\n敵を倒すとMP回復\r\n消費が最低5、入手タイミングが最後も最後\r\n通常攻撃で回復しましたーでは役に立たない\r\nボス相手にも無意味なので精霊Dで意味があるかどうか\r\n\r\n5mp回復で単体技ワンパンだと無限、\r\n複数技でもワンパンなら無限、で良いか\r\n\r\n\r\n",
+    "@id": 160,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "輪唱（永続）",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "未使用",
+    "@id": 161,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "輪唱",
+    "@priority": 50,
+    "@icon_index": 118,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=スキル反響\r\n:echo\r\n",
+    "@id": 162,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 3,
+    "@max_turns": 3,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "狂化（強化部分のみ）",
+    "@priority": 50,
+    "@icon_index": 25,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":label=\r\n:attack_scale=1.2\r\n:defence_scale=1.2",
+    "@id": 163,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 10,
+    "@max_turns": 10,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "石化",
+    "@priority": 50,
+    "@icon_index": 100,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 4,
+    "@message3": "石化している",
+    "@note": ":basic\r\n:label=石化\r\n\r\nHP0で死ぬ？\r\n最大HP減らすだけだと死なないっぽいのでdotも入れる",
+    "@id": 164,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 21,
+        "@data_id": 0,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 7,
+        "@value": -0.01
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "不死身",
+    "@priority": 0,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "未使用\r\n\r\n主にイベント戦で使用する",
+    "@id": 165,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 1,
+        "@value": 0.0
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "不死身（１回限定）",
+    "@priority": 0,
+    "@icon_index": 239,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=\r\n:detail=慈しむ女神《HP1で耐える》\r\n:release=hp1\r\n\r\n慈しむ女神の護符用\r\n",
+    "@id": 166,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 1,
+        "@value": 0.0
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "代償",
+    "@priority": 50,
+    "@icon_index": 81,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":mmp_scale=0.5\r\n:detail=大為爾の代償《MP半減》",
+    "@id": 167,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "短スタン(防御不能)",
+    "@priority": 70,
+    "@icon_index": 21,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 4,
+    "@release_by_damage": false,
+    "@message3": "びっくりして動けない",
+    "@note": ":basic\r\n:label=びっくり《行動不能》\r\n\r\nびっくり妖精の繰り返し効果\r\n",
+    "@id": 168,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "びっくり妖精",
+    "@priority": 70,
+    "@icon_index": 202,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@release_by_damage": false,
+    "@message3": "",
+    "@note": ":repeat=116,5,-1\r\n:basic\r\n:label=\r\n\r\nスキル側でステート168を付与するのでこちらのラベルは出さない\r\n\r\n※repeat処理のため「ターン終了時」を指定。0～0でターン解除されない特殊仕様。",
+    "@id": 169,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 0,
+    "@max_turns": 0,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "びっくり封印",
+    "@priority": 70,
+    "@icon_index": 267,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@release_by_damage": false,
+    "@message3": "",
+    "@note": "未使用\r\n\r\n最大MP増やして連打でアメニアハメられそうなので対策してもいいかもしれない。",
+    "@id": 170,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 99,
+    "@max_turns": 99,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "完全なる棺",
+    "@priority": 50,
+    "@icon_index": 267,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 4,
+    "@message3": "棺の中で動けない",
+    "@note": ":notable\r\n",
+    "@id": 171,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 11,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 20,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 21,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 22,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 23,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 24,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 53,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 176,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 85,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 62,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 62,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 54,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 63,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 64,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 66,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 67,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 76,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 99,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 20,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 83,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 85,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 101,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 102,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 103,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 104,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 114,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 108,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 117,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 118,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 119,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 149,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 150,
+        "@value": 0.0
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "隠れ不死身（１回限定）",
+    "@priority": 0,
+    "@icon_index": 239,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":label=不死身\r\n:release=hp1\r\n\r\n防御2回重ね用のシークレットステート\r\n",
+    "@id": 172,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 1,
+        "@value": 0.0
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "結界",
+    "@priority": 50,
+    "@icon_index": 15,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":chain=550\r\n:basic\r\n:label=結界《ダメージ無効 1回》",
+    "@id": 173,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 6,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 6,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 7,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 23,
+        "@data_id": 7,
+        "@value": 0.0
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": true,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "悪魔の口笛",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":label=状態異常 解除\r\n",
+    "@id": 174,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "雪ネズミ逃走抑制",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":label=",
+    "@id": 175,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 44,
+        "@data_id": 3,
+        "@value": 0.0
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "目眩み",
+    "@priority": 70,
+    "@icon_index": 19,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@release_by_damage": false,
+    "@message3": "",
+    "@note": ":basic\r\n:label=目眩み《命中DOWN》\r\n\r\nid53暗闇の名称違い\r\n",
+    "@id": 176,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 22,
+        "@data_id": 0,
+        "@value": -0.25
+      }
+    ],
+    "@auto_removal_timing": 1,
+    "@min_turns": 3,
+    "@max_turns": 5,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "天井に頭をぶつけた",
+    "@priority": 70,
+    "@icon_index": 21,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 4,
+    "@release_by_damage": false,
+    "@message3": "気絶している",
+    "@note": ":basic\r\n:notable\r\n:label=天井に頭をぶつけた\r\n:exclude_key=sleep",
+    "@id": 177,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "エレメンタリール抑制",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":label=\r\n\r\n精霊ボスがエレメンタリールを連発しないようにするための制御ステート",
+    "@id": 178,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 44,
+        "@data_id": 305,
+        "@value": 0.0
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 2,
+    "@max_turns": 2,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": false,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "身代わり発動",
+    "@priority": 50,
+    "@icon_index": 121,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":label=身代わり\r\n:release=hp1\r\n:chain=131\r\n\r\n身代わりの形代が発動したときに自動で付与される隠しステート",
+    "@id": 179,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 14,
+        "@data_id": 1,
+        "@value": 0.0
+      }
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "身代わり待機",
+    "@priority": 50,
+    "@icon_index": 121,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":basic\r\n:label=身代わり\r\n\r\n身代わり装備中の隠しステート",
+    "@id": 180,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "身代わり削除",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":label=\r\n\r\n身代わりの形代を削除する用の隠しステート",
+    "@id": 181,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": false,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "呪い封印",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": ":label=\r\n",
+    "@id": 182,
+    "@features": [
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 44,
+        "@data_id": 259,
+        "@value": 0.0
+      },
+      {
+        "rgss3_klass": "RPG::BaseItem::Feature",
+        "@code": 44,
+        "@data_id": 260,
+        "@value": 0.0
+      }
+    ],
+    "@auto_removal_timing": 2,
+    "@min_turns": 2,
+    "@max_turns": 2,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": true,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "",
+    "@id": 183,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": false,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "",
+    "@id": 184,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": false,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "",
+    "@id": 185,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": false,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "",
+    "@id": 186,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": false,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "",
+    "@id": 187,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": false,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "",
+    "@id": 188,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": false,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "",
+    "@id": 189,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": false,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  },
+  {
+    "rgss3_klass": "RPG::State",
+    "@message2": "",
+    "@name": "",
+    "@priority": 50,
+    "@icon_index": 0,
+    "@message1": "",
+    "@message4": "",
+    "@restriction": 0,
+    "@message3": "",
+    "@note": "",
+    "@id": 190,
+    "@features": [
+
+    ],
+    "@auto_removal_timing": 0,
+    "@min_turns": 1,
+    "@max_turns": 1,
+    "@chance_by_damage": 100,
+    "@steps_to_remove": 100,
+    "@remove_by_walking": false,
+    "@remove_at_battle_end": false,
+    "@remove_by_damage": false,
+    "@remove_by_restriction": false,
+    "@description": ""
+  }
+]

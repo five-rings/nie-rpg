@@ -1,0 +1,1838 @@
+{
+  "253": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "(DEBUG)",
+    "@expanded": true,
+    "@order": 1,
+    "@scroll_y": 0,
+    "@parent_id": 0
+  },
+  "254": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "MASTER",
+    "@expanded": true,
+    "@order": 61,
+    "@scroll_y": 0,
+    "@parent_id": 0
+  },
+  "255": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "Debug-Menu",
+    "@expanded": true,
+    "@order": 2,
+    "@scroll_y": 0,
+    "@parent_id": 253
+  },
+  "256": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "エルキア",
+    "@expanded": true,
+    "@order": 64,
+    "@scroll_y": 0,
+    "@parent_id": 254
+  },
+  "257": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "テナニア",
+    "@expanded": true,
+    "@order": 77,
+    "@scroll_y": 0,
+    "@parent_id": 254
+  },
+  "258": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "タナル",
+    "@expanded": true,
+    "@order": 85,
+    "@scroll_y": 0,
+    "@parent_id": 254
+  },
+  "259": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "アザレア",
+    "@expanded": true,
+    "@order": 111,
+    "@scroll_y": 0,
+    "@parent_id": 254
+  },
+  "260": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "マナン",
+    "@expanded": true,
+    "@order": 142,
+    "@scroll_y": 0,
+    "@parent_id": 254
+  },
+  "261": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "ユベシア",
+    "@expanded": true,
+    "@order": 170,
+    "@scroll_y": 0,
+    "@parent_id": 254
+  },
+  "262": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "ハルニアへ",
+    "@expanded": true,
+    "@order": 180,
+    "@scroll_y": 0,
+    "@parent_id": 254
+  },
+  "1": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "ミネの店『古蔦亭』",
+    "@expanded": true,
+    "@order": 66,
+    "@scroll_y": 0,
+    "@parent_id": 5
+  },
+  "2": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "納屋",
+    "@expanded": true,
+    "@order": 67,
+    "@scroll_y": 0,
+    "@parent_id": 1
+  },
+  "3": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "始まり",
+    "@expanded": true,
+    "@order": 62,
+    "@scroll_y": 0,
+    "@parent_id": 254
+  },
+  "4": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "Event-Test",
+    "@expanded": true,
+    "@order": 9,
+    "@scroll_y": 0,
+    "@parent_id": 253
+  },
+  "6": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "流れ着く場所",
+    "@expanded": true,
+    "@order": 63,
+    "@scroll_y": 0,
+    "@parent_id": 3
+  },
+  "7": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "倉庫",
+    "@expanded": true,
+    "@order": 68,
+    "@scroll_y": 0,
+    "@parent_id": 1
+  },
+  "5": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "エルクの村",
+    "@expanded": true,
+    "@order": 65,
+    "@scroll_y": 0,
+    "@parent_id": 256
+  },
+  "8": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "Sandbox",
+    "@expanded": true,
+    "@order": 10,
+    "@scroll_y": 0,
+    "@parent_id": 253
+  },
+  "9": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "むさおさの家",
+    "@expanded": true,
+    "@order": 69,
+    "@scroll_y": 0,
+    "@parent_id": 5
+  },
+  "10": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "エルクの村の前",
+    "@expanded": true,
+    "@order": 70,
+    "@scroll_y": 0,
+    "@parent_id": 5
+  },
+  "11": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "勇者の道",
+    "@expanded": true,
+    "@order": 71,
+    "@scroll_y": 0,
+    "@parent_id": 256
+  },
+  "12": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "エルキア山道",
+    "@expanded": true,
+    "@order": 73,
+    "@scroll_y": 0,
+    "@parent_id": 256
+  },
+  "13": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "エルキアの森1",
+    "@expanded": true,
+    "@order": 74,
+    "@scroll_y": 0,
+    "@parent_id": 12
+  },
+  "14": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "ツルグ渓谷",
+    "@expanded": true,
+    "@order": 76,
+    "@scroll_y": 0,
+    "@parent_id": 256
+  },
+  "15": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "勇者の家",
+    "@expanded": true,
+    "@order": 72,
+    "@scroll_y": 0,
+    "@parent_id": 11
+  },
+  "16": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "エルキアの森2",
+    "@expanded": true,
+    "@order": 75,
+    "@scroll_y": 0,
+    "@parent_id": 12
+  },
+  "17": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "テナニア草原",
+    "@expanded": true,
+    "@order": 78,
+    "@scroll_y": 0,
+    "@parent_id": 257
+  },
+  "19": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "テナンの町の北",
+    "@expanded": true,
+    "@order": 81,
+    "@scroll_y": 0,
+    "@parent_id": 21
+  },
+  "20": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "テナンの広場",
+    "@expanded": true,
+    "@order": 83,
+    "@scroll_y": 0,
+    "@parent_id": 21
+  },
+  "21": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "テナンの町",
+    "@expanded": true,
+    "@order": 80,
+    "@scroll_y": 0,
+    "@parent_id": 257
+  },
+  "22": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "テナンの町の南",
+    "@expanded": true,
+    "@order": 82,
+    "@scroll_y": 0,
+    "@parent_id": 21
+  },
+  "23": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "渡河場（西）",
+    "@expanded": true,
+    "@order": 79,
+    "@scroll_y": 0,
+    "@parent_id": 257
+  },
+  "18": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "タナル砂漠",
+    "@expanded": true,
+    "@order": 86,
+    "@scroll_y": 0,
+    "@parent_id": 258
+  },
+  "24": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "砂漠の奥地",
+    "@expanded": true,
+    "@order": 87,
+    "@scroll_y": 0,
+    "@parent_id": 18
+  },
+  "25": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "西イニア街道関所",
+    "@expanded": true,
+    "@order": 113,
+    "@scroll_y": 0,
+    "@parent_id": 30
+  },
+  "26": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "東イニア街道関所",
+    "@expanded": true,
+    "@order": 120,
+    "@scroll_y": 0,
+    "@parent_id": 49
+  },
+  "27": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "北の神殿",
+    "@expanded": true,
+    "@order": 88,
+    "@scroll_y": 0,
+    "@parent_id": 258
+  },
+  "28": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "南の神殿",
+    "@expanded": true,
+    "@order": 89,
+    "@scroll_y": 0,
+    "@parent_id": 258
+  },
+  "29": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "神殿",
+    "@expanded": true,
+    "@order": 98,
+    "@scroll_y": 0,
+    "@parent_id": 258
+  },
+  "30": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "西イニア街道",
+    "@expanded": true,
+    "@order": 112,
+    "@scroll_y": 0,
+    "@parent_id": 259
+  },
+  "31": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "港都アザレア",
+    "@expanded": true,
+    "@order": 115,
+    "@scroll_y": 0,
+    "@parent_id": 259
+  },
+  "33": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "西事務所",
+    "@expanded": true,
+    "@order": 116,
+    "@scroll_y": 0,
+    "@parent_id": 31
+  },
+  "32": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "東事務所",
+    "@expanded": true,
+    "@order": 117,
+    "@scroll_y": 0,
+    "@parent_id": 31
+  },
+  "34": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "カゲツ",
+    "@expanded": true,
+    "@order": 123,
+    "@scroll_y": 0,
+    "@parent_id": 254
+  },
+  "35": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "タナル神殿0",
+    "@expanded": true,
+    "@order": 99,
+    "@scroll_y": 0,
+    "@parent_id": 29
+  },
+  "36": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "カゲツ島",
+    "@expanded": true,
+    "@order": 124,
+    "@scroll_y": 0,
+    "@parent_id": 34
+  },
+  "37": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "カゲツ旧灯台",
+    "@expanded": true,
+    "@order": 125,
+    "@scroll_y": 0,
+    "@parent_id": 34
+  },
+  "38": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "水晶淵底",
+    "@expanded": true,
+    "@order": 131,
+    "@scroll_y": 0,
+    "@parent_id": 34
+  },
+  "39": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "マナン密林",
+    "@expanded": true,
+    "@order": 143,
+    "@scroll_y": 0,
+    "@parent_id": 260
+  },
+  "40": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "レクシ坑道",
+    "@expanded": true,
+    "@order": 157,
+    "@scroll_y": 0,
+    "@parent_id": 260
+  },
+  "41": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "ユベスの村",
+    "@expanded": true,
+    "@order": 172,
+    "@scroll_y": 0,
+    "@parent_id": 261
+  },
+  "42": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "渡河場（東）",
+    "@expanded": true,
+    "@order": 175,
+    "@scroll_y": 0,
+    "@parent_id": 261
+  },
+  "43": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "坑道入り口（雪側）",
+    "@expanded": true,
+    "@order": 171,
+    "@scroll_y": 0,
+    "@parent_id": 261
+  },
+  "44": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "ユベシア雪道",
+    "@expanded": true,
+    "@order": 181,
+    "@scroll_y": 0,
+    "@parent_id": 262
+  },
+  "45": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "ハルナのわかれ道",
+    "@expanded": true,
+    "@order": 186,
+    "@scroll_y": 0,
+    "@parent_id": 262
+  },
+  "46": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "溶岩洞窟",
+    "@expanded": true,
+    "@order": 190,
+    "@scroll_y": 0,
+    "@parent_id": 262
+  },
+  "47": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "酒場",
+    "@expanded": true,
+    "@order": 84,
+    "@scroll_y": 0,
+    "@parent_id": 21
+  },
+  "48": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "タナル遺跡",
+    "@expanded": true,
+    "@order": 110,
+    "@scroll_y": 0,
+    "@parent_id": 258
+  },
+  "49": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "東イニア街道",
+    "@expanded": true,
+    "@order": 119,
+    "@scroll_y": 0,
+    "@parent_id": 259
+  },
+  "50": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "ヌワロ草原",
+    "@expanded": true,
+    "@order": 121,
+    "@scroll_y": 0,
+    "@parent_id": 49
+  },
+  "51": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "ユベシア氷原",
+    "@expanded": true,
+    "@order": 178,
+    "@scroll_y": 0,
+    "@parent_id": 261
+  },
+  "52": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "ユベスの村の前",
+    "@expanded": true,
+    "@order": 173,
+    "@scroll_y": 0,
+    "@parent_id": 41
+  },
+  "53": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "ユベスの室内",
+    "@expanded": true,
+    "@order": 174,
+    "@scroll_y": 0,
+    "@parent_id": 41
+  },
+  "54": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "マナン密林0",
+    "@expanded": true,
+    "@order": 146,
+    "@scroll_y": 0,
+    "@parent_id": 39
+  },
+  "55": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "マナン密林 入り口1",
+    "@expanded": true,
+    "@order": 144,
+    "@scroll_y": 0,
+    "@parent_id": 39
+  },
+  "56": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "マナン密林 入り口2",
+    "@expanded": true,
+    "@order": 145,
+    "@scroll_y": 0,
+    "@parent_id": 39
+  },
+  "57": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "レクシ坑道2-1",
+    "@expanded": true,
+    "@order": 160,
+    "@scroll_y": 0,
+    "@parent_id": 40
+  },
+  "59": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "ハルナの祠",
+    "@expanded": true,
+    "@order": 187,
+    "@scroll_y": 0,
+    "@parent_id": 262
+  },
+  "60": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "祠の内部",
+    "@expanded": true,
+    "@order": 188,
+    "@scroll_y": 0,
+    "@parent_id": 59
+  },
+  "58": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "隠し酒場",
+    "@expanded": true,
+    "@order": 118,
+    "@scroll_y": 0,
+    "@parent_id": 32
+  },
+  "61": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "聖域",
+    "@expanded": true,
+    "@order": 189,
+    "@scroll_y": 0,
+    "@parent_id": 59
+  },
+  "62": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "アザレア民家",
+    "@expanded": true,
+    "@order": 122,
+    "@scroll_y": 0,
+    "@parent_id": 49
+  },
+  "63": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "ユベシア氷原(明)",
+    "@expanded": true,
+    "@order": 179,
+    "@scroll_y": 0,
+    "@parent_id": 51
+  },
+  "64": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "渡河場室内",
+    "@expanded": true,
+    "@order": 176,
+    "@scroll_y": 0,
+    "@parent_id": 42
+  },
+  "65": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "ツグル河",
+    "@expanded": true,
+    "@order": 177,
+    "@scroll_y": 0,
+    "@parent_id": 42
+  },
+  "66": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "エルキア-Debug",
+    "@expanded": true,
+    "@order": 3,
+    "@scroll_y": 0,
+    "@parent_id": 255
+  },
+  "67": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "南の神殿1",
+    "@expanded": true,
+    "@order": 90,
+    "@scroll_y": 0,
+    "@parent_id": 28
+  },
+  "68": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "南の神殿2(南1)",
+    "@expanded": true,
+    "@order": 91,
+    "@scroll_y": 0,
+    "@parent_id": 28
+  },
+  "69": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "南の神殿3(南2)",
+    "@expanded": true,
+    "@order": 92,
+    "@scroll_y": 0,
+    "@parent_id": 28
+  },
+  "70": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "南の神殿4",
+    "@expanded": true,
+    "@order": 93,
+    "@scroll_y": 0,
+    "@parent_id": 28
+  },
+  "71": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "南の神殿5(南3)",
+    "@expanded": true,
+    "@order": 94,
+    "@scroll_y": 0,
+    "@parent_id": 28
+  },
+  "72": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "南の神殿6",
+    "@expanded": true,
+    "@order": 95,
+    "@scroll_y": 0,
+    "@parent_id": 28
+  },
+  "73": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "南の神殿7(南4)",
+    "@expanded": true,
+    "@order": 96,
+    "@scroll_y": 0,
+    "@parent_id": 28
+  },
+  "74": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "南の神殿8",
+    "@expanded": true,
+    "@order": 97,
+    "@scroll_y": 0,
+    "@parent_id": 28
+  },
+  "75": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "カゲツ旧灯台1",
+    "@expanded": true,
+    "@order": 126,
+    "@scroll_y": 0,
+    "@parent_id": 37
+  },
+  "76": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "カゲツ旧灯台2",
+    "@expanded": true,
+    "@order": 127,
+    "@scroll_y": 0,
+    "@parent_id": 37
+  },
+  "77": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "カゲツ旧灯台3",
+    "@expanded": true,
+    "@order": 128,
+    "@scroll_y": 0,
+    "@parent_id": 37
+  },
+  "78": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "カゲツ旧灯台4",
+    "@expanded": true,
+    "@order": 129,
+    "@scroll_y": 0,
+    "@parent_id": 37
+  },
+  "79": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "カゲツ旧灯台5",
+    "@expanded": true,
+    "@order": 130,
+    "@scroll_y": 0,
+    "@parent_id": 37
+  },
+  "80": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "レクシ坑道2-2",
+    "@expanded": true,
+    "@order": 161,
+    "@scroll_y": 0,
+    "@parent_id": 40
+  },
+  "81": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "レクシ坑道3-1",
+    "@expanded": true,
+    "@order": 162,
+    "@scroll_y": 0,
+    "@parent_id": 40
+  },
+  "82": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "レクシ坑道3-2",
+    "@expanded": true,
+    "@order": 164,
+    "@scroll_y": 0,
+    "@parent_id": 40
+  },
+  "83": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "レクシ坑道3-3",
+    "@expanded": true,
+    "@order": 165,
+    "@scroll_y": 0,
+    "@parent_id": 40
+  },
+  "84": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "レクシ坑道4-L1",
+    "@expanded": true,
+    "@order": 166,
+    "@scroll_y": 0,
+    "@parent_id": 40
+  },
+  "85": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "レクシ坑道4-R1",
+    "@expanded": true,
+    "@order": 168,
+    "@scroll_y": 0,
+    "@parent_id": 40
+  },
+  "86": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "レクシ坑道1-1",
+    "@expanded": true,
+    "@order": 158,
+    "@scroll_y": 0,
+    "@parent_id": 40
+  },
+  "87": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "レクシ坑道1-2",
+    "@expanded": true,
+    "@order": 159,
+    "@scroll_y": 0,
+    "@parent_id": 40
+  },
+  "88": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "レクシ坑道3-1上",
+    "@expanded": true,
+    "@order": 163,
+    "@scroll_y": 0,
+    "@parent_id": 81
+  },
+  "89": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "レクシ坑道4-L2",
+    "@expanded": true,
+    "@order": 167,
+    "@scroll_y": 0,
+    "@parent_id": 84
+  },
+  "90": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "レクシ坑道4-R2",
+    "@expanded": true,
+    "@order": 169,
+    "@scroll_y": 0,
+    "@parent_id": 85
+  },
+  "92": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "ユベシア湖畔",
+    "@expanded": true,
+    "@order": 185,
+    "@scroll_y": 0,
+    "@parent_id": 44
+  },
+  "91": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "ユベシア雪道1",
+    "@expanded": true,
+    "@order": 182,
+    "@scroll_y": 0,
+    "@parent_id": 44
+  },
+  "93": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "ユベシア雪道2",
+    "@expanded": true,
+    "@order": 183,
+    "@scroll_y": 0,
+    "@parent_id": 44
+  },
+  "94": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "ユベシア雪道3",
+    "@expanded": true,
+    "@order": 184,
+    "@scroll_y": 0,
+    "@parent_id": 44
+  },
+  "95": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "溶岩洞窟1",
+    "@expanded": true,
+    "@order": 192,
+    "@scroll_y": 0,
+    "@parent_id": 46
+  },
+  "96": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "溶岩洞窟2",
+    "@expanded": true,
+    "@order": 193,
+    "@scroll_y": 0,
+    "@parent_id": 46
+  },
+  "97": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "（未使用）溶岩洞窟3",
+    "@expanded": true,
+    "@order": 56,
+    "@scroll_y": 0,
+    "@parent_id": 148
+  },
+  "98": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "溶岩洞窟4",
+    "@expanded": true,
+    "@order": 195,
+    "@scroll_y": 0,
+    "@parent_id": 46
+  },
+  "99": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "ハルナの裏口",
+    "@expanded": true,
+    "@order": 200,
+    "@scroll_y": 0,
+    "@parent_id": 262
+  },
+  "100": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "ハルナの祠（崩落）",
+    "@expanded": true,
+    "@order": 201,
+    "@scroll_y": 0,
+    "@parent_id": 99
+  },
+  "101": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "（未使用）溶岩洞窟4",
+    "@expanded": true,
+    "@order": 57,
+    "@scroll_y": 0,
+    "@parent_id": 148
+  },
+  "102": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "溶岩洞窟3",
+    "@expanded": true,
+    "@order": 194,
+    "@scroll_y": 0,
+    "@parent_id": 46
+  },
+  "103": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "溶岩洞窟0",
+    "@expanded": true,
+    "@order": 191,
+    "@scroll_y": 0,
+    "@parent_id": 46
+  },
+  "104": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "（未使用）溶岩洞窟1",
+    "@expanded": true,
+    "@order": 55,
+    "@scroll_y": 0,
+    "@parent_id": 148
+  },
+  "105": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "水晶淵底0",
+    "@expanded": true,
+    "@order": 132,
+    "@scroll_y": 0,
+    "@parent_id": 38
+  },
+  "106": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "（未使用）溶岩洞窟4",
+    "@expanded": true,
+    "@order": 58,
+    "@scroll_y": 0,
+    "@parent_id": 148
+  },
+  "107": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "（未使用）ハルナのわかれ道",
+    "@expanded": true,
+    "@order": 48,
+    "@scroll_y": 0,
+    "@parent_id": 180
+  },
+  "108": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "ハルナの祠（裏から）",
+    "@expanded": true,
+    "@order": 202,
+    "@scroll_y": 0,
+    "@parent_id": 99
+  },
+  "109": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "エンディング",
+    "@expanded": true,
+    "@order": 203,
+    "@scroll_y": 0,
+    "@parent_id": 262
+  },
+  "110": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "ツグル渓谷（エンディング）",
+    "@expanded": true,
+    "@order": 204,
+    "@scroll_y": 0,
+    "@parent_id": 109
+  },
+  "111": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "テナニア-Debug",
+    "@expanded": true,
+    "@order": 4,
+    "@scroll_y": 0,
+    "@parent_id": 255
+  },
+  "112": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "アザレア-Debug",
+    "@expanded": true,
+    "@order": 5,
+    "@scroll_y": 0,
+    "@parent_id": 255
+  },
+  "113": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "ユベシア-Debug",
+    "@expanded": true,
+    "@order": 6,
+    "@scroll_y": 0,
+    "@parent_id": 255
+  },
+  "114": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "精霊その他-Debug",
+    "@expanded": true,
+    "@order": 7,
+    "@scroll_y": 0,
+    "@parent_id": 255
+  },
+  "115": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "MAP115_宝箱テンプレ",
+    "@expanded": true,
+    "@order": 12,
+    "@scroll_y": 0,
+    "@parent_id": 179
+  },
+  "116": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "MAP116_ボステスト",
+    "@expanded": true,
+    "@order": 13,
+    "@scroll_y": 0,
+    "@parent_id": 179
+  },
+  "117": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "タナル神殿1",
+    "@expanded": true,
+    "@order": 100,
+    "@scroll_y": 0,
+    "@parent_id": 29
+  },
+  "118": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "タナル神殿2",
+    "@expanded": true,
+    "@order": 101,
+    "@scroll_y": 0,
+    "@parent_id": 29
+  },
+  "119": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "タナル神殿3",
+    "@expanded": true,
+    "@order": 102,
+    "@scroll_y": 0,
+    "@parent_id": 29
+  },
+  "120": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "タナル神殿4",
+    "@expanded": true,
+    "@order": 103,
+    "@scroll_y": 0,
+    "@parent_id": 29
+  },
+  "121": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "タナル神殿5",
+    "@expanded": true,
+    "@order": 104,
+    "@scroll_y": 0,
+    "@parent_id": 29
+  },
+  "122": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "タナル神殿6",
+    "@expanded": true,
+    "@order": 105,
+    "@scroll_y": 0,
+    "@parent_id": 29
+  },
+  "123": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "タナル神殿7",
+    "@expanded": true,
+    "@order": 106,
+    "@scroll_y": 0,
+    "@parent_id": 29
+  },
+  "124": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "タナル神殿8",
+    "@expanded": true,
+    "@order": 107,
+    "@scroll_y": 0,
+    "@parent_id": 29
+  },
+  "127": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "水晶淵底1",
+    "@expanded": true,
+    "@order": 133,
+    "@scroll_y": 0,
+    "@parent_id": 38
+  },
+  "128": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "水晶淵底2",
+    "@expanded": true,
+    "@order": 134,
+    "@scroll_y": 0,
+    "@parent_id": 38
+  },
+  "129": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "水晶淵底3",
+    "@expanded": true,
+    "@order": 135,
+    "@scroll_y": 0,
+    "@parent_id": 38
+  },
+  "130": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "水晶淵底4",
+    "@expanded": true,
+    "@order": 136,
+    "@scroll_y": 0,
+    "@parent_id": 38
+  },
+  "131": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "水晶淵底5",
+    "@expanded": true,
+    "@order": 137,
+    "@scroll_y": 0,
+    "@parent_id": 38
+  },
+  "132": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "（未使用）水晶淵底1-5",
+    "@expanded": true,
+    "@order": 42,
+    "@scroll_y": 0,
+    "@parent_id": 164
+  },
+  "133": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "水晶淵底7",
+    "@expanded": true,
+    "@order": 138,
+    "@scroll_y": 0,
+    "@parent_id": 38
+  },
+  "134": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "水晶淵底8",
+    "@expanded": true,
+    "@order": 139,
+    "@scroll_y": 0,
+    "@parent_id": 38
+  },
+  "135": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "水晶淵底9",
+    "@expanded": true,
+    "@order": 140,
+    "@scroll_y": 0,
+    "@parent_id": 38
+  },
+  "136": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "水晶淵底10",
+    "@expanded": true,
+    "@order": 141,
+    "@scroll_y": 0,
+    "@parent_id": 38
+  },
+  "137": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "マナン密林1",
+    "@expanded": true,
+    "@order": 147,
+    "@scroll_y": 0,
+    "@parent_id": 39
+  },
+  "138": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "マナン密林2",
+    "@expanded": true,
+    "@order": 148,
+    "@scroll_y": 0,
+    "@parent_id": 39
+  },
+  "139": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "マナン密林3",
+    "@expanded": true,
+    "@order": 149,
+    "@scroll_y": 0,
+    "@parent_id": 39
+  },
+  "140": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "マナン密林4",
+    "@expanded": true,
+    "@order": 150,
+    "@scroll_y": 0,
+    "@parent_id": 39
+  },
+  "141": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "マナン密林5",
+    "@expanded": true,
+    "@order": 151,
+    "@scroll_y": 0,
+    "@parent_id": 39
+  },
+  "142": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "マナン密林6",
+    "@expanded": true,
+    "@order": 152,
+    "@scroll_y": 0,
+    "@parent_id": 39
+  },
+  "143": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "マナン密林7",
+    "@expanded": true,
+    "@order": 153,
+    "@scroll_y": 0,
+    "@parent_id": 39
+  },
+  "144": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "マナン密林8",
+    "@expanded": true,
+    "@order": 154,
+    "@scroll_y": 0,
+    "@parent_id": 39
+  },
+  "145": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "マナン密林9",
+    "@expanded": true,
+    "@order": 155,
+    "@scroll_y": 0,
+    "@parent_id": 39
+  },
+  "146": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "マナン密林10",
+    "@expanded": true,
+    "@order": 156,
+    "@scroll_y": 0,
+    "@parent_id": 39
+  },
+  "147": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "精霊ダンジョン",
+    "@expanded": true,
+    "@order": 196,
+    "@scroll_y": 0,
+    "@parent_id": 46
+  },
+  "148": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "（退避）熔岩洞窟0",
+    "@expanded": true,
+    "@order": 49,
+    "@scroll_y": 0,
+    "@parent_id": 180
+  },
+  "149": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "熔岩洞窟1",
+    "@expanded": true,
+    "@order": 197,
+    "@scroll_y": 0,
+    "@parent_id": 147
+  },
+  "150": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "熔岩洞窟2",
+    "@expanded": true,
+    "@order": 59,
+    "@scroll_y": 0,
+    "@parent_id": 180
+  },
+  "151": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "熔岩洞窟3",
+    "@expanded": true,
+    "@order": 60,
+    "@scroll_y": 0,
+    "@parent_id": 180
+  },
+  "152": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "熔岩洞窟4",
+    "@expanded": true,
+    "@order": 198,
+    "@scroll_y": 0,
+    "@parent_id": 147
+  },
+  "153": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "熔岩洞窟5",
+    "@expanded": true,
+    "@order": 199,
+    "@scroll_y": 0,
+    "@parent_id": 147
+  },
+  "154": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "（退避）タナル神殿1",
+    "@expanded": true,
+    "@order": 27,
+    "@scroll_y": 0,
+    "@parent_id": 180
+  },
+  "155": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "（退避）タナル神殿2",
+    "@expanded": true,
+    "@order": 28,
+    "@scroll_y": 0,
+    "@parent_id": 154
+  },
+  "156": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "（退避）タナル神殿3",
+    "@expanded": true,
+    "@order": 29,
+    "@scroll_y": 0,
+    "@parent_id": 154
+  },
+  "157": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "（退避）タナル神殿10",
+    "@expanded": true,
+    "@order": 31,
+    "@scroll_y": 0,
+    "@parent_id": 154
+  },
+  "158": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "（退避）タナル神殿9",
+    "@expanded": true,
+    "@order": 30,
+    "@scroll_y": 0,
+    "@parent_id": 154
+  },
+  "125": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "タナル神殿9",
+    "@expanded": true,
+    "@order": 108,
+    "@scroll_y": 0,
+    "@parent_id": 29
+  },
+  "126": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "タナル神殿10",
+    "@expanded": true,
+    "@order": 109,
+    "@scroll_y": 0,
+    "@parent_id": 29
+  },
+  "159": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "（退避）タナル神殿1",
+    "@expanded": true,
+    "@order": 32,
+    "@scroll_y": 0,
+    "@parent_id": 154
+  },
+  "160": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "（退避）タナル神殿2",
+    "@expanded": true,
+    "@order": 33,
+    "@scroll_y": 0,
+    "@parent_id": 154
+  },
+  "161": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "（退避）タナル神殿3",
+    "@expanded": true,
+    "@order": 34,
+    "@scroll_y": 0,
+    "@parent_id": 154
+  },
+  "162": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "（退避）タナル神殿4",
+    "@expanded": true,
+    "@order": 35,
+    "@scroll_y": 0,
+    "@parent_id": 154
+  },
+  "163": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "（退避）タナル神殿5",
+    "@expanded": true,
+    "@order": 36,
+    "@scroll_y": 0,
+    "@parent_id": 154
+  },
+  "164": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "（退避）水晶淵底1",
+    "@expanded": true,
+    "@order": 37,
+    "@scroll_y": 0,
+    "@parent_id": 180
+  },
+  "165": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "（退避）水晶淵底2",
+    "@expanded": true,
+    "@order": 38,
+    "@scroll_y": 0,
+    "@parent_id": 164
+  },
+  "166": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "（退避）水晶淵底3",
+    "@expanded": true,
+    "@order": 39,
+    "@scroll_y": 0,
+    "@parent_id": 164
+  },
+  "167": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "（退避）水晶淵底4",
+    "@expanded": true,
+    "@order": 40,
+    "@scroll_y": 0,
+    "@parent_id": 164
+  },
+  "168": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "（退避）水晶淵底5",
+    "@expanded": true,
+    "@order": 41,
+    "@scroll_y": 0,
+    "@parent_id": 164
+  },
+  "169": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "（退避）マナン密林1",
+    "@expanded": true,
+    "@order": 43,
+    "@scroll_y": 0,
+    "@parent_id": 180
+  },
+  "170": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "（退避）マナン密林2",
+    "@expanded": true,
+    "@order": 44,
+    "@scroll_y": 0,
+    "@parent_id": 169
+  },
+  "171": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "（退避）マナン密林3",
+    "@expanded": true,
+    "@order": 45,
+    "@scroll_y": 0,
+    "@parent_id": 169
+  },
+  "172": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "（退避）マナン密林4",
+    "@expanded": true,
+    "@order": 46,
+    "@scroll_y": 0,
+    "@parent_id": 169
+  },
+  "173": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "（退避）マナン密林5",
+    "@expanded": true,
+    "@order": 47,
+    "@scroll_y": 0,
+    "@parent_id": 169
+  },
+  "174": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "（退避）熔岩洞窟1",
+    "@expanded": true,
+    "@order": 50,
+    "@scroll_y": 0,
+    "@parent_id": 148
+  },
+  "175": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "（退避）熔岩洞窟2",
+    "@expanded": true,
+    "@order": 51,
+    "@scroll_y": 0,
+    "@parent_id": 148
+  },
+  "176": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "（退避）熔岩洞窟3",
+    "@expanded": true,
+    "@order": 52,
+    "@scroll_y": 0,
+    "@parent_id": 148
+  },
+  "177": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "（退避）熔岩洞窟4",
+    "@expanded": true,
+    "@order": 53,
+    "@scroll_y": 0,
+    "@parent_id": 148
+  },
+  "178": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "（退避）熔岩洞窟5",
+    "@expanded": true,
+    "@order": 54,
+    "@scroll_y": 0,
+    "@parent_id": 148
+  },
+  "179": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "MAPxxx",
+    "@expanded": true,
+    "@order": 11,
+    "@scroll_y": 0,
+    "@parent_id": 253
+  },
+  "180": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "没",
+    "@expanded": true,
+    "@order": 26,
+    "@scroll_y": 0,
+    "@parent_id": 253
+  },
+  "181": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "MAP181_戦闘テスト",
+    "@expanded": true,
+    "@order": 14,
+    "@scroll_y": 0,
+    "@parent_id": 179
+  },
+  "182": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "MAP182_エルキア",
+    "@expanded": true,
+    "@order": 15,
+    "@scroll_y": 0,
+    "@parent_id": 181
+  },
+  "183": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "MAP183_テナニア",
+    "@expanded": true,
+    "@order": 16,
+    "@scroll_y": 0,
+    "@parent_id": 181
+  },
+  "184": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "MAP184_タナル砂漠地下",
+    "@expanded": true,
+    "@order": 17,
+    "@scroll_y": 0,
+    "@parent_id": 181
+  },
+  "185": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "MAP185_タナル神殿",
+    "@expanded": true,
+    "@order": 18,
+    "@scroll_y": 0,
+    "@parent_id": 181
+  },
+  "186": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "MAP186_アザアレ",
+    "@expanded": true,
+    "@order": 19,
+    "@scroll_y": 0,
+    "@parent_id": 181
+  },
+  "187": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "MAP187_カゲツ灯台",
+    "@expanded": true,
+    "@order": 20,
+    "@scroll_y": 0,
+    "@parent_id": 181
+  },
+  "188": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "MAP188_カゲツ水晶淵底",
+    "@expanded": true,
+    "@order": 21,
+    "@scroll_y": 0,
+    "@parent_id": 181
+  },
+  "189": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "MAP189_マナン密林0",
+    "@expanded": true,
+    "@order": 22,
+    "@scroll_y": 0,
+    "@parent_id": 181
+  },
+  "190": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "MAP190_レクシ坑道",
+    "@expanded": true,
+    "@order": 23,
+    "@scroll_y": 0,
+    "@parent_id": 181
+  },
+  "191": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "MAP191_ユベシア",
+    "@expanded": true,
+    "@order": 24,
+    "@scroll_y": 0,
+    "@parent_id": 181
+  },
+  "192": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "MAP192_ハルニア",
+    "@expanded": true,
+    "@order": 25,
+    "@scroll_y": 0,
+    "@parent_id": 181
+  },
+  "193": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "NewGameスクショ作成用",
+    "@expanded": true,
+    "@order": 8,
+    "@scroll_y": 0,
+    "@parent_id": 255
+  },
+  "194": {
+    "rgss3_klass": "RPG::MapInfo",
+    "@scroll_x": 0,
+    "@name": "抜け道",
+    "@expanded": true,
+    "@order": 114,
+    "@scroll_y": 0,
+    "@parent_id": 30
+  }
+}

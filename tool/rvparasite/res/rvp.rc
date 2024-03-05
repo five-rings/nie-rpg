@@ -1,0 +1,34 @@
+
+#define	MY_VERSION_S	"0.20\0"
+#define	MY_VERSION		0,2,0,0
+
+#define	VS_VERSION_INFO	1
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION MY_VERSION
+ PRODUCTVERSION MY_VERSION
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS 4
+ FILETYPE 2
+ FILESUBTYPE 0
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041104b0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "rvparasite\0"
+            VALUE "FileVersion", MY_VERSION_S
+            VALUE "InternalName", "scilexer.dll\0"
+            VALUE "LegalCopyright", "\0"
+            VALUE "OriginalFilename", "scilexer.dll\0"
+            VALUE "ProductName", "rvparasite\0"
+            VALUE "ProductVersion", MY_VERSION_S
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x411, 1200
+    END
+END
